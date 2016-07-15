@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BE468A1D386F9B0018EE8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BE46891D386F9B0018EE8C /* Cocoa.framework */; };
+		F4BE468D1D386F9B0018EE8C /* Heatmap-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = F4BE468C1D386F9B0018EE8C /* Heatmap-Prefix.pch */; };
+		F4BE468F1D386F9B0018EE8C /* Heatmap-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4BE468E1D386F9B0018EE8C /* Heatmap-Info.plist */; };
+		F4BE46921D386F9B0018EE8C /* Heatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BE46911D386F9B0018EE8C /* Heatmap.m */; };
+		F4BE46951D386F9B0018EE8C /* GlyphsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BE46941D386F9B0018EE8C /* GlyphsCore.framework */; };
+		F4BE46A11D386FB00018EE8C /* GSPath+SCPathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BE469F1D386FB00018EE8C /* GSPath+SCPathUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4BE46861D386F9B0018EE8C /* Heatmap.glyphsReporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Heatmap.glyphsReporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BE46891D386F9B0018EE8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F4BE468C1D386F9B0018EE8C /* Heatmap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heatmap-Prefix.pch"; sourceTree = "<group>"; };
+		F4BE468E1D386F9B0018EE8C /* Heatmap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heatmap-Info.plist"; sourceTree = "<group>"; };
+		F4BE46901D386F9B0018EE8C /* Heatmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heatmap.h; sourceTree = "<group>"; };
+		F4BE46911D386F9B0018EE8C /* Heatmap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heatmap.m; sourceTree = "<group>"; };
+		F4BE46941D386F9B0018EE8C /* GlyphsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlyphsCore.framework; path = /Applications/Glyphs.app/Contents/Frameworks/GlyphsCore.framework; sourceTree = "<absolute>"; };
+		F4BE46961D386F9B0018EE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BE469E1D386FB00018EE8C /* GSPath+SCPathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSPath+SCPathUtils.h"; sourceTree = "<group>"; };
+		F4BE469F1D386FB00018EE8C /* GSPath+SCPathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GSPath+SCPathUtils.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BE46831D386F9B0018EE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE46951D386F9B0018EE8C /* GlyphsCore.framework in Frameworks */,
+				F4BE468A1D386F9B0018EE8C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BE467D1D386F9B0018EE8C = {
+			isa = PBXGroup;
+			children = (
+				F4BE468B1D386F9B0018EE8C /* Heatmap */,
+				F4BE46881D386F9B0018EE8C /* Frameworks */,
+				F4BE46871D386F9B0018EE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BE46871D386F9B0018EE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE46861D386F9B0018EE8C /* Heatmap.glyphsReporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BE46881D386F9B0018EE8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE46891D386F9B0018EE8C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4BE468B1D386F9B0018EE8C /* Heatmap */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE468C1D386F9B0018EE8C /* Heatmap-Prefix.pch */,
+				F4BE468E1D386F9B0018EE8C /* Heatmap-Info.plist */,
+				F4BE46901D386F9B0018EE8C /* Heatmap.h */,
+				F4BE46911D386F9B0018EE8C /* Heatmap.m */,
+				F4BE46961D386F9B0018EE8C /* Info.plist */,
+				F4BE469E1D386FB00018EE8C /* GSPath+SCPathUtils.h */,
+				F4BE469F1D386FB00018EE8C /* GSPath+SCPathUtils.m */,
+				F4BE46931D386F9B0018EE8C /* Supporting Files */,
+			);
+			path = Heatmap;
+			sourceTree = "<group>";
+		};
+		F4BE46931D386F9B0018EE8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE46941D386F9B0018EE8C /* GlyphsCore.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BE46851D386F9B0018EE8C /* Heatmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BE46991D386F9B0018EE8C /* Build configuration list for PBXNativeTarget "Heatmap" */;
+			buildPhases = (
+				F4BE46821D386F9B0018EE8C /* Sources */,
+				F4BE46831D386F9B0018EE8C /* Frameworks */,
+				F4BE46841D386F9B0018EE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heatmap;
+			productName = Heatmap;
+			productReference = F4BE46861D386F9B0018EE8C /* Heatmap.glyphsReporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BE467E1D386F9B0018EE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Simon Cozens";
+				TargetAttributes = {
+					F4BE46851D386F9B0018EE8C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F4BE46811D386F9B0018EE8C /* Build configuration list for PBXProject "Heatmap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4BE467D1D386F9B0018EE8C;
+			productRefGroup = F4BE46871D386F9B0018EE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BE46851D386F9B0018EE8C /* Heatmap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BE46841D386F9B0018EE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE468D1D386F9B0018EE8C /* Heatmap-Prefix.pch in Resources */,
+				F4BE468F1D386F9B0018EE8C /* Heatmap-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BE46821D386F9B0018EE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE46A11D386FB00018EE8C /* GSPath+SCPathUtils.m in Sources */,
+				F4BE46921D386F9B0018EE8C /* Heatmap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4BE46971D386F9B0018EE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		F4BE46981D386F9B0018EE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		F4BE469A1D386F9B0018EE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "~/Library/Application Support/Glyphs/Plugins";
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				INFOPLIST_FILE = Heatmap/Info.plist;
+				INSTALL_PATH = /;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.simon-cozens.Heatmap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = glyphsReporter;
+			};
+			name = Debug;
+		};
+		F4BE469B1D386F9B0018EE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				INFOPLIST_FILE = Heatmap/Info.plist;
+				INSTALL_PATH = /;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.simon-cozens.Heatmap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = glyphsReporter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BE46811D386F9B0018EE8C /* Build configuration list for PBXProject "Heatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE46971D386F9B0018EE8C /* Debug */,
+				F4BE46981D386F9B0018EE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BE46991D386F9B0018EE8C /* Build configuration list for PBXNativeTarget "Heatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE469A1D386F9B0018EE8C /* Debug */,
+				F4BE469B1D386F9B0018EE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BE467E1D386F9B0018EE8C /* Project object */;
+}
