@@ -28,7 +28,8 @@ CGFloat MAX_DIST = 512;
 		// do stuff
         cache = [[NSMutableDictionary alloc] init];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clearCache) name:@"GSUpdateInterface" object:nil];
-	}
+        layerMaxDist = 0;
+    }
     return self;
 }
 
@@ -38,6 +39,7 @@ CGFloat MAX_DIST = 512;
 
 - (void) clearCache {
     [cache removeAllObjects];
+    layerMaxDist = 0;
 }
 
 - (NSUInteger) interfaceVersion {
@@ -94,23 +96,25 @@ CGFloat MAX_DIST = 512;
     return d;
 }
 
-- (void) drawBackgroundForLayer:(GSLayer*)Layer {
+- (void) setLayerMaxDist:(GSLayer*)Layer {
     NSBezierPath* p = [Layer bezierPath];
     NSRect bounds = [p bounds];
     CGFloat x, y;
-    CGFloat layerMaxDist = 0;
     for (x = bounds.origin.x; x <= bounds.origin.x + bounds.size.width; x += 20) {
         for (y = bounds.origin.y; y <= bounds.origin.y + bounds.size.height; y += 20) {
             NSPoint point = NSMakePoint(x,y);
             if (![p containsPoint:point]) continue;
-            CGFloat sampleD = MAX_DIST;
-            for (GSPath* path in [Layer paths]) {
-                CGFloat localD = [path distanceFromPoint:point];
-                if (localD < sampleD) { sampleD = localD; }
-            }
-            if (sampleD > layerMaxDist) layerMaxDist = sampleD;
+            CGFloat d = [self fastGetDistanceForPoint:point fromLayer:Layer];
+            if (d > layerMaxDist) layerMaxDist = d;
         }
     }
+}
+
+- (void) drawBackgroundForLayer:(GSLayer*)Layer {
+    NSBezierPath* p = [Layer bezierPath];
+    NSRect bounds = [p bounds];
+    CGFloat x, y;
+    if (layerMaxDist == 0) [self setLayerMaxDist:Layer];
     x = bounds.origin.x;
     y = bounds.origin.y;
     [p addClip];

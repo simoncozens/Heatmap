@@ -13,6 +13,7 @@
 @interface Heatmap : NSObject <GlyphsReporter> {
     NSViewController <GSGlyphEditViewControllerProtocol> *editViewController;
     NSMutableDictionary *cache;
+    CGFloat layerMaxDist;
 }
 - (void)clearCache;
 - (CGFloat) fastGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer;
