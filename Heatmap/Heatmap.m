@@ -130,7 +130,7 @@ CGFloat MAX_DIST = 512;
         return;
     }
 
-    CGFloat tolerance =  MAX(0.15 / [self getScale],0.05) * layerMaxDist;
+    CGFloat tolerance =  MAX(0.10 / [self getScale],0.025) * layerMaxDist;
 
     if (fabs(d1-d2) > tolerance && fabs(d1-d3) < tolerance) {
         [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
@@ -157,7 +157,8 @@ CGFloat MAX_DIST = 512;
     }
     
 justDraw:
-    cM = [NSColor colorWithRed:1.0 green:1.0-((dMid*dMid)/(layerMaxDist*layerMaxDist)) blue:0 alpha:0.3];
+//    cM = [NSColor colorWithRed:1.0 green:1.0-pow(dMid/layerMaxDist,1.5) blue:0 alpha:0.3];
+    cM = [NSColor colorWithCalibratedHue:1-(dMid/layerMaxDist) saturation:(dMid/layerMaxDist) brightness:(dMid/layerMaxDist)*2 alpha:0.3];
     [cM set];
     NSBezierPath* draw = [NSBezierPath alloc];
     [draw appendBezierPathWithRect:r];
