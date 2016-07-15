@@ -110,6 +110,60 @@ CGFloat MAX_DIST = 512;
     }
 }
 
+- (void) fillInBox:(NSRect)r forLayer:(GSLayer*)Layer andPath:(NSBezierPath*)p {
+    NSPoint bl = r.origin;
+    NSPoint br = NSMakePoint(bl.x + r.size.width, bl.y);
+    NSPoint tr = NSMakePoint(bl.x + r.size.width, bl.y + r.size.height);
+    NSPoint tl = NSMakePoint(bl.x, bl.y + r.size.height);
+    NSPoint midpoint = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + 0.5 * r.size.height);
+    CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer];
+    CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer];
+    CGFloat dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer];
+    CGFloat d3 = [self fastGetDistanceForPoint:tl fromLayer:Layer];
+    CGFloat d4 = [self fastGetDistanceForPoint:tr fromLayer:Layer];
+
+    NSColor *cM;
+    
+    if (r.size.width <= 1 || r.size.height <= 1) goto justDraw;
+
+    if (![p containsPoint:bl] && ![p containsPoint:br] && ![p containsPoint:tl] && ![p containsPoint:tr]) {
+        return;
+    }
+
+    CGFloat tolerance =  MAX(0.15 / [self getScale],0.05) * layerMaxDist;
+
+    if (fabs(d1-d2) > tolerance && fabs(d1-d3) < tolerance) {
+        [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
+        [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
+        return;
+    }
+
+
+    if (fabs(d2-d4) > tolerance && fabs(d1-d2) < tolerance) {
+        [self fillInBox:NSMakeRect(bl.x, bl.y,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+        [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+        return;
+    }
+    
+    
+    if (fabs(d1-dMid) > tolerance || fabs(d2-dMid)> tolerance || fabs(d3-dMid) > tolerance || fabs(d4-dMid) > tolerance) {
+        [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+        [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+        [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+        [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y  + 0.5 * r.size.height,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+
+        return;
+        
+    }
+    
+justDraw:
+    cM = [NSColor colorWithRed:1.0 green:1.0-((dMid*dMid)/(layerMaxDist*layerMaxDist)) blue:0 alpha:0.3];
+    [cM set];
+    NSBezierPath* draw = [NSBezierPath alloc];
+    [draw appendBezierPathWithRect:r];
+    [draw fill];
+}
+    
 - (void) drawBackgroundForLayer:(GSLayer*)Layer {
     NSBezierPath* p = [Layer bezierPath];
     NSRect bounds = [p bounds];
@@ -118,24 +172,14 @@ CGFloat MAX_DIST = 512;
     x = bounds.origin.x;
     y = bounds.origin.y;
     [p addClip];
+    CGFloat basis = 50.0;
     while (x <= bounds.origin.x + bounds.size.width) {
         y = bounds.origin.y;
         while (y <= bounds.origin.y + bounds.size.height) {
-            NSPoint point = NSMakePoint(x,y);
-            if ([p containsPoint:point]) {
-                CGFloat d = [self fastGetDistanceForPoint:point fromLayer:Layer];
-                NSBezierPath *draw = [NSBezierPath bezierPath];
-                
-                [[NSColor colorWithRed:1.0 green:1.0-((d*d)/(layerMaxDist*layerMaxDist)) blue:0 alpha:0.3] setFill];
-                CGFloat step = MAX(10.0 * (layerMaxDist-d+1)/layerMaxDist, 1.0);
-                [draw appendBezierPathWithRect:NSMakeRect(x, y, 5.0, step)];
-                [draw fill];
-                y += step;
-            } else {
-                y += 10;
-            }
+            [self fillInBox: NSMakeRect(x,y,basis,basis) forLayer:Layer andPath: p];
+            y += basis;
         }
-        x += 5.0;
+        x += basis;
     }
 }
 
