@@ -26,15 +26,19 @@ CGFloat MAX_DIST = 512;
 	self = [super init];
 	if (self) {
 		// do stuff
+        cache = [[NSMutableDictionary alloc] init];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clearCache) name:@"GSUpdateInterface" object:nil];
 	}
-	return self;
+    return self;
 }
 
 - (void) loadPlugin {
     // Is called when the plugin is loaded.
-    
 }
 
+- (void) clearCache {
+    [cache removeAllObjects];
+}
 
 - (NSUInteger) interfaceVersion {
 	// Distinguishes the API verison the plugin was built for. Return 1.
@@ -71,6 +75,25 @@ CGFloat MAX_DIST = 512;
 }
 
 
+- (CGFloat) fastGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer {
+    NSValue* k = [NSValue valueWithPoint:point];
+    NSNumber* v = [cache objectForKey:k];
+    if (v) { return [v floatValue]; }
+    CGFloat d = [self slowGetDistanceForPoint:point fromLayer:Layer];
+    [cache setObject:[NSNumber numberWithFloat:d] forKey:k];
+    return d;
+}
+
+- (CGFloat) slowGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer {
+
+    CGFloat d = MAX_DIST;
+    for (GSPath* path in [Layer paths]) {
+        CGFloat localD = [path distanceFromPoint:point];
+        if (localD < d) d = localD;
+    }
+    return d;
+}
+
 - (void) drawBackgroundForLayer:(GSLayer*)Layer {
     NSBezierPath* p = [Layer bezierPath];
     NSRect bounds = [p bounds];
@@ -96,11 +119,7 @@ CGFloat MAX_DIST = 512;
         while (y <= bounds.origin.y + bounds.size.height) {
             NSPoint point = NSMakePoint(x,y);
             if ([p containsPoint:point]) {
-                CGFloat d = MAX_DIST;
-                for (GSPath* path in [Layer paths]) {
-                    CGFloat localD = [path distanceFromPoint:point];
-                    if (localD < d) d = localD;
-                }
+                CGFloat d = [self fastGetDistanceForPoint:point fromLayer:Layer];
                 NSBezierPath *draw = [NSBezierPath bezierPath];
                 
                 [[NSColor colorWithRed:1.0 green:1.0-((d*d)/(layerMaxDist*layerMaxDist)) blue:0 alpha:0.3] setFill];
