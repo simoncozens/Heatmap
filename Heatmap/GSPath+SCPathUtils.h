@@ -13,6 +13,6 @@
 #import <GlyphsCore/GSGeometrieHelper.h>
 
 @interface GSPath (SCPathUtils)
-- (CGFloat)distanceFromPoint:(NSPoint)p;
+- (CGFloat)distanceFromPoint:(NSPoint)aPoint maxDistance:(CGFloat)maxDistance;
 
 @end

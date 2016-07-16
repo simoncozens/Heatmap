@@ -77,20 +77,22 @@ CGFloat MAX_DIST = 512;
 }
 
 
-- (CGFloat) fastGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer {
-    NSValue* k = [NSValue valueWithPoint:point];
+- (CGFloat) fastGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer cutOff:(CGFloat)cutoff {
+    NSValue* k = [NSValue valueWithPoint:GSRoundPoint(point)];
     NSNumber* v = [cache objectForKey:k];
-    if (v) { return [v floatValue]; }
-    CGFloat d = [self slowGetDistanceForPoint:point fromLayer:Layer];
+    if (v) {
+		return [v floatValue];
+	}
+    CGFloat d = [self slowGetDistanceForPoint:point fromLayer:Layer cutOff:cutoff];
     [cache setObject:[NSNumber numberWithFloat:d] forKey:k];
     return d;
 }
 
-- (CGFloat) slowGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer {
+- (CGFloat) slowGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer cutOff:(CGFloat)cutoff {
 
-    CGFloat d = MAX_DIST;
+    CGFloat d = cutoff;
     for (GSPath* path in [Layer paths]) {
-        CGFloat localD = [path distanceFromPoint:point];
+		CGFloat localD = [path distanceFromPoint:point maxDistance:d];
         if (localD < d) d = localD;
     }
     return d;
@@ -106,7 +108,7 @@ CGFloat MAX_DIST = 512;
         for (y = bounds.origin.y; y <= bounds.origin.y + bounds.size.height; y += 10) {
             NSPoint point = NSMakePoint(x,y);
             if (![p containsPoint:point]) continue;
-            CGFloat d = [self fastGetDistanceForPoint:point fromLayer:Layer];
+            CGFloat d = [self fastGetDistanceForPoint:point fromLayer:Layer cutOff:MIN(NSWidth(bounds), NSHeight(bounds)) * 0.5];
             if (d > layerMaxDist) layerMaxDist = d;
         }
     }
@@ -118,11 +120,11 @@ CGFloat MAX_DIST = 512;
     NSPoint tr = NSMakePoint(bl.x + r.size.width, bl.y + r.size.height);
     NSPoint tl = NSMakePoint(bl.x, bl.y + r.size.height);
     NSPoint midpoint = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + 0.5 * r.size.height);
-    CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer];
-    CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer];
-    CGFloat dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer];
-    CGFloat d3 = [self fastGetDistanceForPoint:tl fromLayer:Layer];
-    CGFloat d4 = [self fastGetDistanceForPoint:tr fromLayer:Layer];
+    CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat d3 = [self fastGetDistanceForPoint:tl fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat d4 = [self fastGetDistanceForPoint:tr fromLayer:Layer cutOff:layerMaxDist];
 
     NSColor *cM;
     
