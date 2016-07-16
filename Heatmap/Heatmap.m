@@ -114,10 +114,10 @@ CGFloat MAX_DIST = 512;
 
 - (void) fillInBox:(NSRect)r forLayer:(GSLayer*)Layer andPath:(NSBezierPath*)p {
     NSPoint bl = r.origin;
-    NSPoint br = NSMakePoint(bl.x + r.size.width, bl.y);
-    NSPoint tr = NSMakePoint(bl.x + r.size.width, bl.y + r.size.height);
-    NSPoint tl = NSMakePoint(bl.x, bl.y + r.size.height);
-    NSPoint midpoint = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + 0.5 * r.size.height);
+	NSPoint br = NSMakePoint(NSMaxX(r), bl.y);
+	NSPoint tr = NSMakePoint(NSMaxX(r), NSMaxY(r));
+	NSPoint tl = NSMakePoint(bl.x, NSMaxY(r));
+	NSPoint midpoint = NSMakePoint(NSMidX(r), NSMidY(r));
     CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer];
     CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer];
     CGFloat dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer];
