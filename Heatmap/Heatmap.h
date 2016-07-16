@@ -15,7 +15,5 @@
     NSMutableDictionary *cache;
     CGFloat layerMaxDist;
 }
-- (void)clearCache;
-- (CGFloat) fastGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer;
 
 @end
