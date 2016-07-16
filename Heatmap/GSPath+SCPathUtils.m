@@ -10,17 +10,47 @@
 
 @implementation GSPath (SCPathUtils)
 
-- (CGFloat)distanceFromPoint: (NSPoint)p {
+- (CGFloat)distanceFromPoint:(NSPoint)aPoint {
     CGFloat d = MAXFLOAT;
-    for (NSArray* seg in [self segments]) {
-        CGFloat localD;
-        if ([seg count] ==  2) {
-            localD = GSDistanceOfPointFromLineSegment(p, [seg[0] pointValue], [seg[1] pointValue]);
-        } else {
-            localD = GSDistanceOfPointFromCurve(p, [seg[0] pointValue], [seg[1] pointValue], [seg[2] pointValue], [seg[3] pointValue]);
-        }
-        if (localD < d) d = localD;
-    }
+	CGFloat localD;
+	GSNode *currNode;
+	NSPoint P0, P1, P2, P3;
+	for (NSInteger nodeIndex = 0; nodeIndex < [_nodes count]; nodeIndex++) {
+		currNode = [self nodeAtIndex:nodeIndex];
+		//UKLog(@"Node: %@", Node);
+		switch (currNode.type) {
+			case LINE: {
+				P3 = currNode.position;
+				localD = GSDistance(P3, aPoint);
+				if (localD < 0.01) {
+					return localD;
+				}
+				P0 = [[self nodeAtIndex:nodeIndex - 1] position];
+				localD = GSDistanceOfPointFromLineSegment(aPoint, P0, P3);
+				break;
+			}
+			case CURVE: {
+				P3 = currNode.position;
+				localD = GSDistance(P3, aPoint);
+				if (localD < 0.01) {
+					return localD;
+				}
+				P0 = [[self nodeAtIndex:nodeIndex - 3] position];
+				P1 = [[self nodeAtIndex:nodeIndex - 2] position];
+				P2 = [[self nodeAtIndex:nodeIndex - 1] position];
+				
+				localD = GSDistanceOfPointFromCurve(aPoint, P0, P1, P2, P3);
+				break;
+			}
+			default:
+				continue;
+		}
+		if (localD < d) d = localD;
+		
+		if (d < 1) {
+			break;
+		}
+	}
     return d;
 }
 @end
