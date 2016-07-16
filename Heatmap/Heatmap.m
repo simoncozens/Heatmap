@@ -100,8 +100,10 @@ CGFloat MAX_DIST = 512;
     NSBezierPath* p = [Layer bezierPath];
     NSRect bounds = [p bounds];
     CGFloat x, y;
-    for (x = bounds.origin.x; x <= bounds.origin.x + bounds.size.width; x += 20) {
-        for (y = bounds.origin.y; y <= bounds.origin.y + bounds.size.height; y += 20) {
+ 
+    // XXX If there's a stem defined, use that / 4. Else use 5.
+    for (x = bounds.origin.x; x <= bounds.origin.x + bounds.size.width; x += 5) {
+        for (y = bounds.origin.y; y <= bounds.origin.y + bounds.size.height; y += 10) {
             NSPoint point = NSMakePoint(x,y);
             if (![p containsPoint:point]) continue;
             CGFloat d = [self fastGetDistanceForPoint:point fromLayer:Layer];
@@ -126,13 +128,24 @@ CGFloat MAX_DIST = 512;
     
     if (r.size.width <= 1 || r.size.height <= 1) goto justDraw;
 
-    if (![p containsPoint:bl] && ![p containsPoint:br] && ![p containsPoint:tl] && ![p containsPoint:tr]) {
+    if (![p containsPoint:bl] && ![p containsPoint:br] && ![p containsPoint:tl] && ![p containsPoint:tr]
+        && ![p containsPoint:midpoint]) {
         return;
     }
-
-    CGFloat tolerance =  MAX(0.10 / [self getScale],0.025) * layerMaxDist;
+    
+//    if ([p containsPoint:bl] == [p containsPoint:tl] && [p containsPoint:br] == [p containsPoint:tr] &&
+//        [p containsPoint:bl] != [p containsPoint:br]) {
+//        goto splitLeftRight;
+//    }
+//    if ([p containsPoint:bl] == [p containsPoint:br] && [p containsPoint:tl] == [p containsPoint:tr] &&
+//        [p containsPoint:bl] != [p containsPoint:tl]) {
+//        goto splitTopBottom;
+//    }
+//    
+    CGFloat tolerance =  MAX(0.10 / [self getScale],0.05) * MAX(50, layerMaxDist);
 
     if (fabs(d1-d2) > tolerance && fabs(d1-d3) < tolerance) {
+    splitLeftRight:
         [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
         [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
         return;
@@ -140,6 +153,7 @@ CGFloat MAX_DIST = 512;
 
 
     if (fabs(d2-d4) > tolerance && fabs(d1-d2) < tolerance) {
+    splitTopBottom:
         [self fillInBox:NSMakeRect(bl.x, bl.y,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
         [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
         return;
@@ -167,13 +181,14 @@ justDraw:
     
 - (void) drawBackgroundForLayer:(GSLayer*)Layer {
     NSBezierPath* p = [Layer bezierPath];
-    NSRect bounds = [p bounds];
+    NSRect bounds = CGRectIntersection([self layerVisibleRect], [p bounds]);
     CGFloat x, y;
     if (layerMaxDist == 0) [self setLayerMaxDist:Layer];
     x = bounds.origin.x;
     y = bounds.origin.y;
+    if (bounds.size.width <= FLT_EPSILON || bounds.size.height <= FLT_EPSILON) return;
     [p addClip];
-    CGFloat basis = 50.0;
+    CGFloat basis = layerMaxDist/2;
     while (x <= bounds.origin.x + bounds.size.width) {
         y = bounds.origin.y;
         while (y <= bounds.origin.y + bounds.size.height) {
@@ -204,6 +219,20 @@ justDraw:
     // The NSString 'message' will be passed to Console.app.
     // Use [self logToConsole:@"bla bla"]; for debugging.
     NSLog( @"Show %@ plugin:\n%@", [self title], message );
+}
+
+- (NSRect) layerVisibleRect {
+    if (!editViewController) return NSMakeRect(0,0,0,0);
+    NSPoint origin = [[editViewController graphicView] activePosition];
+    float scale = [[editViewController graphicView] scale];
+    NSRect bounds = [[editViewController graphicView] visibleRect];
+    bounds.origin.x -= origin.x;
+    bounds.origin.y -= origin.y;
+    bounds.origin.x /= scale;
+    bounds.origin.y /= scale;
+    bounds.size.width /= scale;
+    bounds.size.height /= scale;
+    return bounds;
 }
 
 @end
