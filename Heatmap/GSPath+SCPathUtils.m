@@ -60,7 +60,7 @@ float getClosestPointToCubicBezier(float fx, float fy, float x0, float y0, float
 				}
 				// check if point is far away from the segment
 				NSRect segmentRect = GSRectFromTwoPoints(P0, P3);
-				if (aPoint.x + maxDistance < NSMinX(segmentRect) || aPoint.x - maxDistance > NSMaxX(segmentRect) || aPoint.y + maxDistance < NSMinY(segmentRect) || aPoint.y - maxDistance > NSMaxX(segmentRect)) {
+				if ((aPoint.x + maxDistance < NSMinX(segmentRect) || aPoint.y + maxDistance < NSMinY(segmentRect)) && (aPoint.x - maxDistance > NSMaxX(segmentRect) || aPoint.y - maxDistance > NSMaxX(segmentRect))) {
 					continue;
 				}
 				P0 = [[self nodeAtIndex:nodeIndex - 1] position];
