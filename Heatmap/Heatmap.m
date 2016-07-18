@@ -78,7 +78,7 @@ CGFloat MAX_DIST = 512;
 
 
 - (CGFloat) fastGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer cutOff:(CGFloat)cutoff {
-    NSValue* k = [NSValue valueWithPoint:GSRoundPoint(point)];
+    NSValue* k = [NSValue valueWithPoint:point];
     NSNumber* v = [cache objectForKey:k];
     if (v) {
 		return [v floatValue];
@@ -144,7 +144,7 @@ CGFloat MAX_DIST = 512;
 //        goto splitTopBottom;
 //    }
 //    
-    CGFloat tolerance =  MAX(0.10 / [self getScale],0.05) * MAX(50, layerMaxDist);
+    CGFloat tolerance = MAX(0.15 / [self getScale],0.05) * MAX(20, layerMaxDist);
 
     if (fabs(d1-d2) > tolerance && fabs(d1-d3) < tolerance) {
     splitLeftRight:
