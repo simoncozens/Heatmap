@@ -8,8 +8,8 @@
 
 #import "GSPath+SCPathUtils.h"
 
-const int slices = 10;
-const float tick = 0.1;
+const int slices = 25;
+const float tick = 1/(float)slices;
 
 float getClosestPointToCubicBezier(float fx, float fy, float x0, float y0, float x1, float y1, float x2, float y2, float x3, float y3)  {
 	float x;
