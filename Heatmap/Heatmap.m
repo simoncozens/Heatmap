@@ -212,33 +212,82 @@ justDraw:
         [draw fill];
     }
 }
-    
-- (void) drawBackgroundForLayer:(GSLayer*)Layer {
-    NSDate *date = [NSDate date];
+
+- (void) calculateBoxListForLayer:(GSLayer*)Layer {
     NSBezierPath* p = [Layer bezierPath];
-    if ([boxlist count] < 1) {
-        NSRect bounds = [p bounds];
-        CGFloat x, y;
-        if (layerMaxDist == 0) [self setLayerMaxDist:Layer];
-        x = bounds.origin.x;
+    NSRect bounds = [p bounds];
+    CGFloat x, y;
+    if (layerMaxDist == 0) [self setLayerMaxDist:Layer];
+    x = bounds.origin.x;
+    y = bounds.origin.y;
+    callcount = 0;
+    if (bounds.size.width <= FLT_EPSILON || bounds.size.height <= FLT_EPSILON) return;
+    CGFloat basis = MIN(layerMaxDist, bounds.size.width/2);
+    while (x <= bounds.origin.x + bounds.size.width) {
         y = bounds.origin.y;
-        callcount = 0;
-        if (bounds.size.width <= FLT_EPSILON || bounds.size.height <= FLT_EPSILON) return;
-        NSLog(@"Heatmap called: %@", NSStringFromRect(bounds));
-        CGFloat basis = MIN(layerMaxDist, bounds.size.width/2);
-        while (x <= bounds.origin.x + bounds.size.width) {
-            y = bounds.origin.y;
-            while (y <= bounds.origin.y + bounds.size.height) {
-                [self fillInBox: NSMakeRect(x,y,basis,basis) forLayer:Layer andPath: p];
-                y += basis;
-            }
-            x += basis;
+        while (y <= bounds.origin.y + bounds.size.height) {
+            [self fillInBox: NSMakeRect(x,y,basis,basis) forLayer:Layer andPath: p];
+            y += basis;
         }
+        x += basis;
+    }
+}
+
+-(CGFloat) coverage:(GSLayer*)Layer {
+    NSBezierPath* p = [Layer bezierPath];
+    int segments = (int)p.elementCount;
+    CGFloat black = 0;
+    CGFloat white = Layer.width * (Layer.glyphMetrics.ascender - Layer.glyphMetrics.descender);
+    NSPoint curpoint;
+    for (int i=0; i<segments; i++) {
+        NSPoint pointArray[3];
+        float xa,ya,xb,yb,xc,yc,xd,yd;
+        NSBezierPathElement e = [p elementAtIndex:i
+                                              associatedPoints:pointArray];
+        switch(e) {
+            case NSMoveToBezierPathElement:
+                curpoint = pointArray[0];
+                break;
+            case NSCurveToBezierPathElement:
+                xa = curpoint.x; ya = curpoint.y / 20;
+                xb = pointArray[0].x; yb = pointArray[0].y / 20;
+                xc = pointArray[1].x; yc = pointArray[1].y / 20;
+                xd = pointArray[2].x; yd = pointArray[2].y / 20;
+                black -= (xb-xa)*(10*ya + 6*yb + 3*yc +   yd) + (xc-xb)*( 4*ya + 6*yb + 6*yc +  4*yd) +(xd-xc)*(  ya + 3*yb + 6*yc + 10*yd);
+                curpoint = pointArray[2];
+                break;
+            case NSLineToBezierPathElement:
+                xa = curpoint.x; ya = curpoint.y / 20;
+                xb = xa; yb = ya;
+                xc = pointArray[0].x; yc = pointArray[0].y / 20;
+                xd = xc; yd = yc;
+                black -= (xb-xa)*(10*ya + 6*yb + 3*yc +   yd) + (xc-xb)*( 4*ya + 6*yb + 6*yc +  4*yd) +(xd-xc)*(  ya + 3*yb + 6*yc + 10*yd);
+                curpoint = pointArray[0];
+                break;
+
+            case NSClosePathBezierPathElement:
+                /* Do nothing */;
+        }
+    }
+    return black/white;
+}
+
+- (void) drawBackgroundForLayer:(GSLayer*)Layer {
+    NSBezierPath* p = [Layer bezierPath];
+    int percent = 100*[self coverage:Layer];
+    NSMutableDictionary *attributesDictionary = [NSMutableDictionary dictionary];
+    [attributesDictionary setObject:[NSFont systemFontOfSize:21] forKey:NSFontAttributeName];
+    [attributesDictionary setObject:[NSColor colorWithRed:0.5 green:0.1 blue:0.1 alpha:0.7] forKey:NSForegroundColorAttributeName];
+
+    NSAttributedString *s = [[NSAttributedString alloc]
+                            initWithString:[NSString stringWithFormat:@"Coverage: %i%%", percent]
+                                                           attributes:attributesDictionary];
+    [[editViewController graphicView] drawText:s atPoint:NSMakePoint(Layer.width/2,Layer.glyphMetrics.ascender) alignment:GSCenterCenter];
+    if ([boxlist count] < 1) {
+        [self calculateBoxListForLayer:Layer];
     }
     [p addClip];
     [self runBoxList];
-    double timePassed_ms = [date timeIntervalSinceNow] * -1000.0;
-    NSLog(@"Heatmap pass in milliseconds: %f, distance count: %li", timePassed_ms, callcount);
 }
 
 - (float) getScale {
