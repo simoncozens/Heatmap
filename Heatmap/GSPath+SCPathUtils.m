@@ -8,37 +8,36 @@
 
 #import "GSPath+SCPathUtils.h"
 
-const int slices = 100;
-const float tick = 1/(float)slices;
+double _getClosestPointToCubicBezier(int iterations, double fx, double fy, double start, double end, int slices, double x0, double y0, double x1, double y1, double x2, double y2, double x3, double y3) {
+    double tick = (end - start) / (double) slices;
+    double x, y, dx, dy;
+    double best = 0;
+    double bestDistance = MAXFLOAT;
+    double currentDistance;
+    double t = start;
+    while (t <= end) {
+        //B(t) = (1-t)**3 p0 + 3(1 - t)**2 t P1 + 3(1-t)t**2 P2 + t**3 P3
+        x = (1 - t) * (1 - t) * (1 - t) * x0 + 3 * (1 - t) * (1 - t) * t * x1 + 3 * (1 - t) * t * t * x2 + t * t * t * x3;
+        y = (1 - t) * (1 - t) * (1 - t) * y0 + 3 * (1 - t) * (1 - t) * t * y1 + 3 * (1 - t) * t * t * y2 + t * t * t * y3;
+        
+        
+        dx = x - fx;
+        dy = y - fy;
+        dx *= dx;
+        dy *= dy;
+        currentDistance = dx + dy;
+        if (currentDistance < bestDistance) {
+            bestDistance = currentDistance;
+            best = t;
+        }
+        t += tick;
+    }
+    if (iterations <= 1) return sqrt(bestDistance);
+    return _getClosestPointToCubicBezier(iterations - 1, fx, fy, MAX(best - tick, 0.0), MIN(best + tick, 1.0), slices, x0, y0, x1, y1, x2, y2, x3, y3);
+}
 
-float getClosestPointToCubicBezier(float fx, float fy, float x0, float y0, float x1, float y1, float x2, float y2, float x3, float y3)  {
-	float x;
-	float y;
-	float t;
-	float bestDistance = MAXFLOAT;
-	float currentDistance = bestDistance;
-	NSPoint prev = NSMakePoint(x0, y0);
-	NSPoint f = NSMakePoint(fx, fy);
-	for (int i = 1; i <= slices; i++) {
-		t = i * tick;
-		x = (1 - t) * (1 - t) * (1 - t) * x0 + 3 * (1 - t) * (1 - t) * t * x1 + 3 * (1 - t) * t * t * x2 + t * t * t * x3;
-		y = (1 - t) * (1 - t) * (1 - t) * y0 + 3 * (1 - t) * (1 - t) * t * y1 + 3 * (1 - t) * t * t * y2 + t * t * t * y3;
-		
-		currentDistance = (((x - fx) * (x - fx)) + ((y - fy) * (y - fy)));
-		NSRect rect = GSRectFromTwoPoints(NSMakePoint(x, y), prev);
-		CGFloat tollerance = MAX(NSWidth(rect), NSHeight(rect)) * 0.5;
-		rect = NSInsetRect(rect, -tollerance, -tollerance);
-		if (NSPointInRect(NSMakePoint(fx, fy), rect)) {
-			currentDistance = GSDistanceOfPointFromLineSegment(f, NSMakePoint(x, y), prev);
-			currentDistance *= currentDistance; // the above calculation gives square result.
-		}
-		if (currentDistance < bestDistance) {
-			bestDistance = currentDistance;
-		}
-		prev = NSMakePoint(x, y);
-	}
-	//return bestDistance;
-	return sqrt(bestDistance);
+double getClosestPointToCubicBezier(double fx, double fy, int slices, int iterations, double x0, double y0, double x1, double y1, double x2, double y2, double x3, double y3) {
+    return _getClosestPointToCubicBezier(iterations, fx, fy, 0, 1.0, slices, x0, y0, x1, y1, x2, y2, x3, y3);
 }
 
 @implementation GSPath (SCPathUtils)
@@ -55,7 +54,7 @@ float getClosestPointToCubicBezier(float fx, float fy, float x0, float y0, float
 			case LINE: {
 				P3 = currNode.position;
 				localD = GSDistance(P3, aPoint);
-				if (localD < 0.01) {
+				if (localD < 1) {
 					return localD;
 				}
 				// check if point is far away from the segment
@@ -79,11 +78,10 @@ float getClosestPointToCubicBezier(float fx, float fy, float x0, float y0, float
 
 				// check if point is far away from the segment
 				NSRect segmentRect = GSRectFromFourPoints(P0, P1, P2, P3);
-				if ((aPoint.x + maxDistance < NSMinX(segmentRect) || aPoint.y + maxDistance < NSMinY(segmentRect)) && (aPoint.x - maxDistance > NSMaxX(segmentRect) || aPoint.y - maxDistance > NSMaxX(segmentRect))) {
+                if ((aPoint.x + maxDistance < NSMinX(segmentRect) || aPoint.y + maxDistance < NSMinY(segmentRect)) && (aPoint.x - maxDistance > NSMaxX(segmentRect) || aPoint.y - maxDistance > NSMaxX(segmentRect))) {
 					continue;
 				}
-				
-				localD = getClosestPointToCubicBezier(aPoint.x, aPoint.y, P0.x, P0.y, P1.x, P1.y, P2.x, P2.y, P3.x, P3.y);
+				localD = getClosestPointToCubicBezier(aPoint.x, aPoint.y, 20, 3, P0.x, P0.y, P1.x, P1.y, P2.x, P2.y, P3.x, P3.y);
 				break;
 			}
 			default:

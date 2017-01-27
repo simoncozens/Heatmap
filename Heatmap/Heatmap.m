@@ -20,6 +20,18 @@
 
 CGFloat MAX_DIST = 512;
 
+long callcount = 0;
+
+typedef struct Box {
+    NSRect rect;
+    float h;
+    float s;
+    float b;
+} Box;
+
+NSMutableArray* boxlist;
+GSLayer* activeLayer;
+
 @implementation Heatmap
 
 - (id) init {
@@ -29,6 +41,7 @@ CGFloat MAX_DIST = 512;
         cache = [[NSMutableDictionary alloc] init];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clearCache) name:@"GSUpdateInterface" object:nil];
         layerMaxDist = 0;
+        boxlist = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -38,8 +51,10 @@ CGFloat MAX_DIST = 512;
 }
 
 - (void) clearCache {
+    NSLog(@"Heatmap: Clearing cache");
     [cache removeAllObjects];
     layerMaxDist = 0;
+    [boxlist removeAllObjects];
 }
 
 - (NSUInteger) interfaceVersion {
@@ -80,6 +95,7 @@ CGFloat MAX_DIST = 512;
 - (CGFloat) fastGetDistanceForPoint:(NSPoint)point fromLayer:(GSLayer*)Layer cutOff:(CGFloat)cutoff {
     NSValue* k = [NSValue valueWithPoint:point];
     NSNumber* v = [cache objectForKey:k];
+    callcount++;
     if (v) {
 		return [v floatValue];
 	}
@@ -120,13 +136,6 @@ CGFloat MAX_DIST = 512;
     NSPoint tr = NSMakePoint(bl.x + r.size.width, bl.y + r.size.height);
     NSPoint tl = NSMakePoint(bl.x, bl.y + r.size.height);
     NSPoint midpoint = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + 0.5 * r.size.height);
-    CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer cutOff:layerMaxDist];
-    CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer cutOff:layerMaxDist];
-    CGFloat dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer cutOff:layerMaxDist];
-    CGFloat d3 = [self fastGetDistanceForPoint:tl fromLayer:Layer cutOff:layerMaxDist];
-    CGFloat d4 = [self fastGetDistanceForPoint:tr fromLayer:Layer cutOff:layerMaxDist];
-
-    NSColor *cM;
     
     if (r.size.width <= 1 || r.size.height <= 1) goto justDraw;
 
@@ -144,15 +153,22 @@ CGFloat MAX_DIST = 512;
 //        goto splitTopBottom;
 //    }
 //    
-    CGFloat tolerance = MAX(0.15 / [self getScale],0.05) * MAX(20, layerMaxDist);
 
-    if (fabs(d1-d2) > tolerance && fabs(d1-d3) < tolerance) {
+    CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat d3 = [self fastGetDistanceForPoint:tl fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer cutOff:layerMaxDist];
+
+    CGFloat tolerance = 4;
+
+    if (fabs(d1-d3) < tolerance && fabs(d1-d2) > tolerance) {
     splitLeftRight:
         [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
         [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
         return;
     }
 
+    CGFloat d4 = [self fastGetDistanceForPoint:tr fromLayer:Layer cutOff:layerMaxDist];
 
     if (fabs(d2-d4) > tolerance && fabs(d1-d2) < tolerance) {
     splitTopBottom:
@@ -160,8 +176,8 @@ CGFloat MAX_DIST = 512;
         [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
         return;
     }
-    
-    
+
+
     if (fabs(d1-dMid) > tolerance || fabs(d2-dMid)> tolerance || fabs(d3-dMid) > tolerance || fabs(d4-dMid) > tolerance) {
         [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
         [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
@@ -171,34 +187,58 @@ CGFloat MAX_DIST = 512;
         return;
         
     }
-    
+//
 justDraw:
-//    cM = [NSColor colorWithRed:1.0 green:1.0-pow(dMid/layerMaxDist,1.5) blue:0 alpha:0.3];
-    cM = [NSColor colorWithCalibratedHue:1-(dMid/layerMaxDist) saturation:(dMid/layerMaxDist) brightness:(dMid/layerMaxDist)*2 alpha:0.3];
-    [cM set];
-    NSBezierPath* draw = [NSBezierPath alloc];
-    [draw appendBezierPathWithRect:r];
-    [draw fill];
+    {
+        Box b;
+        b.rect = r;
+        b.h = 1-(dMid/layerMaxDist);
+        b.s = dMid/layerMaxDist;
+        b.b =(dMid/layerMaxDist)*2;
+        [boxlist addObject:[NSValue valueWithBytes:&b objCType:@encode(Box)]];
+    }
+}
+
+- (void) runBoxList {
+    NSRect visible = [self layerVisibleRect];
+    for (NSValue *o in boxlist) {
+        Box b;
+        [o getValue:&b];
+        if (!NSIntersectsRect(visible, b.rect)) continue;
+        NSColor* cM = [NSColor colorWithCalibratedHue: b.h saturation:b.s brightness:b.b alpha:0.3];
+        [cM set];
+        NSBezierPath* draw = [NSBezierPath alloc];
+        [draw appendBezierPathWithRect:b.rect];
+        [draw fill];
+    }
 }
     
 - (void) drawBackgroundForLayer:(GSLayer*)Layer {
+    NSDate *date = [NSDate date];
     NSBezierPath* p = [Layer bezierPath];
-    NSRect bounds = CGRectIntersection([self layerVisibleRect], [p bounds]);
-    CGFloat x, y;
-    if (layerMaxDist == 0) [self setLayerMaxDist:Layer];
-    x = bounds.origin.x;
-    y = bounds.origin.y;
-    if (bounds.size.width <= FLT_EPSILON || bounds.size.height <= FLT_EPSILON) return;
-    [p addClip];
-    CGFloat basis = layerMaxDist/2;
-    while (x <= bounds.origin.x + bounds.size.width) {
+    if ([boxlist count] < 1) {
+        NSRect bounds = [p bounds];
+        CGFloat x, y;
+        if (layerMaxDist == 0) [self setLayerMaxDist:Layer];
+        x = bounds.origin.x;
         y = bounds.origin.y;
-        while (y <= bounds.origin.y + bounds.size.height) {
-            [self fillInBox: NSMakeRect(x,y,basis,basis) forLayer:Layer andPath: p];
-            y += basis;
+        callcount = 0;
+        if (bounds.size.width <= FLT_EPSILON || bounds.size.height <= FLT_EPSILON) return;
+        NSLog(@"Heatmap called: %@", NSStringFromRect(bounds));
+        CGFloat basis = MIN(layerMaxDist, bounds.size.width/2);
+        while (x <= bounds.origin.x + bounds.size.width) {
+            y = bounds.origin.y;
+            while (y <= bounds.origin.y + bounds.size.height) {
+                [self fillInBox: NSMakeRect(x,y,basis,basis) forLayer:Layer andPath: p];
+                y += basis;
+            }
+            x += basis;
         }
-        x += basis;
     }
+    [p addClip];
+    [self runBoxList];
+    double timePassed_ms = [date timeIntervalSinceNow] * -1000.0;
+    NSLog(@"Heatmap pass in milliseconds: %f, distance count: %li", timePassed_ms, callcount);
 }
 
 - (float) getScale {
