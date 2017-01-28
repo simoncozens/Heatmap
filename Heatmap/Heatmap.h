@@ -9,6 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import <GlyphsCore/GlyphsReporterProtocol.h>
 #import <GlyphsCore/GSGlyphViewControllerProtocol.h>
+#import <GlyphsCore/GSFilterPlugin.h>
+
+@interface GlyphsFilterRemoveOverlap: NSObject <GlyphsFilter>
+- (void)removeOverlapFromLayer:(GSLayer*)layer checkSelection:(BOOL)b error:(NSError *__autoreleasing*) error;
+@end
 
 @interface Heatmap : NSObject <GlyphsReporter> {
     NSViewController <GSGlyphEditViewControllerProtocol> *editViewController;

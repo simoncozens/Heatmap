@@ -214,10 +214,16 @@ justDraw:
 }
 
 - (void) calculateBoxListForLayer:(GSLayer*)Layer {
-    NSBezierPath* p = [Layer bezierPath];
+    GSLayer *clone = [Layer copyDecomposedLayer];
+    Class of = NSClassFromString(@"GlyphsFilterRemoveOverlap");
+    if (of) {
+        GlyphsFilterRemoveOverlap* instance = [[of alloc] init];
+        [instance removeOverlapFromLayer:clone checkSelection:FALSE error:nil];
+    }
+    NSBezierPath* p = [clone bezierPath];
     NSRect bounds = [p bounds];
     CGFloat x, y;
-    if (layerMaxDist == 0) [self setLayerMaxDist:Layer];
+    if (layerMaxDist == 0) [self setLayerMaxDist:clone];
     x = bounds.origin.x;
     y = bounds.origin.y;
     callcount = 0;
@@ -226,7 +232,7 @@ justDraw:
     while (x <= bounds.origin.x + bounds.size.width) {
         y = bounds.origin.y;
         while (y <= bounds.origin.y + bounds.size.height) {
-            [self fillInBox: NSMakeRect(x,y,basis,basis) forLayer:Layer andPath: p];
+            [self fillInBox: NSMakeRect(x,y,basis,basis) forLayer:clone andPath: p];
             y += basis;
         }
         x += basis;
