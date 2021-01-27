@@ -1,0 +1,479 @@
+{
+	".Default" = (
+		{
+			type = ascender;
+			pos = 800;
+			over = 16;
+		},
+		{
+			type = baseline;
+			pos = 0;
+			over = -16;
+		},
+		{
+			type = descender;
+			pos = -200;
+			over = -16;
+		},
+	);
+	latin = (
+		{
+			type = "cap height";
+			pos = 700;
+			over = 16;
+		},
+		{
+			type = "x-height";
+			pos = 500;
+			over = 16;
+		},
+	);
+	cyrillic = (
+		{
+			type = "cap height";
+			pos = 700;
+			over = 16;
+		},
+		{
+			type = "x-height";
+			pos = 500;
+			over = 16;
+		},
+	);
+	greek = (
+		{
+			type = "cap height";
+			pos = 700;
+			over = 16;
+		},
+		{
+			type = "x-height";
+			pos = 500;
+			over = 16;
+		},
+	);
+	thai = (
+		{
+			name = "Stacked Marks Top";
+			pos = 1050;
+			over = 10;
+			predicate = "script == \"thai\" AND category == \"Mark\"";
+		},
+		{
+			name = "Stacked Marks Bottom";
+			pos = 900;
+			over = -10;
+			predicate = "script == \"thai\" AND category == \"Mark\"";
+		},
+		{
+			name = "Above Marks Top";
+			pos = 850;
+			over = 10;
+			predicate = "script == \"thai\" AND category == \"Mark\"";
+		},
+		{ // optional, only 3-4 letters require it, but every font has them
+			name = "Vowel Ascender";
+			pos = 800;
+			over = 16;
+			predicate = "script == \"thai\"";
+		},
+		{ // optional, only 3-4 letters require it, but every font has them
+			name = "Consonant Ascender";
+			type = ascender;
+			pos = 750;
+			over = 10;
+			predicate = "script == \"thai\"";
+		},
+		{
+			name = "Above Marks Bottom";
+			pos = 700;
+			over = -10;
+			predicate = "script == \"thai\" AND category == \"Mark\"";
+		},
+		{
+			type = bodyHeight;
+			pos = 600;
+			over = 16;
+			predicate = "script == \"thai\"";
+		},
+		{
+			name = "Below Marks Top";
+			pos = -100;
+			over = 10;
+			predicate = "script == \"thai\" AND category == \"Mark\"";
+		},
+		{
+			name = "Below Marks Bottom";
+			pos = -250;
+			over = -10;
+			predicate = "script == \"thai\" AND category == \"Mark\"";
+		},
+	);
+	lao = (
+		{
+			name = "Stacked Marks Top";
+			pos = 1050;
+			over = 10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+		{
+			name = "Stacked Marks Bottom";
+			pos = 900;
+			over = -10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+		{
+			name = "Above Marks Top";
+			pos = 850;
+			over = 10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+		{ // optional, only 3-4 letters require it, but every font has them
+			name = "Vowel Ascender";
+			pos = 800;
+			over = 10;
+			predicate = "script == \"lao\"";
+		},
+		{ // optional, only 3-4 letters require it, but every font has them
+			name = "Consonant Ascender";
+			type = ascender;
+			pos = 750;
+			over = 10;
+			predicate = "script == \"lao\"";
+		}, 
+		{
+			name = "Above Marks Bottom";
+			pos = 700;
+			over = -10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+		{
+			type = bodyHeight;
+			pos = 600;
+			over = 16;
+			predicate = "script == \"lao\"";
+		},
+		{
+			name = "Below Marks Top";
+			pos = -100;
+			over = 10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+		{
+			name = "Below Marks Bottom";
+			pos = -250;
+			over = -10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+		{
+			name = "Stacked Below Marks Top";
+			pos = -300;
+			over = 10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+		{
+			name = "Stacked Below Marks Bottom";
+			pos = -450;
+			over = -10;
+			predicate = "script == \"lao\" AND category == \"Mark\"";
+		},
+	);
+	myanmar = (
+		{
+			name = "Above Marks Top";
+			pos = 920;
+			over = 10;
+			predicate = "script == \"myanmar\" AND category == \"Mark\"";
+		},
+		{
+			name = "Above Marks Bottom";
+			pos = 520;
+			over = -10;
+			predicate = "script == \"myanmar\" AND category == \"Mark\"";
+		},
+		{
+			type = bodyHeight;
+			pos = 450;
+			over = 16;
+			predicate = "script == \"myanmar\"";
+		},
+		{
+			name = "Below Marks Top";
+			pos = -70;
+			over = 10;
+			predicate = "script == \"myanmar\" AND category == \"Mark\"";
+		},
+		{
+			name = "Below Marks Bottom";
+			pos = -470;
+			over = -10;
+			predicate = "script == \"myanmar\" AND category == \"Mark\"";
+		},
+	);
+	khmer = (
+		{
+			name = "Above Marks Top";
+			pos = 850;
+			over = 10;
+			predicate = "script == \"khmer\" AND category == \"Mark\"";
+		},
+		{
+			name = "Above Marks Bottom";
+			pos = 700;
+			over = -10;
+			predicate = "script == \"khmer\" AND category == \"Mark\"";
+		},
+		{
+			type = bodyHeight;
+			pos = 600;
+			over = 16;
+			predicate = "script == \"khmer\"";
+		},
+		{
+			name = "Below Marks Top";
+			pos = -100;
+			over = 10;
+			predicate = "script == \"khmer\" AND category == \"Mark\"";
+		},
+		{
+			name = "Below Marks Bottom";
+			pos = -400;
+			over = -10;
+			predicate = "script == \"khmer\" AND category == \"Mark\"";
+		},
+		{
+			name = "Stacked Below Marks Top";
+			pos = -500;
+			over = 10;
+			predicate = "script == \"khmer\" AND category == \"Mark\"";
+		},
+		{
+			name = "Stacked Below Marks Bottom";
+			pos = -800;
+			over = -10;
+			predicate = "script == \"khmer\" AND category == \"Mark\"";
+		},
+	);
+	cham = (
+		{
+			name = "Above Marks Top";
+			pos = 1000;
+			over = 10;
+			predicate = "script == \"cham\" AND category == \"Mark\"";
+		},
+		{
+			name = "Above Marks Bottom";
+			pos = 700;
+			over = -10;
+			predicate = "script == \"cham\" AND category == \"Mark\"";
+		},
+		{
+			type = bodyHeight;
+			pos = 600;
+			over = 16;
+			predicate = "script == \"cham\"";
+		},
+		{ // above the baseline (not a mistake)
+			name = "Below Marks Top";
+			pos = 100;
+			over = 10;
+			predicate = "script == \"cham\" AND category == \"Mark\"";
+		},
+		{
+			name = "Below Marks Bottom";
+			pos = -200;
+			over = -10;
+			predicate = "script == \"cham\" AND category == \"Mark\"";
+		},
+	);
+	arabic = (
+		{
+			name = "Alef Height";
+			pos = 700;
+			over = 16;
+			predicate = "script == \"arabic\"";
+		},
+		{
+			name = "Joining Line";
+			pos = 100;
+			over = 16;
+			predicate = "script == \"arabic\"";
+		},
+		{
+			name = "Meem Depth";
+			pos = -400;
+			over = -16;
+			predicate = "script == \"arabic\"";
+		},
+	);
+	telugu = (
+		{
+			type = ascender;
+			pos = 700;
+			over = 16;
+			predicate = "script == \"telugu\"";
+		},
+		{
+			name = "Base";
+			pos = 500;
+			over = 16;
+			predicate = "script == \"telugu\"";
+		},
+		{
+			type = descender;
+			pos = -300;
+			over = -16;
+			predicate = "script == \"telugu\"";
+		},
+	);
+	kannada = (
+		{
+			type = ascender;
+			pos = 700;
+			over = 16;
+			predicate = "script == \"kannada\"";
+		},
+		{
+			name = "Base";
+			pos = 500;
+			over = 16;
+			predicate = "script == \"kannada\"";
+		},
+		{
+			type = descender;
+			pos = -100;
+			over = -16;
+			predicate = "script == \"kannada\"";
+		},
+		{
+			name = "Subscript";
+			pos = -400;
+			over = -16;
+			predicate = "script == \"kannada\"";
+		},
+	);
+	devanagari = (
+		{
+			type = ascender;
+			pos = 900;
+			over = 16;
+			predicate = "script == \"devanagari\"";
+		},
+		{
+			name = "Headline Top";
+			pos = 600;
+			over = 10;
+			predicate = "script == \"devanagari\"";
+		},
+		{
+			name = "Headline Bottom";
+			pos = 525;
+			over = -10;
+			predicate = "script == \"devanagari\"";
+		},
+		{
+			name = "Subscript";
+			pos = -300;
+			over = -16;
+			predicate = "script == \"devanagari\"";
+		},
+	);
+	gurmukhi = (
+		{
+			type = ascender;
+			pos = 900;
+			over = 16;
+			predicate = "script == \"gurmukhi\"";
+		},
+		{
+			name = "Headline Top";
+			type = bodyHeight;
+			pos = 600;
+			over = 10;
+			predicate = "script == \"gurmukhi\"";
+		},
+		{
+			name = "Headline Bottom";
+			pos = 525;
+			over = -10;
+			predicate = "script == \"gurmukhi\"";
+		},
+		{
+			name = "Subscript";
+			pos = -300;
+			over = -16;
+			predicate = "script == \"gurmukhi\"";
+		},
+	);
+	tamil = (
+		{
+			name = "Mark Height";
+			pos = 700;
+			over = 16;
+			predicate = "script == \"tamil\"";
+		},
+		{
+			name = "pa-Height";
+			type = bodyHeight;
+			pos = 500;
+			over = 16;
+			predicate = "script == \"tamil\"";
+		},
+		{
+			type = descender;
+			pos = -300;
+			over = -16;
+			predicate = "script == \"tamil\"";
+		},
+	);
+	oriya = (
+		{
+			type = ascender;
+			pos = 900;
+			over = 16;
+			predicate = "script == \"oriya\"";
+		},
+		{
+			name = "Base Height";
+			pos = 700;
+			over = 16;
+			predicate = "script == \"oriya\"";
+		},
+		{
+			name = "Core Height";
+			pos = 400;
+			over = 16;
+			predicate = "script == \"oriya\"";
+		},
+		{
+			type = descender;
+			pos = -200;
+			over = -16;
+			predicate = "script == \"oriya\"";
+		},
+	);
+	kana = (
+		{
+			type = ascender;
+			pos = 840;
+			predicate = "script == \"kana\"";
+		},
+		{
+			type = descender;
+			pos = -160;
+			predicate = "script == \"kana\"";
+		},
+	);
+	han = (
+		{
+			type = ascender;
+			pos = 840;
+			predicate = "script == \"han\"";
+		},
+		{
+			type = descender;
+			pos = -160;
+			predicate = "script == \"han\"";
+		},
+	);
+}

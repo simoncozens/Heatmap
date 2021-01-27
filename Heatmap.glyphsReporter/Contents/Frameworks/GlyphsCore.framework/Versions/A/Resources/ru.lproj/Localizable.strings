@@ -1,0 +1,982 @@
+"A Stem has a filter that can’t be saved as format 1." = "A Stem has a filter that can’t be saved as format 1.";
+
+"Add" = "Добавить";
+
+"Add Anchor" = "Добавить якорь";
+
+"Add Axis" = "Add Axis";
+
+"Add Brush" = "Add Brush";
+
+"Add Cap Component" = "Добавить «Cap»";
+
+"Add Class" = "Add Class";
+
+"Add Color" = "Add Color";
+
+"Add Component…" = "Добавить компонент…";
+
+"Add Corner Component" = "Добавить угол";
+
+"Add Corner Component in all Masters" = "Add Corner Component in all Masters";
+
+"Add Custom Parameter" = "Добавить произвольный параметр";
+
+"Add Feature" = "Добавить OT-фичу";
+
+"Add FontMaster" = "Добавить Мастер";
+
+"Add Global Guide" = "Добавить глобальный гайд";
+
+"Add Glyph" = "Добавить глиф";
+
+"Add Glyphs" = "Добавить глифы";
+
+"Add Gradient" = "Add Gradient";
+
+/* Add Guide context menu
+   undo */
+"Add Guide" = "Добавить гайд";
+
+"Add Hint" = "Добавить хинт";
+
+"Add Horizontal Hint" = "Добавить горизонтальный хинт";
+
+"Add Image" = "Добавить изображение";
+
+"Add Inner Shadow" = "Add Inner Shadow";
+
+"Add Label" = "Add Label";
+
+"Add Pattern Image" = "Add Pattern Image";
+
+"Add Prefix" = "Add Prefix";
+
+"Add Property" = "Add Property";
+
+"Add Segment Component" = "Add Segment Component";
+
+"Add Shadow" = "Add Shadow";
+
+"Add Shape" = "Add Shape";
+
+"Add Tags" = "Add Tags";
+
+"Add Value" = "Add Value";
+
+"Add Vertical Hint" = "Добавить вертикальный хинт";
+
+/* Search option
+   The Title of the All Group in the sidebar of the FontView */
+"All" = "Все";
+
+"All undo for that glyph is removed but should start working again." = "All undo for that glyph is removed but should start working again.";
+
+"An unknown problem occurred while executing an Apple Script command." = "При выполнении Apple Script возникла неизвестная ошибка";
+
+"Anchor Context" = "Anchor Context";
+
+"Ascender" = "Ascender";
+
+"Attributes" = "Attributes";
+
+"Auto" = "Auto";
+
+"Autohint" = "Автохинтовка";
+
+"Automatic Alignment is Disabled in Font Info" = "Авто-выравнивание выключено в Инфо шрифта";
+
+"Baseline" = "Baseline";
+
+"Black" = "Black";
+
+"Body Height" = "Body Height";
+
+"Bold" = "Bold";
+
+"BottomGhost" = "BottomGhost";
+
+"Brush" = "Brush";
+
+"Cancel" = "Отмена";
+
+"Can’t be empty" = "Can’t be empty";
+
+"Can’t convert to compatible TrueType curves." = "Невозможно сконвертировать в совместимые TrueType-кривые";
+
+"Can’t save localised “%@” in format 2." = "Can’t save localised “%@” in format 2.";
+
+"Can’t save path attributes in format 2." = "Can’t save path attributes in format 2.";
+
+"Can’t save RTL kerning in format 2." = "Can’t save RTL kerning in format 2.";
+
+"Cap" = "Cap";
+
+"Cap Height" = "Cap Height";
+
+"Case" = "Case";
+
+"CATEGORIES" = "КАТЕГОРИИ";
+
+"Category" = "КАТЕГОРИИ";
+
+"Change Connection" = "Изменить соединение";
+
+"Change Date" = "Изменить дату";
+
+"Change Disables Nice Names" = "Отмена удобных имен";
+
+"Change Font Grid" = "Изменить сетку шрифта";
+
+"Change Font Keyboard Movement" = "Изменить клавиатурный шаг";
+
+"Change Font Version" = "Изменить версию шрифта";
+
+"Change Hint" = "Поменять хинт";
+
+"Change Hint Origin" = "Изменить начало хинта";
+
+"Change Hint Width" = "Изменить ширину хинта";
+
+"Change Preview Remove Overlap" = "Change Preview Remove Overlap";
+
+"Change the file version in Font Info > Other Setting." = "Change the file version in Font Info > Other Setting.";
+
+"Change UPM" = "Изменить UPM";
+
+"Choose Component" = "Выбрать компонент";
+
+"Choose Image" = "Выберите изображение";
+
+"Clear Background" = "Очистить фон";
+
+"Clear Focus on Paths" = "Clear Focus on Paths";
+
+"Close Open Paths" = "Закрыть путь";
+
+"Color" = "Цвет";
+
+"Color Burn" = "Color Burn";
+
+"Color Dodge" = "Color Dodge";
+
+"Component" = "Component";
+
+"Component from Selection" = "Выбранное в компонент";
+
+"Condensed" = "Condensed";
+
+"Connect Nodes" = "Соединить узлы";
+
+"Copy Attributes" = "Copy Attributes";
+
+"Copy Custom Parameter" = "Скопировать произвольный параметр";
+
+"Corner" = "Corner";
+
+"Correct Bounds" = "Исправить границы";
+
+"Could not parse token: %@ (in %@):" = "Could not parse token: %1$@ (in %2$@):";
+
+"Couldn’t find glyph: %@" = "Не могу найти глиф: %@";
+
+"Create Composite" = "Создать составной глиф";
+
+"Crop Image" = "Обрезать изображение";
+
+"Darken" = "Darken";
+
+"Decompose" = "Разомкнуть";
+
+"Decompose Brush" = "Decompose Brush";
+
+"Decompose Cap" = "Раскомпозитировать окончание";
+
+"Decompose Component" = "Разомкнуть компонент";
+
+"Decompose Corner" = "Раскомпозитировать угол";
+
+"Decompose Segment Component" = "Decompose Segment Component";
+
+"Delta" = "Delta";
+
+"DemiBold" = "DemiBold";
+
+"Descender" = "Descender";
+
+"Diagonal" = "Diagonal";
+
+"didn’t find anchor: %@ in glyph: %@ in token: %@" = "didn’t find anchor: %1$@ in glyph: %2$@ in token: %3$@";
+
+"Difference" = "Difference";
+
+/* Automatic Alignment context menu
+   undo */
+"Disable Automatic Alignment" = "Отменить автоматическое выравнивание";
+
+"Disable automatic alignment for the components to manually set the LSB." = "Отменить автоматическое выравнивание для компонентов";
+
+"Disable automatic alignment for the components to manually set the RSB." = "Отмените автоматическое выравнивания для компонентов чтобы вручную задать полуапроши.";
+
+"Disable automatic alignment for the components to manually set the width." = "Отменить автоматическое выравнивание для компонентов, чтобы вручную задать ширину.";
+
+"Do you want to use the existing glyph as a component or replace it?" = "Сделать существующий глиф компонентом или заменить?";
+
+"Drag Curve" = "Перетащить кривую";
+
+"Duplicate master coordinates %@" = "Duplicate master coordinates %@";
+
+"empty Note" = "пустая заметка";
+
+"empty\nbase\nglyph" = "empty\nbase\nglyph";
+
+"Enable Automatic Alignment" = "Включить автоматическое выравнивание";
+
+"Error applying %@" = "Error applying %@";
+
+"Exclusion" = "Exclusion";
+
+"Expanded" = "Expanded";
+
+"expecting '%C'" = "expecting '%C'";
+
+"Export" = "Экспорт";
+
+"Extra Condensed" = "Extra Condensed";
+
+"Extra Expanded" = "Extra Expanded";
+
+"ExtraBold" = "ExtraBold";
+
+"ExtraLight" = "ExtraLight";
+
+"Fill" = "Fill";
+
+"Fill Outlines" = "Залить контуры";
+
+"Filter references unknown class" = "Filter references unknown class";
+
+"Filter Settings invalid." = "Filter Settings invalid.";
+
+"Filter unavailable." = "Фильтр недоступен.";
+
+"FILTERS" = "ФИЛЬТРЫ";
+
+"Flex" = "Flex";
+
+"Focus on Selected Paths" = "Focus on Selected Paths";
+
+"For key “%@”" = "For key “%@”";
+
+"Force Automatic Alignment" = "Насильно поставить авто-выравнивание";
+
+"Glyph for token: %@ not found" = "Glyph for token: %@ not found";
+
+"Glyph “%@” contains a curve that has too many inflections." = "Glyph “%@” contains a curve that has too many inflections.";
+
+"Glyph “%@” has corrupted outlines." = "Glyph “%@” has corrupted outlines.";
+
+"Glyph “%@” is not compatible." = "Глиф «%@» несовместим";
+
+"Gradient" = "Gradient";
+
+"Group" = "Группа";
+
+"Hard Light" = "Hard Light";
+
+"Heavy" = "Heavy";
+
+"Ignore" = "Игнорировать";
+
+"illegal part in token: %@" = "непригодная часть в токене: %@";
+
+"Image Path" = "Путь изображения";
+
+"Inner Shadow" = "Inner Shadow";
+
+"Insert Anchor" = "Вставить якорь";
+
+"Insert Axis" = "Insert Axis";
+
+"Insert Color" = "Insert Color";
+
+"Insert Guide" = "Вставить гайд";
+
+"Insert Label" = "Insert Label";
+
+"Insert Node" = "Вставить точку";
+
+"Insert Path" = "Вставить путь";
+
+"Insert Property" = "Insert Property";
+
+"Insert Shape" = "Insert Shape";
+
+"Insert Value" = "Insert Value";
+
+"Instance is not set up correctly: %@ (no instanceInterpolations)" = "Производное начертание задано некорректно: %@ (no instanceInterpolations)";
+
+"Interpolate" = "Interpolate";
+
+"Intersect Paths" = "Intersect Paths";
+
+"Invalid Axis rule in glyph %@" = "Invalid Axis rule in glyph %@";
+
+"invalid feature code generator" = "invalid feature code generator";
+
+"Invalid format in filter parameter" = "Invalid format in filter parameter";
+
+"Invalid predicate expression: “%@”" = "Invalid predicate expression: “%@”";
+
+"Invalid Values" = "Неверные значения";
+
+"is" = "является";
+
+"is not" = "не является";
+
+"Italic Angle" = "Italic Angle";
+
+"Keep Alternates Together" = "Держать альтернейты рядом";
+
+"Kern" = "Кернинг";
+
+"LANGUAGES" = "ЯЗЫКИ";
+
+"Leave as is" = "Оставить как есть";
+
+"Light" = "Light";
+
+"Lighten" = "Lighten";
+
+"Lock Component" = "Закрепить компонент";
+
+"Lock Guide" = "Закрепить гайд";
+
+"Lock Guides" = "Закрепить гайд";
+
+/* Context Menu
+   undo */
+"Lock Image" = "Закрепить";
+
+"Lock Path" = "Lock Path";
+
+"Locked" = "Locked";
+
+"Lowercase" = "строчные";
+
+"Make Curve" = "Преобразовать в кривую";
+
+"Make First" = "Сделать первым";
+
+"Make Ghost Hint" = "Сделать приводящий хинт";
+
+"Make Global Guide" = "Создать глобальный гайд";
+
+"Make Local Guide" = "Создать гайд";
+
+"Make Node First" = "Назначить узел стартовым";
+
+"Make Node First in all Masters" = "Make Node First in all Masters";
+
+"Make Stroke" = "Make Stroke";
+
+"Mask" = "Mask";
+
+"Medium" = "Medium";
+
+"Medium (normal)" = "Medium (normal)";
+
+"Mid Height" = "Mid Height";
+
+"Minor" = "Minor";
+
+"Missing components" = "Missing components";
+
+"Missing “key” entry at line %d" = "Missing “key” entry at line %d";
+
+"Missing “value” or “values” entry at line %d" = "Missing “value” or “values” entry at line %d";
+
+"More than one Variable Instance can’t be saved in a format 2 file." = "More than one Variable Instance can’t be saved in a format 2 file.";
+
+"Move Anchor" = "Переместить якорь";
+
+"Move Component" = "Переместить компонент";
+
+"Move Element" = "Переместить элемент";
+
+"Move Elements" = "Переместить элементы";
+
+"Move Guide" = "Переместить гайд";
+
+"Move Image" = "Переместить изображение";
+
+"Move Nodes" = "Переместить узлы";
+
+"Multi" = "Multi";
+
+"multi" = "multi";
+
+"Multiply" = "Multiply";
+
+"Name" = "Имя";
+
+"Name of the Component Glyph" = "Название глифа-компонента";
+
+"New Font" = "New Font";
+
+"New Parameter" = "Новый параметр";
+
+"New Value" = "Новое значение";
+
+"newGlyph" = "newGlyph";
+
+"No" = "Нет";
+
+"No Case" = "No Case";
+
+"no name" = "без имени";
+
+"Normal" = "Regular";
+
+"Not all glyphs are in the font, yet" = "Комплект глифов неполный";
+
+"Not all Glyphs are present in the font." = "Комплект глифов неполный";
+
+"Not enough arguments for anchors token: %@" = "Not enough arguments for anchors token: %@";
+
+"not set" = "не задано";
+
+"Nothing is selected" = "Ничего не выбрано";
+
+"Nudge Nodes" = "Переместить узлы";
+
+"Number values can’t be saved as format 1." = "Number values can’t be saved as format 1.";
+
+"OK" = "ОК";
+
+"Open" = "Открыть";
+
+"Open Corner" = "Добавить петлю";
+
+"Open Corner in all Masters" = "Раскрыть угол во всех опорных";
+
+"Open Path" = "Раскрыть контур";
+
+"Overlay" = "Overlay";
+
+"Paste Attributes" = "Paste Attributes";
+
+"Pattern Image" = "Pattern Image";
+
+"Please check the outlines" = "Проверьте контур, пожалуйста";
+
+"Please fix this in Font Info" = "Пожалуйста исправьте это в Font Info";
+
+"Please select glyphs" = "Пожалуйста выберите глифы";
+
+"Please select the two nodes of a line segment" = "Пожалуйста, выберите два узла отрезка";
+
+"Problem with file at line %d" = "Problem with file at line %d";
+
+"Problem with SVG" = "Проблема с SVG";
+
+"reading: %@" = "reading: %@";
+
+"Reconnect Nodes" = "Разомкнуть узлы";
+
+"Reconnect Nodes in all Masters" = "Воссоединить точки во всех опорных";
+
+"Redo" = "Повторить";
+
+"Regular" = "Regular";
+
+"Remove" = "Переместить";
+
+"Remove Anchor" = "Убрать якорь";
+
+"Remove Annotation" = "Убрать описание";
+
+"Remove Axis" = "Remove Axis";
+
+"Remove Class" = "Remove Class";
+
+"Remove Color" = "Remove Color";
+
+"Remove Custom Parameter" = "Remove Custom Parameter";
+
+"Remove Feature" = "Убрать OT-фичу";
+
+"Remove FontMaster" = "Убрать мастер-шрифт";
+
+"Remove Glyph" = "Убрать глиф";
+
+"Remove Glyphs" = "Удалить глифы";
+
+"Remove Guide" = "Убрать гайд";
+
+"Remove Hint" = "Убрать хинт";
+
+"Remove Image" = "Удалить изображение";
+
+"Remove Label" = "Remove Label";
+
+"remove Layer" = "убрать слой";
+
+"Remove Overlap" = "Убрать пересечения";
+
+"Remove Path" = "Убрать путь";
+
+"Remove Prefix" = "Remove Prefix";
+
+"Remove Property" = "Remove Property";
+
+"Remove Selected Objects" = "Убрать выбранные объекты";
+
+"Remove Shape" = "Remove Shape";
+
+"Remove Shapes" = "Remove Shapes";
+
+"Remove Tags" = "Remove Tags";
+
+"Remove Value" = "Remove Value";
+
+"Rename Glyph" = "Переименовать глиф";
+
+"Replace" = "Заменять";
+
+"Replace Axis" = "Replace Axis";
+
+"Replace Class" = "Replace Class";
+
+"Replace Color" = "Replace Color";
+
+"Replace Feature" = "Заменить OT-фичу";
+
+"Replace Guide" = "Replace Guide";
+
+"Replace Label" = "Replace Label";
+
+"Replace Node" = "Заменить точку";
+
+"Replace Property" = "Replace Property";
+
+"Replace Shape" = "Replace Shape";
+
+"Reveal in Finder" = "Показать в Finder";
+
+"Reverse All Contours" = "Реверс всех контуров";
+
+/* Reverse Contour context menu
+   undo */
+"Reverse Contour" = "Реверс контура";
+
+"Reverse Selected Contours" = "Убрать выбранные контуры";
+
+"Rotate Guide" = "Повернуть гайд";
+
+"Screen" = "Screen";
+
+"Script" = "ЯЗЫКИ";
+
+"Segment" = "Segment";
+
+"Select" = "Выбрать";
+
+"Select Glyph" = "Выбрать глиф";
+
+"Selection to Background" = "Выделенное на задний план";
+
+"Semi Expanded" = "Semi Expanded";
+
+"SemiBold" = "SemiBold";
+
+"SemiCondensed" = "SemiCondensed";
+
+"Set Alignment" = "Отменить выравнивание";
+
+"Set Alignment Zone" = "Задать зону выравнивания";
+
+"Set Anchor" = "Задать якорь";
+
+"Set Anchors" = "Задать якоря";
+
+"Set Angle" = "Задать угол";
+
+"Set Attribute" = "Set Attribute";
+
+"Set Attributes" = "Set Attributes";
+
+"Set Axes" = "Set Axes";
+
+"Set Axis Default Value" = "Set Axis Default Value";
+
+"Set Axis Hidden" = "Set Axis Hidden";
+
+"Set Axis Name" = "Set Axis Name";
+
+"Set Axis Tag" = "Set Axis Tag";
+
+"Set Blur" = "Set Blur";
+
+"Set Bold" = "Задать Bold";
+
+"Set BSB" = "Задать БПА";
+
+"Set Case" = "Set Case";
+
+"Set Color" = "Задать цвет";
+
+"Set Colors" = "Set Colors";
+
+"Set Crop to Layer Bounds" = "Кадрировать до границ слоя";
+
+"Set Custom Parameter" = "Задать произвольные параметры";
+
+"Set Deltas" = "Set Deltas";
+
+"Set Direction" = "Set Direction";
+
+"Set End" = "Set End";
+
+"Set Exports" = "Экспортируется";
+
+"Set FamilyName" = "Set FamilyName";
+
+"Set Filter" = "Set Filter";
+
+"Set Font Note" = "Set Font Note";
+
+"Set Font Version" = "Задать версию шрифта";
+
+"Set Glyph Color" = "Задать цвет глифа";
+
+"Set Guides" = "Установить гайд";
+
+"Set Height" = "Set Height";
+
+"Set Horizontal" = "Set Horizontal";
+
+"Set Icon" = "Задать иконку";
+
+"Set Instance Name" = "Имя производного начертания";
+
+"Set Italic" = "Установить как курсив";
+
+"Set KeepWeight" = "Set KeepWeight";
+
+"Set Kerning" = "Задать кернинг";
+
+"Set Kerning Group" = "Задать группу кернинга";
+
+"Set Key" = "Set Key";
+
+"Set Labels" = "Set Labels";
+
+"Set Layer Color" = "Задать цвет слоя";
+
+"Set Locked" = "Закрепить";
+
+"Set LSB" = "ЛПА";
+
+"Set Metric" = "Set Metric";
+
+"Set Metrics" = "Set Metrics";
+
+"Set Name" = "Установить название";
+
+"Set Number" = "Set Number";
+
+"Set Numbers" = "Set Numbers";
+
+"Set OffsetX" = "Set OffsetX";
+
+"Set OffsetY" = "Set OffsetY";
+
+"Set Properties" = "Set Properties";
+
+"Set RSB" = "задать ППА";
+
+"Set Scale" = "Set Scale";
+
+"Set Shapes" = "Set Shapes";
+
+"Set Slant Horizontal" = "Set Slant Horizontal";
+
+"Set Slant Vertical" = "Set Slant Vertical";
+
+"Set Smart Component Settings" = "Задать настройки Smart-компонента";
+
+"Set Spacing" = "Set Spacing";
+
+"Set Start" = "Set Start";
+
+"Set Stem" = "Set Stem";
+
+"Set Stems" = "Set Stems";
+
+"Set Tags" = "Set Tags";
+
+"Set Time" = "Задать время";
+
+"Set TSB" = "Задать полуапрош TSB";
+
+"Set Type" = "Set Type";
+
+"Set UserData" = "Set UserData";
+
+"Set Value" = "Set Value";
+
+"Set Values" = "Set Values";
+
+"Set Vertical Origin" = "Задать вертикальную точку отсчёта";
+
+"Set Vertical Width" = "Задать вертикальную ширину";
+
+"Set Visible" = "Set Visible";
+
+"Set Weight Class" = "Установить класс насыщенности";
+
+"Set Width" = "Установить ширину";
+
+"Set Width Class" = "Установить класс ширины";
+
+"Set Width Value" = "Установить ширину";
+
+"SetDelta" = "SetDelta";
+
+"Shadow" = "Shadow";
+
+"Sharpen Corner" = "Sharpen Corner";
+
+"Shift" = "Shift";
+
+"Should the following glyphs be added to the font?" = "Стоит ли добавить эти глифы в шрифт?";
+
+"Show all glyphs containing this component" = "Показать все глифы содержащие такой компонент";
+
+"Show all glyphs that use this glyph as a component" = "Показать все глифы которые содержат этот глиф в качестве компонента";
+
+/* component context menu
+   glyph context menu */
+"Show all Group Glyphs" = "Показать все глифы группы";
+
+"Show Glyph in Font View" = "Show Glyph in Font View";
+
+"Show Model Glyph" = "Show Model Glyph";
+
+"Show Smart Component Settings" = "Показать настройки Smart-компонента";
+
+"Show Smart Glyph Settings" = "Показать настройки Smart-глифа";
+
+"Slant Height" = "Slant Height";
+
+"Smallcaps" = "Smallcaps";
+
+"Smart Component" = "Смарт-компонент";
+
+"Smart Glyph Settings" = "Настройки смарт-глифа";
+
+"Smart Settings" = "Настройки смарт-глифа";
+
+"Snap" = "Snap";
+
+"Soft Light" = "Soft Light";
+
+"Some glyphs are not compatible and will have no outlines" = "Некоторые глифы не совместимы и будут без контура";
+
+"Some metrics keys are out of sync." = "Некоторые ключи метрик рассинхронизированы";
+
+"Something went wrong when Removing Overlap in glyph: %@" = "Something went wrong when Removing Overlap in glyph: %@";
+
+"Stem" = "Stem";
+
+"Stems" = "Stems";
+
+"Stroke" = "Stroke";
+
+"Subcategory" = "Подкатегория";
+
+"Subtract Paths" = "Subtract Paths";
+
+"Tag" = "Tag";
+
+"Tags" = "Tags";
+
+"The %@ begins or ends with a space. That is not allowed." = "%@ начинается или оканчивается пробелом. Так делать нельзя.";
+
+"The %@ can’t be empty" = "%@ не может быть пустым";
+
+"The %@ contains illegal characters" = "%@ содержит непригодные символы";
+
+"The %@ contains illegal characters. (e.g. quotes)" = "%@ содержит непригодные знаки. (Напр. кавычки)";
+
+"The %@ is too long" = "%@ — слишком длинный";
+
+"The %@ is too short" = "%@ — слишком короткий";
+
+"The callback is not implementing all required methods" = "The callback is not implementing all required methods";
+
+"The component in glyph “%@” has attributes that can’t be saved as format 1." = "The component in glyph “%@” has attributes that can’t be saved as format 1.";
+
+"The custom parameter “%@” is not compatible in all masters" = "Произвольный параметр “%@” несовместим во всех опорных";
+
+"The filter “%@” should contain a string only." = "The filter “%@” should contain a string only.";
+
+"The filter “%@” was referenced in the custom parameters, but is not installed." = "Фильтр “%@” был отмечен в произвольных параметрах, но не был установлен.";
+
+"The font already contains a glyph with the name: %@" = "Шрифт уже содержит глиф с именем: %@";
+
+"The font is missing a glyph “%@” for the feature pattern. (%@)" = "The font is missing a glyph “%1$@” for the feature pattern. (%2$@)";
+
+"The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid." = "The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid.";
+
+"The glyph is locked. No changes are allowed" = "The glyph is locked. No changes are allowed";
+
+"The glyph is not compatible." = "Глиф несовместим.";
+
+"The glyph name contains illegal characters.\nOnly a-z, A-Z, 0-9, underscore, hyphen, and period are allowed." = "В названии недопустимые символы. Можно использовать только a-z, A-Z, 0-9, точку, нижнее подчеркивание и дефис.";
+
+"The glyph name should not be empty." = "Имя глифа не должно быть пустым.";
+
+"The glyph name should not contain any space character." = "Названия глифов не должны содержать пробельные знаки.";
+
+"The glyph name should not start with a number (0-9)." = "Название глифа не должно начинаться с номера (0-9).";
+
+"The glyphs for %@ are missing" = "The glyphs for %@ are missing";
+
+"The kerning group contains illegal characters.\nOnly a-zA-Z0-9, underscore, hyphen and period are allowed." = "В названии кернинг группы можно использовать\nтолько a-zA-Z0-9, точку, нижнее подчеркивание и дефис.";
+
+"The layers in this glyph are not compatible." = "Слои в этом глифе несовместимы.";
+
+"The layers of this glyph are not compatible so only the active layer will be processed." = "Слои этого глифа несовместимы, поэтому только активный слой будет обработан.";
+
+"The linked font “%@” has a different number of masters" = "The linked font “%@” has a different number of masters";
+
+"The linked font “%@” has different masters" = "The linked font “%@” has different masters";
+
+"The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1." = "The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1.";
+
+"The path in glyph “%@” has attributes that can’t be saved as format 1." = "The path in glyph “%@” has attributes that can’t be saved as format 1.";
+
+"The property “%@” in the %@: “%@” can’t be saved as format 1." = "The property “%1$@” in the %2$@: “%3$@” can’t be saved as format 1.";
+
+"The selection is not suitable to paste a %@ component." = "The selection is not suitable to paste a %@ component.";
+
+"The SVG file is not valid XML" = "The SVG file is not valid XML";
+
+"The Unicode value must be 4 to 5 characters long." = "Юникод-значение должно быть от 4 до 5 знаков в длину.";
+
+"The Unicode value should only contain the characters 0-9 and A-F." = "Юникод-значение может содержать только цифры от 0 до 9 и буквы от A до F. ";
+
+"The value can not be empty" = "Значение не может быть пустым";
+
+"The width of this glyph is automatically calculated from the components." = "Ширина этого глифа автоматически высчитывается.";
+
+"The width should not be negative." = "Ширина не может быть отрицательная";
+
+"The “TTFZones” are not set correctly in all masters" = "«TTFZones» не заданы корректно во всех опорных начертаниях";
+
+"There are annotations" = "Имеются аннотации";
+
+"There are problems with the “%@” in font masters." = "У “%@” возникли проблемы в опорных начертаниях.";
+
+"There is already a glyph with that name." = "Глиф с таким названием уже существует.";
+
+"There is an invalid “%@” custom parameter" = "There is an invalid “%@” custom parameter";
+
+"There was a problem and no glyph could be created." = "Возникла проблема и ни один глиф не может быть создан";
+
+"There was a problem loading the custom GlyphData.xml file." = "Возникла проблема при загрузке вашего файла GlyphData.xml ";
+
+"There was a problem with undo" = "Возникла проблема с отменой действия";
+
+"Thin" = "Thin";
+
+"This glyph has low level instructions" = "У этого глифа есть инструкции нижнего уровня";
+
+"This glyph has manually set glyph info" = "This glyph has manually set glyph info";
+
+"This glyph is locked and can’t be edited." = "This glyph is locked and can’t be edited.";
+
+"This glyph will not be exported to the final font file." = "Этот глиф не будет экспортирован в финальный шрифтовой файл.";
+
+"This should show the glyph in the app “UnicodeChecker”, but it is not installed. You can download the app at: ---" = "Эта кнопка показывает глиф в «UnicodeChecker», но приложение не установлено. Его можно скачать по ссылке: ---";
+
+"This Unicode is already assigned to the glyph: %@" = "Такое юникод-значение уже присвоено глифу: %@";
+
+"This will apply to all master-layers." = "Это будет применено ко всем мастер-слоям.";
+
+"Too many inflections" = "Too many inflections";
+
+"TopGhost" = "TopGhost";
+
+"Transform" = "Трансформировать";
+
+"Transform Component" = "Трансформировать компонент";
+
+"Transform Selection" = "Преобразовать выбранное";
+
+"TTStem" = "TTStem";
+
+"Ultra Condensed" = "Ultra Condensed";
+
+"Ultra Expanded" = "Ultra Expanded";
+
+"UltraBold" = "UltraBold";
+
+"UltraLight" = "UltraLight";
+
+"Undefined" = "Undefined";
+
+"Undo" = "Откат";
+
+"Unicode" = "Юникод";
+
+"Unknown" = "Unknown";
+
+"Unknown language tag: %@ in custom parameter: “%@”." = "Unknown language tag: %1$@ in custom parameter: “%2$@”.";
+
+"Unlock Component" = "Открепить компонент";
+
+"Unlock Guide" = "Открепить гайд";
+
+/* Context Menu
+   undo */
+"Unlock Image" = "Разблокировать";
+
+"Unlock Path" = "Unlock Path";
+
+"Unusual Bounds" = "Необычные границы";
+
+"Update BSB" = "Update BSB";
+
+"Update LSB" = "Обновить ЛПА";
+
+"Update RSB" = "Обновить ППА";
+
+"Update TSB" = "Update TSB";
+
+"Update Vertical Width" = "Update Vertical Width";
+
+"Update Width" = "Обновить ширину";
+
+"Uppercase" = "Прописные";
+
+"Use at least format %d." = "Use at least format %d.";
+
+"Use Existing" = "Использовать существующий";
+
+"Value is out of range (16..16384)" = "Value is out of range (16..16384)";
+
+"W" = "W";
+
+"Wrong anchor accessor: %@ (needs to be either “x” or “y”) token: %@" = "Неверный якорный асессор: %1$@ (должно быть ‹x› или ‹y›) токен: %2$@";
+
+"x-Height" = "x-Height";
+
+"Yes" = "Да";
+
+"You are about to insert a path outside of the glyphs bounds?" = "Вы уверены что хотите вставить путь за рамками границ глифа?";
+
+"You can only sync the width and one of the side-bearings." = "Возможно синхронизировать только ширину и один полуапрош.";
+

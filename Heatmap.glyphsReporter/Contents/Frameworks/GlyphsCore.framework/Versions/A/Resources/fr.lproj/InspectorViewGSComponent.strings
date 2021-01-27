@@ -1,0 +1,34 @@
+
+/* X */
+"8.title" = "x";
+
+/* Y */
+"12.title" = "y";
+
+/* Show base glyph */
+"115.ibShadowedToolTip" = "Afficher le glyphe de base";
+
+/* choose to what anchor the component should attach */
+"154.ibShadowedToolTip" = "SVP sélectionner l’ancre sur laquelle attacher la composante";
+
+/* Rotation */
+"164.ibShadowedToolTip" = "Rotation";
+
+/* ⤿ */
+"168.title" = "⤿";
+
+/* slant right */
+"V9y-eP-GCA.ibShadowedToolTip" = "inclinaison à droite";
+
+/* Smart */
+"ZHw-aa-zh3.title" = "Futé";
+
+/* Show Smart Component settings (cmd+opt+I) */
+"j6K-iF-aC9.ibShadowedToolTip" = "Afficher les paramètres des composantes futées (cmd+opt+I)";
+
+/* Vertical Scale */
+"nwV-v7-hUZ.ibShadowedToolTip" = "Échelle verticale";
+
+/* Horizontal Scale */
+"oE9-Rk-aAZ.ibShadowedToolTip" = "Échelle horizontale";
+

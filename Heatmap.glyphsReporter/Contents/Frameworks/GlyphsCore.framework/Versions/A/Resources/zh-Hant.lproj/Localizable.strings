@@ -1,0 +1,982 @@
+"A Stem has a filter that can’t be saved as format 1." = "字幹包含無法儲存為格式1的濾鏡。";
+
+"Add" = "新增";
+
+"Add Anchor" = "新增錨點";
+
+"Add Axis" = "Add Axis";
+
+"Add Brush" = "新增線段組件";
+
+"Add Cap Component" = "新增筆帽組件";
+
+"Add Class" = "Add Class";
+
+"Add Color" = "Add Color";
+
+"Add Component…" = "加入組件…";
+
+"Add Corner Component" = "新增角落組件";
+
+"Add Corner Component in all Masters" = "在所有主板新增角落組件";
+
+"Add Custom Parameter" = "Add Custom Parameter";
+
+"Add Feature" = "新增特性";
+
+"Add FontMaster" = "新增字型主版";
+
+"Add Global Guide" = "新增全域參考線";
+
+"Add Glyph" = "新增字符";
+
+"Add Glyphs" = "新增多個字符";
+
+"Add Gradient" = "新增漸層";
+
+/* Add Guide context menu
+   undo */
+"Add Guide" = "新增參考線";
+
+"Add Hint" = "新增 Hint";
+
+"Add Horizontal Hint" = "新增水平 Hint";
+
+"Add Image" = "新增圖片";
+
+"Add Inner Shadow" = "新增內陰影";
+
+"Add Label" = "Add Label";
+
+"Add Pattern Image" = "Add Pattern Image";
+
+"Add Prefix" = "Add Prefix";
+
+"Add Property" = "Add Property";
+
+"Add Segment Component" = "設定線段組件";
+
+"Add Shadow" = "新增陰影";
+
+"Add Shape" = "新增外形";
+
+"Add Tags" = "新增標籤";
+
+"Add Value" = "Add Value";
+
+"Add Vertical Hint" = "新增垂直 Hint";
+
+/* Search option
+   The Title of the All Group in the sidebar of the FontView */
+"All" = "全部";
+
+"All undo for that glyph is removed but should start working again." = "字符的還原資訊已消失但可開始重新記錄。";
+
+"An unknown problem occurred while executing an Apple Script command." = "執行Apple Script時發生不知名的問題。";
+
+"Anchor Context" = "Anchor Context";
+
+"Ascender" = "Ascender";
+
+"Attributes" = "屬性";
+
+"Auto" = "Auto";
+
+"Autohint" = "自動 Hint";
+
+"Automatic Alignment is Disabled in Font Info" = "字型資訊已關閉組件自動就定位";
+
+"Baseline" = "Baseline";
+
+"Black" = "Black";
+
+"Body Height" = "Body Height";
+
+"Bold" = "Bold";
+
+"BottomGhost" = "BottomGhost";
+
+"Brush" = "Brush";
+
+"Cancel" = "取消";
+
+"Can’t be empty" = "不得為空";
+
+"Can’t convert to compatible TrueType curves." = "無法轉換為相容的TrueType曲線。";
+
+"Can’t save localised “%@” in format 2." = "格式2無法儲存本地化的 “%@”。";
+
+"Can’t save path attributes in format 2." = "格式2無法儲存路徑屬性。";
+
+"Can’t save RTL kerning in format 2." = "格式2無法儲存RTL調距。";
+
+"Cap" = "Cap";
+
+"Cap Height" = "Cap Height";
+
+"Case" = "大小寫";
+
+"CATEGORIES" = "類型";
+
+"Category" = "分類";
+
+"Change Connection" = "變更連接";
+
+"Change Date" = "變更日期";
+
+"Change Disables Nice Names" = "變更停用易懂名稱";
+
+"Change Font Grid" = "變更字型格線";
+
+"Change Font Keyboard Movement" = "變更字型鍵盤移動";
+
+"Change Font Version" = "變更字型版本";
+
+"Change Hint" = "變更 Hint";
+
+"Change Hint Origin" = "變更 Hint 位置";
+
+"Change Hint Width" = "變更 Hint 寬度";
+
+"Change Preview Remove Overlap" = "Change Preview Remove Overlap";
+
+"Change the file version in Font Info > Other Setting." = "請在 字型資訊 > 其他設定 裡變更檔案版本。";
+
+"Change UPM" = "變更 UPM";
+
+"Choose Component" = "選擇組件";
+
+"Choose Image" = "選擇圖片";
+
+"Clear Background" = "清除背景";
+
+"Clear Focus on Paths" = "取消路徑聚焦";
+
+"Close Open Paths" = "關閉開放的路徑";
+
+"Color" = "顏色";
+
+"Color Burn" = "Color Burn";
+
+"Color Dodge" = "Color Dodge";
+
+"Component" = "組件";
+
+"Component from Selection" = "將選取的路徑轉為組件";
+
+"Condensed" = "Condensed";
+
+"Connect Nodes" = "連接控制點";
+
+"Copy Attributes" = "複製屬性";
+
+"Copy Custom Parameter" = "複製自訂參數";
+
+"Corner" = "Corner";
+
+"Correct Bounds" = "修正位置";
+
+"Could not parse token: %@ (in %@):" = "無法解析 token: %1$@ (於 %2$@):";
+
+"Couldn’t find glyph: %@" = "找不到字符：%@";
+
+"Create Composite" = "建立組件字符";
+
+"Crop Image" = "裁切圖片";
+
+"Darken" = "Darken";
+
+"Decompose" = "拆開此組件";
+
+"Decompose Brush" = "解開線段組件";
+
+"Decompose Cap" = "解開筆帽組件";
+
+"Decompose Component" = "拆開組件";
+
+"Decompose Corner" = "解開角落組件";
+
+"Decompose Segment Component" = "Decompose Segment Component";
+
+"Delta" = "Delta";
+
+"DemiBold" = "DemiBold";
+
+"Descender" = "Descender";
+
+"Diagonal" = "Diagonal";
+
+"didn’t find anchor: %@ in glyph: %@ in token: %@" = "在字符%2$@的token %3$@裡找不到錨點 %1$@。";
+
+"Difference" = "Difference";
+
+/* Automatic Alignment context menu
+   undo */
+"Disable Automatic Alignment" = "停用組件自動就定位";
+
+"Disable automatic alignment for the components to manually set the LSB." = "停用此組件之自動就定位，以便手動設定左邊界。";
+
+"Disable automatic alignment for the components to manually set the RSB." = "停用此組件之自動就定位，以便手動設定右邊界。";
+
+"Disable automatic alignment for the components to manually set the width." = "停用此組件之自動就定位，以便手動設定字寬。";
+
+"Do you want to use the existing glyph as a component or replace it?" = "您想以既有字符作為組件還是取代它呢？";
+
+"Drag Curve" = "拖曳曲線";
+
+"Duplicate master coordinates %@" = "多個主板有重複的座標 %@";
+
+"empty Note" = "empty Note";
+
+"empty\nbase\nglyph" = "empty\nbase\nglyph";
+
+"Enable Automatic Alignment" = "啟用組件自動就定位";
+
+"Error applying %@" = "Error applying %@";
+
+"Exclusion" = "Exclusion";
+
+"Expanded" = "Expanded";
+
+"expecting '%C'" = "expecting '%C'";
+
+"Export" = "匯出";
+
+"Extra Condensed" = "Extra Condensed";
+
+"Extra Expanded" = "Extra Expanded";
+
+"ExtraBold" = "ExtraBold";
+
+"ExtraLight" = "ExtraLight";
+
+"Fill" = "塗滿";
+
+"Fill Outlines" = "塗滿外框";
+
+"Filter references unknown class" = "濾鏡參考未知的類別";
+
+"Filter Settings invalid." = "濾鏡設定無效。";
+
+"Filter unavailable." = "濾鏡無效";
+
+"FILTERS" = "文字範圍篩選";
+
+"Flex" = "Flex";
+
+"Focus on Selected Paths" = "聚焦於選取的路徑";
+
+"For key “%@”" = "For key “%@”";
+
+"Force Automatic Alignment" = "強制組件自動就定位";
+
+"Glyph for token: %@ not found" = "token查無字符： %@";
+
+"Glyph “%@” contains a curve that has too many inflections." = "字符 “%@” 裡有曲線包含過多反曲點。";
+
+"Glyph “%@” has corrupted outlines." = "字符 “%@” 包含破損的外框。";
+
+"Glyph “%@” is not compatible." = "字符 “%@” 不相容。";
+
+"Gradient" = "漸層";
+
+"Group" = "群組";
+
+"Hard Light" = "Hard Light";
+
+"Heavy" = "Heavy";
+
+"Ignore" = "忽略";
+
+"illegal part in token: %@" = "token部分不合法：%@";
+
+"Image Path" = "圖片路徑";
+
+"Inner Shadow" = "內陰影";
+
+"Insert Anchor" = "新增錨點";
+
+"Insert Axis" = "Insert Axis";
+
+"Insert Color" = "Insert Color";
+
+"Insert Guide" = "新增參考線";
+
+"Insert Label" = "Insert Label";
+
+"Insert Node" = "新增控制點";
+
+"Insert Path" = "新增路徑";
+
+"Insert Property" = "Insert Property";
+
+"Insert Shape" = "Insert Shape";
+
+"Insert Value" = "Insert Value";
+
+"Instance is not set up correctly: %@ (no instanceInterpolations)" = "實體設定不正確： %@ (未設定實體內插)";
+
+"Interpolate" = "Interpolate";
+
+"Intersect Paths" = "Intersect Paths";
+
+"Invalid Axis rule in glyph %@" = "字符 %@ 的變化軸規則無效";
+
+"invalid feature code generator" = "invalid feature code generator";
+
+"Invalid format in filter parameter" = "濾鏡參數格式錯誤";
+
+"Invalid predicate expression: “%@”" = "Invalid predicate expression: “%@”";
+
+"Invalid Values" = "錯誤的值";
+
+"is" = "是";
+
+"is not" = "不是";
+
+"Italic Angle" = "Italic Angle";
+
+"Keep Alternates Together" = "顯示替代字在基礎字旁";
+
+"Kern" = "調距";
+
+"LANGUAGES" = "語系";
+
+"Leave as is" = "保持原狀";
+
+"Light" = "Light";
+
+"Lighten" = "Lighten";
+
+"Lock Component" = "鎖定組件";
+
+"Lock Guide" = "鎖定參考線";
+
+"Lock Guides" = "鎖定選取的參考線";
+
+/* Context Menu
+   undo */
+"Lock Image" = "鎖定圖片";
+
+"Lock Path" = "鎖定路徑";
+
+"Locked" = "已鎖定";
+
+"Lowercase" = "小寫字母";
+
+"Make Curve" = "繪製曲線";
+
+"Make First" = "移至最上層";
+
+"Make Ghost Hint" = "建立 Ghost Hint";
+
+"Make Global Guide" = "建立全域參考線";
+
+"Make Local Guide" = "建立區域參考線";
+
+"Make Node First" = "設為起始控制點";
+
+"Make Node First in all Masters" = "在所有主板裡設為起始控制點";
+
+"Make Stroke" = "Make Stroke";
+
+"Mask" = "遮罩";
+
+"Medium" = "Medium";
+
+"Medium (normal)" = "Medium (normal)";
+
+"Mid Height" = "Mid Height";
+
+"Minor" = "Minor";
+
+"Missing components" = "遺失組件";
+
+"Missing “key” entry at line %d" = "Missing “key” entry at line %d";
+
+"Missing “value” or “values” entry at line %d" = "Missing “value” or “values” entry at line %d";
+
+"More than one Variable Instance can’t be saved in a format 2 file." = "More than one Variable Instance can’t be saved in a format 2 file.";
+
+"Move Anchor" = "移動錨點";
+
+"Move Component" = "移動組件";
+
+"Move Element" = "移動元件";
+
+"Move Elements" = "移動多個元件";
+
+"Move Guide" = "移動參考線";
+
+"Move Image" = "移動圖片";
+
+"Move Nodes" = "移動控制點";
+
+"Multi" = "Multi";
+
+"multi" = "multi";
+
+"Multiply" = "Multiply";
+
+"Name" = "名稱";
+
+"Name of the Component Glyph" = "組件字符名稱";
+
+"New Font" = "New Font";
+
+"New Parameter" = "新參數";
+
+"New Value" = "新值";
+
+"newGlyph" = "newGlyph";
+
+"No" = "否";
+
+"No Case" = "無大小寫";
+
+"no name" = "no name";
+
+"Normal" = "Normal";
+
+"Not all glyphs are in the font, yet" = "部分字符不存在於此字型";
+
+"Not all Glyphs are present in the font." = "部分字符不存在於此字型";
+
+"Not enough arguments for anchors token: %@" = "錨點 token %@ 引數不夠";
+
+"not set" = "未設定";
+
+"Nothing is selected" = "沒有選取內容";
+
+"Nudge Nodes" = "移動控制點";
+
+"Number values can’t be saved as format 1." = "數值無法儲存為格式1。";
+
+"OK" = "好";
+
+"Open" = "打開";
+
+"Open Corner" = "開放角落";
+
+"Open Corner in all Masters" = "在所有主板裡開放角落";
+
+"Open Path" = "開放路徑";
+
+"Overlay" = "Overlay";
+
+"Paste Attributes" = "貼上屬性";
+
+"Pattern Image" = "Pattern Image";
+
+"Please check the outlines" = "請檢查外框";
+
+"Please fix this in Font Info" = "請修正字型資訊";
+
+"Please select glyphs" = "請選擇字符";
+
+"Please select the two nodes of a line segment" = "請選擇同一條線段上的兩個控制點";
+
+"Problem with file at line %d" = "Problem with file at line %d";
+
+"Problem with SVG" = "SVG 有問題";
+
+"reading: %@" = "reading: %@";
+
+"Reconnect Nodes" = "重新連接控制點";
+
+"Reconnect Nodes in all Masters" = "在所有主板裡重新連接控制點";
+
+"Redo" = "重做";
+
+"Regular" = "Regular";
+
+"Remove" = "移除";
+
+"Remove Anchor" = "移除錨點";
+
+"Remove Annotation" = "移除註記";
+
+"Remove Axis" = "Remove Axis";
+
+"Remove Class" = "Remove Class";
+
+"Remove Color" = "Remove Color";
+
+"Remove Custom Parameter" = "Remove Custom Parameter";
+
+"Remove Feature" = "移除特性";
+
+"Remove FontMaster" = "移除字型主版";
+
+"Remove Glyph" = "移除字符";
+
+"Remove Glyphs" = "移除多個字符";
+
+"Remove Guide" = "移除參考線";
+
+"Remove Hint" = "移除 Hint";
+
+"Remove Image" = "移除圖片";
+
+"Remove Label" = "Remove Label";
+
+"remove Layer" = "移除圖層";
+
+"Remove Overlap" = "合併重疊的外框";
+
+"Remove Path" = "移除路徑";
+
+"Remove Prefix" = "Remove Prefix";
+
+"Remove Property" = "Remove Property";
+
+"Remove Selected Objects" = "移除選取的物件";
+
+"Remove Shape" = "移除外形";
+
+"Remove Shapes" = "移除多個外形";
+
+"Remove Tags" = "移除標籤";
+
+"Remove Value" = "Remove Value";
+
+"Rename Glyph" = "重新命名字符";
+
+"Replace" = "取代";
+
+"Replace Axis" = "Replace Axis";
+
+"Replace Class" = "Replace Class";
+
+"Replace Color" = "Replace Color";
+
+"Replace Feature" = "取代特性";
+
+"Replace Guide" = "Replace Guide";
+
+"Replace Label" = "Replace Label";
+
+"Replace Node" = "取代控制點";
+
+"Replace Property" = "Replace Property";
+
+"Replace Shape" = "取代外形";
+
+"Reveal in Finder" = "以 Finder 打開";
+
+"Reverse All Contours" = "逆轉所有外框方向";
+
+/* Reverse Contour context menu
+   undo */
+"Reverse Contour" = "逆轉外框方向";
+
+"Reverse Selected Contours" = "逆轉選取外框的方向";
+
+"Rotate Guide" = "旋轉參考線";
+
+"Screen" = "Screen";
+
+"Script" = "語系";
+
+"Segment" = "Segment";
+
+"Select" = "選取工具";
+
+"Select Glyph" = "選取字符";
+
+"Selection to Background" = "將選取範圍設為背景";
+
+"Semi Expanded" = "Semi Expanded";
+
+"SemiBold" = "SemiBold";
+
+"SemiCondensed" = "SemiCondensed";
+
+"Set Alignment" = "設定停用對齊";
+
+"Set Alignment Zone" = "設定對齊區域";
+
+"Set Anchor" = "自動設定錨點";
+
+"Set Anchors" = "自動設定錨點";
+
+"Set Angle" = "設定角度";
+
+"Set Attribute" = "Set Attribute";
+
+"Set Attributes" = "設定屬性";
+
+"Set Axes" = "設定變化軸";
+
+"Set Axis Default Value" = "設定變化軸預設值";
+
+"Set Axis Hidden" = "設定隱藏變化軸";
+
+"Set Axis Name" = "設定變化軸名稱";
+
+"Set Axis Tag" = "設定變化軸標籤";
+
+"Set Blur" = "Set Blur";
+
+"Set Bold" = "設定粗體";
+
+"Set BSB" = "設定下邊界";
+
+"Set Case" = "設定大小寫";
+
+"Set Color" = "設定顏色";
+
+"Set Colors" = "Set Colors";
+
+"Set Crop to Layer Bounds" = "裁切至圖層邊界";
+
+"Set Custom Parameter" = "設定自訂參數";
+
+"Set Deltas" = "Set Deltas";
+
+"Set Direction" = "設定方向";
+
+"Set End" = "Set End";
+
+"Set Exports" = "設定是否匯出";
+
+"Set FamilyName" = "Set FamilyName";
+
+"Set Filter" = "Set Filter";
+
+"Set Font Note" = "Set Font Note";
+
+"Set Font Version" = "設定字型版本";
+
+"Set Glyph Color" = "設定字符顏色";
+
+"Set Guides" = "設定參考線";
+
+"Set Height" = "設定高度";
+
+"Set Horizontal" = "設定水平值";
+
+"Set Icon" = "設定圖示";
+
+"Set Instance Name" = "設定實體名稱";
+
+"Set Italic" = "設定義大利體";
+
+"Set KeepWeight" = "Set KeepWeight";
+
+"Set Kerning" = "設定調距";
+
+"Set Kerning Group" = "設定調距群組";
+
+"Set Key" = "Set Key";
+
+"Set Labels" = "Set Labels";
+
+"Set Layer Color" = "設定圖層顏色";
+
+"Set Locked" = "設定為鎖定";
+
+"Set LSB" = "設定左邊界";
+
+"Set Metric" = "設定度量值";
+
+"Set Metrics" = "設定度量值";
+
+"Set Name" = "設定名稱";
+
+"Set Number" = "設定數值";
+
+"Set Numbers" = "設定數值";
+
+"Set OffsetX" = "Set OffsetX";
+
+"Set OffsetY" = "Set OffsetY";
+
+"Set Properties" = "Set Properties";
+
+"Set RSB" = "設定右邊界";
+
+"Set Scale" = "Set Scale";
+
+"Set Shapes" = "Set Shapes";
+
+"Set Slant Horizontal" = "Set Slant Horizontal";
+
+"Set Slant Vertical" = "Set Slant Vertical";
+
+"Set Smart Component Settings" = "設定智慧組件";
+
+"Set Spacing" = "Set Spacing";
+
+"Set Start" = "Set Start";
+
+"Set Stem" = "設定字幹";
+
+"Set Stems" = "設定字幹";
+
+"Set Tags" = "設定標籤";
+
+"Set Time" = "設定時間";
+
+"Set TSB" = "設定上邊界";
+
+"Set Type" = "Set Type";
+
+"Set UserData" = "Set UserData";
+
+"Set Value" = "設定值";
+
+"Set Values" = "Set Values";
+
+"Set Vertical Origin" = "設定垂直起點";
+
+"Set Vertical Width" = "設定垂直高度";
+
+"Set Visible" = "Set Visible";
+
+"Set Weight Class" = "設定字重類別";
+
+"Set Width" = "設定字寬";
+
+"Set Width Class" = "設定字寬類別";
+
+"Set Width Value" = "設定字寬值";
+
+"SetDelta" = "SetDelta";
+
+"Shadow" = "陰影";
+
+"Sharpen Corner" = "角落銳利化";
+
+"Shift" = "Shift";
+
+"Should the following glyphs be added to the font?" = "下列字符是否應加入字型裡？";
+
+"Show all glyphs containing this component" = "顯示所有包含此組件的字符";
+
+"Show all glyphs that use this glyph as a component" = "顯示所有將此字符做為組件使用的字符";
+
+/* component context menu
+   glyph context menu */
+"Show all Group Glyphs" = "顯示群組所有字符";
+
+"Show Glyph in Font View" = "Show Glyph in Font View";
+
+"Show Model Glyph" = "顯示模板字符";
+
+"Show Smart Component Settings" = "調整智慧組件內插值";
+
+"Show Smart Glyph Settings" = "顯示智慧字符設定選項";
+
+"Slant Height" = "Slant Height";
+
+"Smallcaps" = "小字大寫";
+
+"Smart Component" = "智慧組件";
+
+"Smart Glyph Settings" = "智慧組件設定";
+
+"Smart Settings" = "智慧設定";
+
+"Snap" = "Snap";
+
+"Soft Light" = "Soft Light";
+
+"Some glyphs are not compatible and will have no outlines" = "下列字符不相容，將不會輸出外框";
+
+"Some metrics keys are out of sync." = "有部分度量鍵未同步到最新";
+
+"Something went wrong when Removing Overlap in glyph: %@" = "在字符 %@ 合併重疊的外框時發生錯誤";
+
+"Stem" = "Stem";
+
+"Stems" = "Stems";
+
+"Stroke" = "輪廓";
+
+"Subcategory" = "次分類";
+
+"Subtract Paths" = "Subtract Paths";
+
+"Tag" = "Tag";
+
+"Tags" = "標籤";
+
+"The %@ begins or ends with a space. That is not allowed." = "%@ 的起始或結尾是空格，這是不允許的。";
+
+"The %@ can’t be empty" = "%@ 不得為空";
+
+"The %@ contains illegal characters" = "%@ 包含不合法字元";
+
+"The %@ contains illegal characters. (e.g. quotes)" = "%@ 包含不合法字元，例如引號。";
+
+"The %@ is too long" = "%@ 太長";
+
+"The %@ is too short" = "%@ 太短";
+
+"The callback is not implementing all required methods" = "The callback is not implementing all required methods";
+
+"The component in glyph “%@” has attributes that can’t be saved as format 1." = "字符 “%@” 裡的組件中包含無法儲存為格式1的屬性。";
+
+"The custom parameter “%@” is not compatible in all masters" = "自訂參數 “%@” 未在所有主板內保持相容。";
+
+"The filter “%@” should contain a string only." = "濾鏡 “%@” 不能只有一個字串。";
+
+"The filter “%@” was referenced in the custom parameters, but is not installed." = "自訂參數指定了未安裝的濾鏡 “%@”。";
+
+"The font already contains a glyph with the name: %@" = "此字型已經包含同名的字符: %@";
+
+"The font is missing a glyph “%@” for the feature pattern. (%@)" = "The font is missing a glyph “%1$@” for the feature pattern. (%2$@)";
+
+"The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid." = "The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid.";
+
+"The glyph is locked. No changes are allowed" = "此字符已鎖定，不允許變更。";
+
+"The glyph is not compatible." = "此字符不相容";
+
+"The glyph name contains illegal characters.\nOnly a-z, A-Z, 0-9, underscore, hyphen, and period are allowed." = "此字符名稱包含不合規定的文字。\n只能使用 a-z、A-Z、0-9、底線、減號跟句點（半形）。";
+
+"The glyph name should not be empty." = "字符名稱不可以是空白。";
+
+"The glyph name should not contain any space character." = "字符名稱不可以包括空白字元。";
+
+"The glyph name should not start with a number (0-9)." = "字符名稱不可以從數字開頭。";
+
+"The glyphs for %@ are missing" = "用於 %@ 的字符遺失。";
+
+"The kerning group contains illegal characters.\nOnly a-zA-Z0-9, underscore, hyphen and period are allowed." = "調距群組名稱包含不合規定的文字。\n只能使用 a-zA-Z0-9、底線、減號跟句點（半形）。";
+
+"The layers in this glyph are not compatible." = "此字符圖層不相容";
+
+"The layers of this glyph are not compatible so only the active layer will be processed." = "此字符的各圖層不相容，只有作用中圖層會被處理。";
+
+"The linked font “%@” has a different number of masters" = "The linked font “%@” has a different number of masters";
+
+"The linked font “%@” has different masters" = "The linked font “%@” has different masters";
+
+"The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1." = "字符 “%@” 替代圖層的最小/最大值無法儲存為格式1。";
+
+"The path in glyph “%@” has attributes that can’t be saved as format 1." = "字符 “%@” 裡的路徑中包含無法儲存為格式1的屬性。";
+
+"The property “%@” in the %@: “%@” can’t be saved as format 1." = "The property “%1$@” in the %2$@: “%3$@” can’t be saved as format 1.";
+
+"The selection is not suitable to paste a %@ component." = "The selection is not suitable to paste a %@ component.";
+
+"The SVG file is not valid XML" = "此 SVG 檔案不是有效的 XML 文件";
+
+"The Unicode value must be 4 to 5 characters long." = "Unicode值長度必須介於4～5字";
+
+"The Unicode value should only contain the characters 0-9 and A-F." = "Unicode值只能使用以下字元：“0123456789ABCDEF”";
+
+"The value can not be empty" = "值不可以為空";
+
+"The width of this glyph is automatically calculated from the components." = "此字符的寬度自動以組件算出。";
+
+"The width should not be negative." = "寬度不可以是負值。";
+
+"The “TTFZones” are not set correctly in all masters" = "“TTFZones” 未在所有主版設定正確";
+
+"There are annotations" = "有註記";
+
+"There are problems with the “%@” in font masters." = "字型主版的 “%@” 發生一些問題";
+
+"There is already a glyph with that name." = "已經有重複的字符名稱";
+
+"There is an invalid “%@” custom parameter" = "無效的自訂參數 “%@”。";
+
+"There was a problem and no glyph could be created." = "出現錯誤，字符無法建立";
+
+"There was a problem loading the custom GlyphData.xml file." = "自訂的 GlyphData.xml 內容有誤";
+
+"There was a problem with undo" = "還原時出現問題";
+
+"Thin" = "Thin";
+
+"This glyph has low level instructions" = "此字符包含低階調節指令";
+
+"This glyph has manually set glyph info" = "此字符手動設定了字符資訊";
+
+"This glyph is locked and can’t be edited." = "此字符已鎖定，無法編輯。";
+
+"This glyph will not be exported to the final font file." = "此字符不會匯出到字型檔";
+
+"This should show the glyph in the app “UnicodeChecker”, but it is not installed. You can download the app at: ---" = "此功能會將文字以 UnicodeChecker 軟體開啟，但您沒安裝此軟體。您可以在 --- 下載。";
+
+"This Unicode is already assigned to the glyph: %@" = "此Unicode值已設定給字符： %@";
+
+"This will apply to all master-layers." = "這將會套用到所有主版圖層。";
+
+"Too many inflections" = "過多反曲點";
+
+"TopGhost" = "TopGhost";
+
+"Transform" = "轉換工具";
+
+"Transform Component" = "轉換元件";
+
+"Transform Selection" = "轉換選取物件";
+
+"TTStem" = "TTStem";
+
+"Ultra Condensed" = "Ultra Condensed";
+
+"Ultra Expanded" = "Ultra Expanded";
+
+"UltraBold" = "UltraBold";
+
+"UltraLight" = "UltraLight";
+
+"Undefined" = "Undefined";
+
+"Undo" = "復原";
+
+"Unicode" = "Unicode";
+
+"Unknown" = "Unknown";
+
+"Unknown language tag: %@ in custom parameter: “%@”." = "自訂參數 “%2$@” 設定了未知的語言標籤 %1$@";
+
+"Unlock Component" = "解除鎖定組件";
+
+"Unlock Guide" = "解除鎖定參考線";
+
+/* Context Menu
+   undo */
+"Unlock Image" = "解除鎖定圖片";
+
+"Unlock Path" = "路徑解除鎖定";
+
+"Unusual Bounds" = "邊界異常";
+
+"Update BSB" = "更新BSB";
+
+"Update LSB" = "更新左邊界";
+
+"Update RSB" = "更新右邊界";
+
+"Update TSB" = "更新TSB";
+
+"Update Vertical Width" = "更新垂直字高";
+
+"Update Width" = "更新字寬";
+
+"Uppercase" = "大寫字母";
+
+"Use at least format %d." = "必須使用至少 %d 版本的格式。";
+
+"Use Existing" = "使用既有項目";
+
+"Value is out of range (16..16384)" = "值超過範圍 (16..16384)";
+
+"W" = "W";
+
+"Wrong anchor accessor: %@ (needs to be either “x” or “y”) token: %@" = "錨點  %1$@ 存取錯誤（必須名為“x” 或 “y”） token: %2$@";
+
+"x-Height" = "x-Height";
+
+"Yes" = "是";
+
+"You are about to insert a path outside of the glyphs bounds?" = "您確定要放棄插入字符範圍之外的外框嗎？";
+
+"You can only sync the width and one of the side-bearings." = "您只能同步寬度與單一邊的邊界。";
+

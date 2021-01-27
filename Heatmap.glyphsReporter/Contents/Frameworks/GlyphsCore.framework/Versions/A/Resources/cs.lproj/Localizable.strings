@@ -1,0 +1,982 @@
+"A Stem has a filter that can’t be saved as format 1." = "Na tah je aplikovaný filtr, který neumožňuje uložení do formátu 1.";
+
+"Add" = "Přidat";
+
+"Add Anchor" = "Přidat kotvu";
+
+"Add Axis" = "Přidat osu";
+
+"Add Brush" = "Přidat štětec";
+
+"Add Cap Component" = "Přidat zakončovací komponent";
+
+"Add Class" = "Přidat třídu";
+
+"Add Color" = "Přidat barvu";
+
+"Add Component…" = "Přidat komponent…";
+
+"Add Corner Component" = "Přidat rohový komponent";
+
+"Add Corner Component in all Masters" = "Přidat rohový komponent ve všech masterech";
+
+"Add Custom Parameter" = "Přidat uživatelský parametr";
+
+"Add Feature" = "Přidat funkci";
+
+"Add FontMaster" = "Přidat master";
+
+"Add Global Guide" = "Přidat globální vodítko";
+
+"Add Glyph" = "Přidat glyf";
+
+"Add Glyphs" = "Přidat glyfy";
+
+"Add Gradient" = "Přidat přechod";
+
+/* Add Guide context menu
+   undo */
+"Add Guide" = "Přidat vodítko";
+
+"Add Hint" = "Přidat hint";
+
+"Add Horizontal Hint" = "Přidat horizontální hint";
+
+"Add Image" = "Přidat obraz";
+
+"Add Inner Shadow" = "Přidat vnitřní stín";
+
+"Add Label" = "Přidat štítek";
+
+"Add Pattern Image" = "Přidat vzor";
+
+"Add Prefix" = "Přidat předponu";
+
+"Add Property" = "Přidat vlastnost";
+
+"Add Segment Component" = "Přidat segmentový komponent";
+
+"Add Shadow" = "Přidat stín";
+
+"Add Shape" = "Přidat tvar";
+
+"Add Tags" = "Přidat značky";
+
+"Add Value" = "Přidat hodnotu";
+
+"Add Vertical Hint" = "Přidat vertikální hint";
+
+/* Search option
+   The Title of the All Group in the sidebar of the FontView */
+"All" = "Vše";
+
+"All undo for that glyph is removed but should start working again." = "Všechny kroky zpět jsou pro tento glyf odstraněny, ale funkce by opět měla začít fungovat.";
+
+"An unknown problem occurred while executing an Apple Script command." = "Při vykonávání Apple skriptu se vyskytla neznámá chyba.";
+
+"Anchor Context" = "Kontext kotvy";
+
+"Ascender" = "Horní dotažnice";
+
+"Attributes" = "Atributy";
+
+"Auto" = "Automatický";
+
+"Autohint" = "Autohinting";
+
+"Automatic Alignment is Disabled in Font Info" = "Automatické zarovnávání je v Informacích o fontu zakázáno";
+
+"Baseline" = "Základní dotažnice";
+
+"Black" = "Black";
+
+"Body Height" = "Výška kuželky";
+
+"Bold" = "Bold";
+
+"BottomGhost" = "Spodní klamný";
+
+"Brush" = "Štětec";
+
+"Cancel" = "Zrušit";
+
+"Can’t be empty" = "Nemůže být prázdné";
+
+"Can’t convert to compatible TrueType curves." = "Převod do kompatibilních křivek TrueType není možný.";
+
+"Can’t save localised “%@” in format 2." = "Lokalizovaný glyf „%@“ nelze uložit do formátu 2.";
+
+"Can’t save path attributes in format 2." = "Atributy cesty nelze uložit do formátu 2.";
+
+"Can’t save RTL kerning in format 2." = "Kerning zprava doleva nelze uložit do formátu 2.";
+
+"Cap" = "Verzálkový";
+
+"Cap Height" = "Výška verzálek";
+
+"Case" = "Typ";
+
+"CATEGORIES" = "KATEGORIE";
+
+"Category" = "Kategorie";
+
+"Change Connection" = "Změnit spojení";
+
+"Change Date" = "Změnit datum";
+
+"Change Disables Nice Names" = "Změnit zákaz převodu názvů";
+
+"Change Font Grid" = "Změnit mřížku fontu";
+
+"Change Font Keyboard Movement" = "Změnit krok kláves";
+
+"Change Font Version" = "Změnit verzi fontu";
+
+"Change Hint" = "Změnit hint";
+
+"Change Hint Origin" = "Změnit počátek hintu";
+
+"Change Hint Width" = "Změnit šířku hintu";
+
+"Change Preview Remove Overlap" = "Změnit náhled odstranění překryvu";
+
+"Change the file version in Font Info > Other Setting." = "Změňte verzi souboru v Informacích o fontu → Další nastavení.";
+
+"Change UPM" = "Změnit hodnotu UPM";
+
+"Choose Component" = "Vybrat komponent";
+
+"Choose Image" = "Vybrat obraz";
+
+"Clear Background" = "Vymazat pozadí";
+
+"Clear Focus on Paths" = "Zrušit izolovaný pohled";
+
+"Close Open Paths" = "Uzavřít cesty";
+
+"Color" = "Barva";
+
+"Color Burn" = "Ztmavit barvy";
+
+"Color Dodge" = "Zesvětlit barvy";
+
+"Component" = "Komponent";
+
+"Component from Selection" = "Komponent z výběru";
+
+"Condensed" = "Condensed";
+
+"Connect Nodes" = "Propojit uzly";
+
+"Copy Attributes" = "Kopírovat atributy";
+
+"Copy Custom Parameter" = "Kopírovat uživatelský parametr";
+
+"Corner" = "Roh";
+
+"Correct Bounds" = "Opravit hranice";
+
+"Could not parse token: %@ (in %@):" = "Nepodařilo se analyzovat token %1$@ (v %2$@):";
+
+"Couldn’t find glyph: %@" = "Glyf %@ nebyl nalezen.";
+
+"Create Composite" = "Vytvořit kompozit";
+
+"Crop Image" = "Oříznout obraz";
+
+"Darken" = "Ztmavit";
+
+"Decompose" = "Rozložit";
+
+"Decompose Brush" = "Rozložit štětec";
+
+"Decompose Cap" = "Rozložit zakončení";
+
+"Decompose Component" = "Rozložit komponent";
+
+"Decompose Corner" = "Rozložit roh";
+
+"Decompose Segment Component" = "Rozložit segmentový komponent";
+
+"Delta" = "Delta";
+
+"DemiBold" = "DemiBold";
+
+"Descender" = "Spodní dotažnice";
+
+"Diagonal" = "Diagonální";
+
+"didn’t find anchor: %@ in glyph: %@ in token: %@" = "kotva %1$@ nebyla v tokenu %3$@ glyfu %2$@ nalezena";
+
+"Difference" = "Rozdíl";
+
+/* Automatic Alignment context menu
+   undo */
+"Disable Automatic Alignment" = "Zakázat automatické zarovnávání";
+
+"Disable automatic alignment for the components to manually set the LSB." = "Pro ruční zadání levého odstupu zakažte automatické zarovnávání komponentů.";
+
+"Disable automatic alignment for the components to manually set the RSB." = "Pro ruční zadání pravého odstupu zakažte automatické zarovnávání komponentů.";
+
+"Disable automatic alignment for the components to manually set the width." = "Pro ruční zadání šířky zakažte automatické zarovnávání komponentů.";
+
+"Do you want to use the existing glyph as a component or replace it?" = "Chcete existující glyf použít jako komponent, nebo jej nahradit?";
+
+"Drag Curve" = "Upravit křivku";
+
+"Duplicate master coordinates %@" = "Duplicitní souřadnice masteru %@";
+
+"empty Note" = "prázdná poznámka";
+
+"empty\nbase\nglyph" = "prázdný\nmateřský\nglyf";
+
+"Enable Automatic Alignment" = "Povolit automatické zarovnávání";
+
+"Error applying %@" = "Chyba při použití %@";
+
+"Exclusion" = "Vyloučit";
+
+"Expanded" = "Expanded";
+
+"expecting '%C'" = "Očekáváno „%C”";
+
+"Export" = "Exportovat";
+
+"Extra Condensed" = "Extra Condensed";
+
+"Extra Expanded" = "Extra Expanded";
+
+"ExtraBold" = "ExtraBold";
+
+"ExtraLight" = "ExtraLight";
+
+"Fill" = "Vyplnit";
+
+"Fill Outlines" = "Vyplnit obrysy";
+
+"Filter references unknown class" = "Filtr odkazuje na neznámou třídu.";
+
+"Filter Settings invalid." = "Neplatná nastavení filtru.";
+
+"Filter unavailable." = "Filtr není dostupný.";
+
+"FILTERS" = "FILTRY";
+
+"Flex" = "Flexibilní";
+
+"Focus on Selected Paths" = "Izolovat pohled na vybrané křivky";
+
+"For key “%@”" = "Pro klíč „%@“";
+
+"Force Automatic Alignment" = "Vynutit automatické zarovnání";
+
+"Glyph for token: %@ not found" = "Glyf pro token %@ nebyl nalezen.";
+
+"Glyph “%@” contains a curve that has too many inflections." = "Glyf „%@“ obsahuje příliš komplikovaně tvarovanou křivku.";
+
+"Glyph “%@” has corrupted outlines." = "Glyf „%@“ má poškozené obrysy.";
+
+"Glyph “%@” is not compatible." = "Glyf „%@“ není kompatibilní.";
+
+"Gradient" = "Přechod";
+
+"Group" = "Skupina";
+
+"Hard Light" = "Tvrdé světlo";
+
+"Heavy" = "Heavy";
+
+"Ignore" = "Ignorovat";
+
+"illegal part in token: %@" = "nepovolená část v tokenu: %@";
+
+"Image Path" = "Cesta obrazu";
+
+"Inner Shadow" = "Vnitřní stín";
+
+"Insert Anchor" = "Umístit kotvu";
+
+"Insert Axis" = "Vložit osu";
+
+"Insert Color" = "Vložit barvu";
+
+"Insert Guide" = "Vložit vodítko";
+
+"Insert Label" = "Vložit štítek";
+
+"Insert Node" = "Vložit uzel";
+
+"Insert Path" = "Vložit cestu";
+
+"Insert Property" = "Vložit vlastnost";
+
+"Insert Shape" = "Vložit tvar";
+
+"Insert Value" = "Vložit hodnotu";
+
+"Instance is not set up correctly: %@ (no instanceInterpolations)" = "Instance %@ není správně nastavená (chybí instanceInterpolations)";
+
+"Interpolate" = "Interpolovaný";
+
+"Intersect Paths" = "Protnout cesty";
+
+"Invalid Axis rule in glyph %@" = "V glyfu %@ je neplatné pravidlo osy";
+
+"invalid feature code generator" = "neplatný generátor kódu funkce";
+
+"Invalid format in filter parameter" = "Neplatný formát v parametru filtru";
+
+"Invalid predicate expression: “%@”" = "Chybná predikce výrazu: „%@“";
+
+"Invalid Values" = "Neplatné hodnoty";
+
+"is" = "je";
+
+"is not" = "není";
+
+"Italic Angle" = "Úhel kurzivy";
+
+"Keep Alternates Together" = "Ponechávat alternativy u sebe";
+
+"Kern" = "Kerning";
+
+"LANGUAGES" = "JAZYKY";
+
+"Leave as is" = "Ponechat jak je";
+
+"Light" = "Light";
+
+"Lighten" = "Zesvětlit";
+
+"Lock Component" = "Zamknout komponent";
+
+"Lock Guide" = "Zamknout vodítko";
+
+"Lock Guides" = "Zamknout vodítka";
+
+/* Context Menu
+   undo */
+"Lock Image" = "Zamknout obraz";
+
+"Lock Path" = "Zamknout cestu";
+
+"Locked" = "Zamknuté";
+
+"Lowercase" = "Minusky";
+
+"Make Curve" = "Vytvořit křivku";
+
+"Make First" = "Jako první";
+
+"Make Ghost Hint" = "Vytvořit klamný hint";
+
+"Make Global Guide" = "Vytvořit globální vodítko";
+
+"Make Local Guide" = "Vytvořit lokální vodítko";
+
+"Make Node First" = "Nastavit jako počáteční uzel";
+
+"Make Node First in all Masters" = "Nastavit jako počáteční uzel ve všech masterech";
+
+"Make Stroke" = "Make Stroke";
+
+"Mask" = "Maska";
+
+"Medium" = "Medium";
+
+"Medium (normal)" = "Medium (normální)";
+
+"Mid Height" = "Poloviční výška";
+
+"Minor" = "Minoritná";
+
+"Missing components" = "Chybějící komponenty";
+
+"Missing “key” entry at line %d" = "Na řádku %d chybí údaj „klíč“";
+
+"Missing “value” or “values” entry at line %d" = "Na řádku %d chybí údaj „hodnota“ nebo „hodnoty“";
+
+"More than one Variable Instance can’t be saved in a format 2 file." = "Do formátu 2 nelze uložit více než jednu variabilní instanci.";
+
+"Move Anchor" = "Posunout kotvu";
+
+"Move Component" = "Posunout komponent";
+
+"Move Element" = "Posunout prvek";
+
+"Move Elements" = "Posunout prvky";
+
+"Move Guide" = "Posunout vodítko";
+
+"Move Image" = "Posunout obraz";
+
+"Move Nodes" = "Posunout uzly";
+
+"Multi" = "Multi";
+
+"multi" = "multi";
+
+"Multiply" = "Násobit";
+
+"Name" = "Název";
+
+"Name of the Component Glyph" = "Název komponentního glyfu";
+
+"New Font" = "Novy font";
+
+"New Parameter" = "Nový parametr";
+
+"New Value" = "Nová hodnota";
+
+"newGlyph" = "novyGlyf";
+
+"No" = "Ne";
+
+"No Case" = "Žadný";
+
+"no name" = "bez názvu";
+
+"Normal" = "Normal";
+
+"Not all glyphs are in the font, yet" = "Ve fontu zatím nejsou všechny glyfy.";
+
+"Not all Glyphs are present in the font." = "Ve fontu nejsou obsaženy všechny glyfy.";
+
+"Not enough arguments for anchors token: %@" = "Nedostatek parametrů pro kotevní token: %@";
+
+"not set" = "nenastaveno";
+
+"Nothing is selected" = "Nic nevybráno";
+
+"Nudge Nodes" = "Posunout uzly";
+
+"Number values can’t be saved as format 1." = "Číselné hodnoty nemohou být uloženy do formátu 1.";
+
+"OK" = "OK";
+
+"Open" = "Otevřít";
+
+"Open Corner" = "Otevřít roh";
+
+"Open Corner in all Masters" = "Otevřít roh ve všech masterech";
+
+"Open Path" = "Otevřít cestu";
+
+"Overlay" = "Překrýt";
+
+"Paste Attributes" = "Vložit atributy";
+
+"Pattern Image" = "Vzor";
+
+"Please check the outlines" = "Zkontrolujte prosím obrysy";
+
+"Please fix this in Font Info" = "Opravte prosím v Informacích o fontu";
+
+"Please select glyphs" = "Vyberte prosím glyfy";
+
+"Please select the two nodes of a line segment" = "Označte prosím dva uzly rovného segmentu";
+
+"Problem with file at line %d" = "Problém se souborem na řádku %d";
+
+"Problem with SVG" = "Problém s SVG";
+
+"reading: %@" = "čtení: %@";
+
+"Reconnect Nodes" = "Znovupropojit uzly";
+
+"Reconnect Nodes in all Masters" = "Znovupropojit uzly ve všech masterech";
+
+"Redo" = "Vpřed";
+
+"Regular" = "Regular";
+
+"Remove" = "Odstranit";
+
+"Remove Anchor" = "Odstranit kotvu";
+
+"Remove Annotation" = "Odstranit poznámku";
+
+"Remove Axis" = "Odstranit osu";
+
+"Remove Class" = "Odstranit třídu";
+
+"Remove Color" = "Odstranit barvu";
+
+"Remove Custom Parameter" = "Odstranit uživatelský parametr";
+
+"Remove Feature" = "Odstranit funkci";
+
+"Remove FontMaster" = "Odstranit FontMaster";
+
+"Remove Glyph" = "Odstranit glyf";
+
+"Remove Glyphs" = "Odstranit glyfy";
+
+"Remove Guide" = "Odstranit vodítko";
+
+"Remove Hint" = "Odstranit hint";
+
+"Remove Image" = "Odstranit obraz";
+
+"Remove Label" = "Odstranit štítek";
+
+"remove Layer" = "Odstranit vrstvu";
+
+"Remove Overlap" = "Odstranit překryv";
+
+"Remove Path" = "Odstranit cestu";
+
+"Remove Prefix" = "Odstranit předponu";
+
+"Remove Property" = "Odstranit vlastnost";
+
+"Remove Selected Objects" = "Odstranit vybrané objekty";
+
+"Remove Shape" = "Odstranit tvar";
+
+"Remove Shapes" = "Odstranit tvary";
+
+"Remove Tags" = "Odstranit značky";
+
+"Remove Value" = "Odstranit hodnotu";
+
+"Rename Glyph" = "Přejmenovat glyf";
+
+"Replace" = "Nahradit";
+
+"Replace Axis" = "Nahradit osu";
+
+"Replace Class" = "Nahradit třídu";
+
+"Replace Color" = "Nahradit barvu";
+
+"Replace Feature" = "Nahradit funkci";
+
+"Replace Guide" = "Nahradit vodítko";
+
+"Replace Label" = "Nahradit štítek";
+
+"Replace Node" = "Nahradit uzel";
+
+"Replace Property" = "Nahradit vlastnost";
+
+"Replace Shape" = "Nahradit tvar";
+
+"Reveal in Finder" = "Zobrazit v aplikaci Finder";
+
+"Reverse All Contours" = "Obrátit všechny obrysy";
+
+/* Reverse Contour context menu
+   undo */
+"Reverse Contour" = "Obrátit obrys";
+
+"Reverse Selected Contours" = "Obrátit vybrané obrysy";
+
+"Rotate Guide" = "Otočit vodítko";
+
+"Screen" = "Závoj";
+
+"Script" = "Písmo";
+
+"Segment" = "Segment";
+
+"Select" = "Výběr";
+
+"Select Glyph" = "Vybrat glyf";
+
+"Selection to Background" = "Výběr na pozadí";
+
+"Semi Expanded" = "Semi Expanded";
+
+"SemiBold" = "SemiBold";
+
+"SemiCondensed" = "SemiCondensed";
+
+"Set Alignment" = "Nastavit zarovnávání";
+
+"Set Alignment Zone" = "Nastavit zónu zarovnávání";
+
+"Set Anchor" = "Umístit kotvu";
+
+"Set Anchors" = "Umístit kotvy";
+
+"Set Angle" = "Nastavit úhel";
+
+"Set Attribute" = "Nastavit atribut";
+
+"Set Attributes" = "Nastavit atributy";
+
+"Set Axes" = "Nastavit osy";
+
+"Set Axis Default Value" = "Nastavit výchozí hodnotu osy";
+
+"Set Axis Hidden" = "Nastavit skrytí osy";
+
+"Set Axis Name" = "Nastavit název osy";
+
+"Set Axis Tag" = "Nastavit značku osy";
+
+"Set Blur" = "Nastavit rozostření";
+
+"Set Bold" = "Nastavit tučnost";
+
+"Set BSB" = "Nastavit spodní odstup";
+
+"Set Case" = "Nastavit typ";
+
+"Set Color" = "Nastavit barvu";
+
+"Set Colors" = "Nastavit barvy";
+
+"Set Crop to Layer Bounds" = "Oříznout na hranice vrstvy";
+
+"Set Custom Parameter" = "Nastavit uživatelský parametr";
+
+"Set Deltas" = "Nastavit delty";
+
+"Set Direction" = "Nastavit směr";
+
+"Set End" = "Nastavit konec";
+
+"Set Exports" = "Nastavit exporty";
+
+"Set FamilyName" = "Nastavit název rodiny";
+
+"Set Filter" = "Nastavit filtr";
+
+"Set Font Note" = "Opoznámkovat font";
+
+"Set Font Version" = "Nastavit verzi fontu";
+
+"Set Glyph Color" = "Nastavit barvu glyfu";
+
+"Set Guides" = "Nastavit vodítka";
+
+"Set Height" = "Nastavit výšku";
+
+"Set Horizontal" = "Vodorovný směr";
+
+"Set Icon" = "Nastavit ikonu";
+
+"Set Instance Name" = "Nastavit název instance";
+
+"Set Italic" = "Nastavit kurzivu";
+
+"Set KeepWeight" = "Zachovávat tučnost";
+
+"Set Kerning" = "Nastavit kerning";
+
+"Set Kerning Group" = "Nastavit kerningovou skupinu";
+
+"Set Key" = "Nastavit klíč";
+
+"Set Labels" = "Nastavit štítky";
+
+"Set Layer Color" = "Nastavit barvu vrstvy";
+
+"Set Locked" = "Zamknout";
+
+"Set LSB" = "Nastavit levý odstup";
+
+"Set Metric" = "Nastavit metriku";
+
+"Set Metrics" = "Nastavit metriky";
+
+"Set Name" = "Pojmenovat";
+
+"Set Number" = "Nastavit číslo";
+
+"Set Numbers" = "Nastavit čísla";
+
+"Set OffsetX" = "Nastavit odsazení X";
+
+"Set OffsetY" = "Nastavit odsazení Y";
+
+"Set Properties" = "Nastavit vlastnosti";
+
+"Set RSB" = "Nastavit pravý odstup";
+
+"Set Scale" = "Nastavit měřítko";
+
+"Set Shapes" = "Nastavit tvary";
+
+"Set Slant Horizontal" = "Nastavit vodorovný sklon";
+
+"Set Slant Vertical" = "Nastavit svislý sklon";
+
+"Set Smart Component Settings" = "Nastavit chytré komponenty";
+
+"Set Spacing" = "Nastavit spacing";
+
+"Set Start" = "Nastavit počátek";
+
+"Set Stem" = "Nastavit tah";
+
+"Set Stems" = "Nastavit tahy";
+
+"Set Tags" = "Nastavit značky";
+
+"Set Time" = "Nastavit čas";
+
+"Set TSB" = "Nastavit horní odstup";
+
+"Set Type" = "Nastavit typ";
+
+"Set UserData" = "Nastavit uživatelská data";
+
+"Set Value" = "Nastavit hodnotu";
+
+"Set Values" = "Nastavit hodnoty";
+
+"Set Vertical Origin" = "Nastavit svislý počátek";
+
+"Set Vertical Width" = "Nastavit svoslou šířku";
+
+"Set Visible" = "Zviditelnit";
+
+"Set Weight Class" = "Nastavit třídu tučnosti";
+
+"Set Width" = "Nastavit šířku";
+
+"Set Width Class" = "Nastavit třídu šířky";
+
+"Set Width Value" = "Nastavit hodnotu šířky";
+
+"SetDelta" = "SetDelta";
+
+"Shadow" = "Stín";
+
+"Sharpen Corner" = "Vytvořit roh";
+
+"Shift" = "Shift";
+
+"Should the following glyphs be added to the font?" = "Mají být do fontu přidány následující glyfy?";
+
+"Show all glyphs containing this component" = "Zobrazit všechny glyfy obsahující tento komponent";
+
+"Show all glyphs that use this glyph as a component" = "Zobrazit všechny glyfy, které používají tento glyf jako komponent";
+
+/* component context menu
+   glyph context menu */
+"Show all Group Glyphs" = "Zobrazit všechny skupiny glyfů";
+
+"Show Glyph in Font View" = "Zobrazit glyf v přehledu znaků";
+
+"Show Model Glyph" = "Zobrazit vzorový glyf";
+
+"Show Smart Component Settings" = "Zobrazit nastavení chytrých komponentů";
+
+"Show Smart Glyph Settings" = "Zobrazit nastavení chytrých glyfů";
+
+"Slant Height" = "Výška sklonu";
+
+"Smallcaps" = "Kapitálky";
+
+"Smart Component" = "Chytrý komponent";
+
+"Smart Glyph Settings" = "Nastavení chytrého glyfu";
+
+"Smart Settings" = "Chytrá nastavení";
+
+"Snap" = "Přitahovat";
+
+"Soft Light" = "Měkké světlo";
+
+"Some glyphs are not compatible and will have no outlines" = "Některé glyfy nejsou kompatibilní a nelze u nich vytvořit obrys";
+
+"Some metrics keys are out of sync." = "Některé klíče metrik nejsou synchronizované.";
+
+"Something went wrong when Removing Overlap in glyph: %@" = "Při odstraňování překryvu u glyfu %@ došlo k problému.";
+
+"Stem" = "Tah";
+
+"Stems" = "Tahy";
+
+"Stroke" = "Tah";
+
+"Subcategory" = "Podkategorie";
+
+"Subtract Paths" = "Odečíst cesty";
+
+"Tag" = "Značka";
+
+"Tags" = "Značky";
+
+"The %@ begins or ends with a space. That is not allowed." = "%@ začíná nebo končí mezerou, což není povoleno.";
+
+"The %@ can’t be empty" = "%@ nemůže být prázdné";
+
+"The %@ contains illegal characters" = "%@ obsahuje neplatné znaky";
+
+"The %@ contains illegal characters. (e.g. quotes)" = "%@ obsahuje neplatné znaky (např. uvozovky)";
+
+"The %@ is too long" = "%@ je příliš dlouhé";
+
+"The %@ is too short" = "%@ je příliš krátké";
+
+"The callback is not implementing all required methods" = "Opětovné volání neimplementuje všechny požadované metody";
+
+"The component in glyph “%@” has attributes that can’t be saved as format 1." = "Komponent v glyfu „%@“ obsahuje atributy, které nelze uložit do formátu 1.";
+
+"The custom parameter “%@” is not compatible in all masters" = "Uživatelský parametr „%@“ není kompatibilní napříč všemi mastery";
+
+"The filter “%@” should contain a string only." = "Filtr „%@“ by měl obsahovat pouze řetězec.";
+
+"The filter “%@” was referenced in the custom parameters, but is not installed." = "V uživatelských parametrech je odkazováno na filtr „%@“, který ale není nainstalován.";
+
+"The font already contains a glyph with the name: %@" = "Glyf pojmenovaný jako %@ již je ve fontu obsažen";
+
+"The font is missing a glyph “%@” for the feature pattern. (%@)" = "Pro vzorec funkce (%2$@) ve fontu chybí glyf „%1$@“.";
+
+"The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid." = "Font již obsahuje instrukce importované ze zdrojového TrueType fontu. Převodem obrysů se instrukce stanou neplatnými.";
+
+"The glyph is locked. No changes are allowed" = "Glyf je uzamčen. Změny nejsou povoleny.";
+
+"The glyph is not compatible." = "Glyf není kompatibilní.";
+
+"The glyph name contains illegal characters.\nOnly a-z, A-Z, 0-9, underscore, hyphen, and period are allowed." = "Název glyfu obsahuje nepovolené znaky. Povoleny jsou pouze a–z, A–Z, 0–9, podtržítko, spojovník a tečka.";
+
+"The glyph name should not be empty." = "Název glyfu by neměl být prázdný.";
+
+"The glyph name should not contain any space character." = "Název glyfu by neměl obsahovat mezeru.";
+
+"The glyph name should not start with a number (0-9)." = "Název glyfu by neměl začínat číslicí (0–9).";
+
+"The glyphs for %@ are missing" = "Chybí glyfy pro %@";
+
+"The kerning group contains illegal characters.\nOnly a-zA-Z0-9, underscore, hyphen and period are allowed." = "Název kerningové skupiny obsahuje nepovolené znaky. Povoleny jsou pouze a–z, A–Z, 0–9, podtržítko, spojovník a tečka.";
+
+"The layers in this glyph are not compatible." = "Vrstvy tohoto glyfu nejsou kompatibilní.";
+
+"The layers of this glyph are not compatible so only the active layer will be processed." = "Vrstvy tohoto glyfu nejsou kompatibilní, bude použita pouze aktivní vrstva.";
+
+"The linked font “%@” has a different number of masters" = "Propojený font „%@“ má odlišný počet masterů.";
+
+"The linked font “%@” has different masters" = "Propojený font „%@“ má odlišné mastery.";
+
+"The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1." = "Minimální/maximální hodnoty alternativní vrstvy ve glyfu „%@“ nelze uložit do formátu 1.";
+
+"The path in glyph “%@” has attributes that can’t be saved as format 1." = "Cesta glyfu „%@“ obsahuje atributy, které nelze uložit do formátu 1.";
+
+"The property “%@” in the %@: “%@” can’t be saved as format 1." = "Vlastnost „%1$@“ v %2$@: „%3$@“ nelze uložit jako formát 1.";
+
+"The selection is not suitable to paste a %@ component." = "Výběr neumožňuje vložení komponentu %@.";
+
+"The SVG file is not valid XML" = "SVG soubor není platný XML";
+
+"The Unicode value must be 4 to 5 characters long." = "Hodnota Unicode musí obsahovat 4–5 znaků.";
+
+"The Unicode value should only contain the characters 0-9 and A-F." = "Hodnota Unicode by měla obsahovat pouze znaky v rozsahu 0–9 a A–F.";
+
+"The value can not be empty" = "Hodnota nemůže být prázdná";
+
+"The width of this glyph is automatically calculated from the components." = "Šířka tohoto glyfu je automaticky vypočítána z komponentů.";
+
+"The width should not be negative." = "Šířka by neměla být záporná.";
+
+"The “TTFZones” are not set correctly in all masters" = "„TTFZones“ nejsou ve všech masterech správně nastaveny";
+
+"There are annotations" = "Existují poznámky";
+
+"There are problems with the “%@” in font masters." = "Je problém s „%@“ v masterech fontu.";
+
+"There is already a glyph with that name." = "Glyf s tímto názvem je již přítomen.";
+
+"There is an invalid “%@” custom parameter" = "Uživatelský parametr „%@“ je neplatný.";
+
+"There was a problem and no glyph could be created." = "Nastal problém a žádný glyf nebude vytvořen.";
+
+"There was a problem loading the custom GlyphData.xml file." = "Při načítání souboru GlyphsData.xml došlo k problému.";
+
+"There was a problem with undo" = "Došlo k problému s příkazem Zpět";
+
+"Thin" = "Thin";
+
+"This glyph has low level instructions" = "Glyf obsahuje instrukce nízké úrovně";
+
+"This glyph has manually set glyph info" = "Tento glyf má informace o glyfu zadány manuálně";
+
+"This glyph is locked and can’t be edited." = "Tento glyf je uzamčen a nemůže být upravován.";
+
+"This glyph will not be exported to the final font file." = "Tento glyf nebude exportován do finálního fontu.";
+
+"This should show the glyph in the app “UnicodeChecker”, but it is not installed. You can download the app at: ---" = "Glyf by měl být zobrazen v aplikaci „UnicodeChecker“, která ale není nainstalována. Stáhnout ji můžete na adrese: ---";
+
+"This Unicode is already assigned to the glyph: %@" = "Tato hodnota Unicode je již přiřazena glyfu %@";
+
+"This will apply to all master-layers." = "Bude použito na všechny vrstvy s mastery.";
+
+"Too many inflections" = "Příliš komplikované tvarování";
+
+"TopGhost" = "Horní klamný";
+
+"Transform" = "Transformovat prvky";
+
+"Transform Component" = "Transformovat prvky";
+
+"Transform Selection" = "Transformovat výběr";
+
+"TTStem" = "TTStem";
+
+"Ultra Condensed" = "Ultra Condensed";
+
+"Ultra Expanded" = "Ultra Expanded";
+
+"UltraBold" = "UltraBold";
+
+"UltraLight" = "UltraLight";
+
+"Undefined" = "Nedefinováno";
+
+"Undo" = "Zpět";
+
+"Unicode" = "Unicode";
+
+"Unknown" = "Neznámý";
+
+"Unknown language tag: %@ in custom parameter: “%@”." = "Neznámá značka jazyku (%1$@) v uživatelském parametru „%2$@“.";
+
+"Unlock Component" = "Odemknout komponent";
+
+"Unlock Guide" = "Odemknout vodítko";
+
+/* Context Menu
+   undo */
+"Unlock Image" = "Odemknout obraz";
+
+"Unlock Path" = "Odemknout cestu";
+
+"Unusual Bounds" = "Neobvyklé hranice";
+
+"Update BSB" = "Aktualizovat spodní odstup";
+
+"Update LSB" = "Aktualizovat levý odstup";
+
+"Update RSB" = "Aktualizovat pravý odstup";
+
+"Update TSB" = "Aktualizovat horní odstup";
+
+"Update Vertical Width" = "Aktualizovat svislou šířku";
+
+"Update Width" = "Aktualizovat šířku";
+
+"Uppercase" = "Verzálky";
+
+"Use at least format %d." = "Použijte alespoň formát %d.";
+
+"Use Existing" = "Použít existující";
+
+"Value is out of range (16..16384)" = "Hodnota je mimo rozsah (16..16384)";
+
+"W" = "Š";
+
+"Wrong anchor accessor: %@ (needs to be either “x” or “y”) token: %@" = "Chybný přístup ke kotvě: %1$@ (musí být „x“ nebo „y“), token: %2$@";
+
+"x-Height" = "Střední výška";
+
+"Yes" = "Ano";
+
+"You are about to insert a path outside of the glyphs bounds?" = "Chcete vložit cestu mimo hranice glyfu?";
+
+"You can only sync the width and one of the side-bearings." = "Je možné synchronizovat pouze šířku a jeden z odstupů.";
+

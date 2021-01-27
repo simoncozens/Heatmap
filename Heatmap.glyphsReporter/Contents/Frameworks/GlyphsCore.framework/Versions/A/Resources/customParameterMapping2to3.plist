@@ -1,0 +1,17 @@
+{
+	"GASP Table" = "gasp Table";
+	"Make morx table" = "Export morx Table";
+	"Compatible Name Table" = "Compatible name Table";
+	"variableStyleName" = "Variable Font Style Name";
+	"Prep Table Assembly" = "prep Table Assembly";
+	"Fpgm Table Assembly" = "fpgm Table Assembly";
+	"CVT Table" = "cvt Table";
+	"CompatibleNameTable" = "Compatible name Table";
+	"Compatible Name Table" = "Compatible name Table";
+	"Write Kern Table" = "Export kern Table";
+	"Disable Last Change" = "Write lastChange"; // The value is opposit!!
+	"TT BlueFuzz" = TTFBlueFuzz;
+	TTMinimumDistance = TTFMinimumDistance;
+	TTZoneRoundingThreshold = TTFZoneRoundingThreshold;
+	"Variation Font Origin" = "Variable Font Origin";
+}

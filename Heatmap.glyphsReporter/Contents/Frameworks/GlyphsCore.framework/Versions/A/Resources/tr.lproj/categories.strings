@@ -1,0 +1,413 @@
+"All" = "Tümü";
+
+"Letter" = "Harf";
+
+"Uppercase" = "Büyük Harf";
+
+"Lowercase" = "Küçük Harf";
+
+"Ligature" = "Bağlı Harfler";
+
+"Smallcaps" = "Küçük Büyük Harf";
+
+"Superscript" = "Üstindis";
+
+"Number" = "Rakam";
+
+"Decimal Digit" = "Desimal Rakamlar";
+
+"Oldstyle Figures" = "Eski Stil Rakamlar";
+
+"Lining Figures" = "Satıriçi Rakamlar";
+
+"Tabular Figures" = "Sabit Aralıklı Rakamlar";
+
+"Tab Oldstyle Figures" = "Sabit Aralıklı Eski Stil";
+
+"Fraction" = "Kesir";
+
+"Small Figures" = "Küçük Rakamlar";
+
+"Other" = "Diğer";
+
+"Punctuation" = "Noktalama";
+
+"Parenthesis" = "Parantez";
+
+"Dash" = "Tire";
+
+"Quote" = "Tırnak";
+
+"Separator" = "Ayırıcı";
+
+"Space" = "Boşluk";
+
+"Symbol" = "Sembol";
+
+"Currency" = "Para Birimi";
+
+"Math" = "Matematik";
+
+"Arrow" = "Ok";
+
+"Geometry" = "Geometri";
+
+"Mark" = "İşaret";
+
+"Spacing" = "Aralama";
+
+"Combining" = "Kombine";
+
+"Legacy" = "Eskiden Kalma";
+
+"Nonspacing" = "Boşluksuz";
+
+"Modifier" = "Düzenleyici";
+
+"Latin" = "Latince";
+
+"Basic" = "Temel";
+
+"Western European" = "Batı Avrupa";
+
+"Central European" = "Orta Avrupa";
+
+"South Eastern European" = "Güney Doğu Avrupa";
+
+"Vietnamese" = "Vietnamca";
+
+"Pinyin" = "Pinyin";
+
+"IPA" = "IPA";
+
+"Pan African Latin" = "Pan Latin Afrika Dili";
+
+"Cyrillic" = "Kiril Alfabesi";
+
+"Adobe Extended" = "Genişletilmiş Adobe";
+
+"Extended" = "Genişletilmiş";
+
+"Bulgarian" = "Bulgarca";
+
+"Bulgarian Italic" = "Bulgar İtalik";
+
+"Historic Bulgarian" = "Tarihi Bulgarca";
+
+"Serbian and Macedonian" = "Sırpça ve Makedonca";
+
+"Serbian Italic" = "Sırpça İtalik";
+
+"Ukrainian" = "Ukraynaca";
+
+"Greek" = "Yunanca";
+
+"Archaic Letters" = "Arkaik Harfler";
+
+"Polytonic" = "Polytonic";
+
+"Coptic" = "Kıptî";
+
+"Hebrew" = "İbranice";
+
+"Marks and Composites" = "İşaretler ve Birleşimler";
+
+"Arabic" = "Arapça";
+
+"Basic Shapes" = "Temel Şekiller";
+
+"Persian" = "Farsça";
+
+"Urdu" = "Urduca";
+
+"Ligatures" = "Bağlı Harfler";
+
+"Southeast Asia" = "Güneydoğu Asya";
+
+"Cham" = "Cham Dili";
+
+"Khmer" = "Khmerce";
+
+"Lao" = "Laosca";
+
+"Myanmar" = "Myanmarca";
+
+"Thai" = "Thai";
+
+"Tham" = "Tham";
+
+"Other Scripts" = "Diğer Script’ler";
+
+"Armenian" = "Ermenice";
+
+"Syriac" = "Süryanice";
+
+"Ethiopic" = "Ethiopic";
+
+"Georgian" = "Gürcüce";
+
+"Old Orthography" = "Eski Ortografi";
+
+"Old Georgian" = "Eski Gürcüce";
+
+"Tifinagh" = "Tifinag";
+
+"Basic-IRCAM" = "Temel-IRCAM";
+
+"Neo-Tifinagh" = "Neo-Tifinagh";
+
+"Tuareg" = "Tuareg";
+
+"Chinese" = "Çince";
+
+"Fundamental" = "Temel";
+
+"Educational Basic" = "Eğitsel Temel";
+
+"Ideograph" = "İdeografi";
+
+"Japanese" = "Japonca";
+
+"Kana" = "Kanaca";
+
+"Japanese Kanji" = "Japon Kanji";
+
+"Joyo" = "Joyo";
+
+"JIS Standard 1" = "JIS Standard 1";
+
+"JIS Standard 2" = "JIS Standard 2";
+
+"IBM Extended" = "IBM Genişletilmiş";
+
+"Educational 1" = "Eğitsel 1";
+
+"Educational 2" = "Eğitsel 2";
+
+"Educational 3" = "Eğitsel 3";
+
+"Educational 4" = "Eğitsel 4";
+
+"Educational 5" = "Eğitsel 5";
+
+"Educational 6" = "Eğitsel 6";
+
+"Indic" = "Hint Dil Grubu";
+
+"Bengali" = "Bengalce";
+
+"Devanagari" = "Devanagari";
+
+"Gujarati" = "Gujarati";
+
+"Gurmukhi" = "Gurmukhi";
+
+"Kannada" = "Kannadaca";
+
+"Malayalam" = "Malayalam";
+
+"Oriya" = "Oriya";
+
+"Tamil" = "Tamil";
+
+"Sanskrit" = "Sanskrit";
+
+"Base" = "Temel";
+
+"Conjuncts" = "bitişik yerler";
+
+"Consonants" = "Ünsüzler";
+
+"Extra Conjuncts" = "Ekstra Bitişik";
+
+"Halfform" = "Yarıform";
+
+"Letters and Marks" = "Harfler ve İşaretler";
+
+"Letters" = "Harfler";
+
+"Marks" = "İşaretler";
+
+"Matras" = "Matras";
+
+"Medials" = "Ortasallar";
+
+"Minority" = "Azınlık";
+
+"Numbers" = "Rakamlar";
+
+"Numerals" = "Rakamsal";
+
+"Punctuation" = "Noktalama";
+
+"Separator" = "Ayırıcı";
+
+"Stuff" = "Diğer";
+
+"Subjoined" = "Altbirleşik";
+
+"Symbol" = "Sembol";
+
+"Symbols" = "sembol";
+
+"Symbols and Punctuation" = "Semboller ve Noktalama İşaretleri";
+
+"Traditional" = "Geleneksel";
+
+"Vowels" = "Ünlü Harfler";
+
+"Korean" = "Hangul";
+
+"Jamo" = "Jamo";
+
+"Miscellaneous" = "Çeşitli";
+
+"Music" = "Müzik";
+
+"Braille" = "Braille Alfabesi";
+
+"Corner" = "Köşe";
+
+"Smart Glyph" = "Akıllı Glif";
+
+"Private Use" = "Özel Kullanım";
+
+"Separators" = "Ayırıcılar";
+
+"Choseong" = "Choseong";
+
+"Jungseong" = "Jungseong";
+
+"Jongseong" = "Jongseong";
+
+"Basic Syllables" = "Temel Heceler";
+
+"All Syllables" = "Tüm Heceler";
+
+"Codepages" = "Kodsayfaları";
+
+"Adobe-KR-0" = "Adobe-KR-0";
+
+"Adobe-KR-1" = "Adobe-KR-1";
+
+"Adobe-KR-2" = "Adobe-KR-2";
+
+"Adobe-KR-3" = "Adobe-KR-3";
+
+"Adobe-KR-4" = "Adobe-KR-4";
+
+"Adobe-KR-5" = "Adobe-KR-5";
+
+"Adobe-KR-6" = "Adobe-KR-6";
+
+"Adobe-KR-7" = "Adobe-KR-7";
+
+"Adobe-KR-8" = "Adobe-KR-8";
+
+"Adobe-KR-9" = "Adobe-KR-9";
+
+"KS X 1001 (Hangul)" = "KS X 1001 (Hangul)";
+
+"KS X 1001 (Non-Hangul)" = "KS X 1001 (Non-Hangul)";
+
+"KS X 1001 (Hanja)" = "KS X 1001 (Hanja)";
+
+"Akhand & Nonlinear" = "Akhand ve Doğrusal Olmayan";
+
+"Half conjuncts" = "Yarım Bitişikler";
+
+"Linear Conjuncts" = "Doğrusal Bitişikler";
+
+"Independent" = "Bağımsız";
+
+"Dependent" = "Bağımlı";
+
+"Coeng forms" = "Coeng formları";
+
+"Pre-base" = "Anayapı-öncül";
+
+"Below-base" = "Taban-altı";
+
+"Post-base" = "Anayapı-ardıl";
+
+"Lunar" = "Lunar";
+
+"Divination" = "Sezgisel";
+
+"Buginese" = "Bugice";
+
+"Elymaic" = "Elam";
+
+"Old Hungarian" = "Eski Macarca";
+
+"Europe" = "Avrupa";
+
+"Sámi" = "Sámi";
+
+"Esperanto" = "Esperanto";
+
+"Pan African" = "Pan Afrikaca";
+
+"Romanization" = "Romanizasyon";
+
+"Arabic ALA-LC" = "Arapça ALA-LC";
+
+"Arabic DMG" = "Arapça DMG";
+
+"Arabic ISO 233" = "Arapça ISO 233";
+
+"CJK" = "CJK";
+
+"Fundamental (Simplified)" = "Temel (Basitleştirilmiş)";
+
+"Fundamental (Traditional)" = "Temel (Geleneksel)";
+
+"Undecomposable" = "Ayrıştırılamaz";
+"Commonly Used on Internet" = "İnternette Yaygın Kullanılan";
+"Regional" = "Bölgesel";
+"China Mainland" = "Anakara Çincesi";
+"General Standard Chinese Characters 1" = "Genel Standart Çince Karakterler 1";
+"General Standard Chinese Characters 2" = "Genel Standart Çince Karakterler 2";
+"General Standard Chinese Characters 3" = "Genel Standart Çince Karakterler 3";
+"Taiwan" = "Tayvanca";
+"Frequently Used Chinese Characters" = "Sıkça Kullanılan Çince Karakterler";
+"Less Commonly Used Chinese Characters" = "Ender Kullanılan Çince Karakterler";
+"Hong Kong" = "Hong Kong";
+"Commonly Used Chinese Characters" = "Yaygın Kullanılan Çince Karakterler";
+"Character Sets" = "Karakter Setleri";
+"GB 2312" = "GB 2312";
+"Big 5" = "Büyük 5";
+"Unicode CJK Unified Ideographs" = "Unicode CJK Tümleşik İdeografileri";
+"Unicode CJK Unified Ideographs Extension A" = "Unicode CJK Tümleşik İdeografileri Genişletme A";
+"Radicals, Strokes and Symbols" = "Radikaller, Çizgiler ve Semboller";
+"Kangxi Radicals" = "Kangxi Radikalleri";
+"Radicals Supplement" = "Radikaller Ek";
+"Strokes" = "Çizgiler";
+"Bopomofo" = "Bopomofo";
+"Bopomofo Extended" = "Bopomofo Genişletilmiş";
+"Suzhou Numerals" = "Suzhou Rakamları";
+"Other Han Symbols" = "Diğer Han Sembolleri";
+"South Asia" = "Güney Asya";
+"Caucasus" = "Kafkas";
+"Africa" = "Afrika";
+"Punctuation and Symbols" = "Noktalama İşaretleri ve Semboller";
+"Fullwidth" = "Tam Geniş";
+
+"South American" = "Güney Amerika";
+"Oceanian" = "Okyanusya";
+"Runes" = "Runik yazı";
+"Cantillation and Extras" = "Dirsek İşareti ve Ekstralar";
+"Emojis" = "Emojiler";
+"Smileys & People" = "Smiley ve İnsanlar";
+"Animals & Nature" = "Hayvanlar ve Doğa";
+"Food & Drink" = "Yeme-İçme";
+"Activity" = "Etkinlik";
+"Travel & Places" = "Gezi ve Mekanlar";
+"Objects" = "Nesneler";
+"Flags" = "Bayrak";
+
+"Six" = "Altı";
+"Eight" = "Sekiz";
+
+"Balinese" = "Balinese";
+"Gantungan" = "Gantungan";

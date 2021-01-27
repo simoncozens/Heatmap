@@ -1,0 +1,982 @@
+"A Stem has a filter that can’t be saved as format 1." = "A Stem has a filter that can’t be saved as format 1.";
+
+"Add" = "Add";
+
+"Add Anchor" = "Add Anchor";
+
+"Add Axis" = "Add Axis";
+
+"Add Brush" = "Add Brush";
+
+"Add Cap Component" = "Add Cap Component";
+
+"Add Class" = "Add Class";
+
+"Add Color" = "Add Color";
+
+"Add Component…" = "Add Component…";
+
+"Add Corner Component" = "Add Corner Component";
+
+"Add Corner Component in all Masters" = "Add Corner Component in all Masters";
+
+"Add Custom Parameter" = "Add Custom Parameter";
+
+"Add Feature" = "Add Feature";
+
+"Add FontMaster" = "Add FontMaster";
+
+"Add Global Guide" = "Add Global Guide";
+
+"Add Glyph" = "Add Glyph";
+
+"Add Glyphs" = "Add Glyphs";
+
+"Add Gradient" = "Add Gradient";
+
+/* Add Guide context menu
+   undo */
+"Add Guide" = "Add Guide";
+
+"Add Hint" = "Add Hint";
+
+"Add Horizontal Hint" = "Add Horizontal Hint";
+
+"Add Image" = "Add Image";
+
+"Add Inner Shadow" = "Add Inner Shadow";
+
+"Add Label" = "Add Label";
+
+"Add Pattern Image" = "Add Pattern Image";
+
+"Add Prefix" = "Add Prefix";
+
+"Add Property" = "Add Property";
+
+"Add Segment Component" = "Add Segment Component";
+
+"Add Shadow" = "Add Shadow";
+
+"Add Shape" = "Add Shape";
+
+"Add Tags" = "Add Tags";
+
+"Add Value" = "Add Value";
+
+"Add Vertical Hint" = "Add Vertical Hint";
+
+/* Search option
+   The Title of the All Group in the sidebar of the FontView */
+"All" = "All";
+
+"All undo for that glyph is removed but should start working again." = "All undo for that glyph is removed but should start working again.";
+
+"An unknown problem occurred while executing an Apple Script command." = "An unknown problem occurred while executing an Apple Script command.";
+
+"Anchor Context" = "Anchor Context";
+
+"Ascender" = "Ascender";
+
+"Attributes" = "Attributes";
+
+"Auto" = "Auto";
+
+"Autohint" = "Autohint";
+
+"Automatic Alignment is Disabled in Font Info" = "Automatic Alignment is Disabled in Font Info";
+
+"Baseline" = "Baseline";
+
+"Black" = "Black";
+
+"Body Height" = "Body Height";
+
+"Bold" = "Bold";
+
+"BottomGhost" = "BottomGhost";
+
+"Brush" = "Brush";
+
+"Cancel" = "Cancel";
+
+"Can’t be empty" = "Can’t be empty";
+
+"Can’t convert to compatible TrueType curves." = "Can’t convert to compatible TrueType curves.";
+
+"Can’t save localised “%@” in format 2." = "Can’t save localised “%@” in format 2.";
+
+"Can’t save path attributes in format 2." = "Can’t save path attributes in format 2.";
+
+"Can’t save RTL kerning in format 2." = "Can’t save RTL kerning in format 2.";
+
+"Cap" = "Cap";
+
+"Cap Height" = "Cap Height";
+
+"Case" = "Case";
+
+"CATEGORIES" = "CATEGORIES";
+
+"Category" = "Category";
+
+"Change Connection" = "Change Connection";
+
+"Change Date" = "Change Date";
+
+"Change Disables Nice Names" = "Change Disables Nice Names";
+
+"Change Font Grid" = "Change Font Grid";
+
+"Change Font Keyboard Movement" = "Change Font Keyboard Movement";
+
+"Change Font Version" = "Change Font Version";
+
+"Change Hint" = "Change Hint";
+
+"Change Hint Origin" = "Change Hint Origin";
+
+"Change Hint Width" = "Change Hint Width";
+
+"Change Preview Remove Overlap" = "Change Preview Remove Overlap";
+
+"Change the file version in Font Info > Other Setting." = "Change the file version in Font Info > Other Setting.";
+
+"Change UPM" = "Change UPM";
+
+"Choose Component" = "Choose Component";
+
+"Choose Image" = "Choose Image";
+
+"Clear Background" = "Clear Background";
+
+"Clear Focus on Paths" = "Clear Focus on Paths";
+
+"Close Open Paths" = "Close Open Paths";
+
+"Color" = "Color";
+
+"Color Burn" = "Color Burn";
+
+"Color Dodge" = "Color Dodge";
+
+"Component" = "Component";
+
+"Component from Selection" = "Component from Selection";
+
+"Condensed" = "Condensed";
+
+"Connect Nodes" = "Connect Nodes";
+
+"Copy Attributes" = "Copy Attributes";
+
+"Copy Custom Parameter" = "Copy Custom Parameter";
+
+"Corner" = "Corner";
+
+"Correct Bounds" = "Correct Bounds";
+
+"Could not parse token: %@ (in %@):" = "Could not parse token: %1$@ (in %2$@):";
+
+"Couldn’t find glyph: %@" = "Couldn’t find glyph: %@";
+
+"Create Composite" = "Create Composite";
+
+"Crop Image" = "Crop Image";
+
+"Darken" = "Darken";
+
+"Decompose" = "Decompose";
+
+"Decompose Brush" = "Decompose Brush";
+
+"Decompose Cap" = "Decompose Cap";
+
+"Decompose Component" = "Decompose Component";
+
+"Decompose Corner" = "Decompose Corner";
+
+"Decompose Segment Component" = "Decompose Segment Component";
+
+"Delta" = "Delta";
+
+"DemiBold" = "DemiBold";
+
+"Descender" = "Descender";
+
+"Diagonal" = "Diagonal";
+
+"didn’t find anchor: %@ in glyph: %@ in token: %@" = "didn’t find anchor: %1$@ in glyph: %2$@ in token: %3$@";
+
+"Difference" = "Difference";
+
+/* Automatic Alignment context menu
+   undo */
+"Disable Automatic Alignment" = "Disable Automatic Alignment";
+
+"Disable automatic alignment for the components to manually set the LSB." = "Disable automatic alignment for the components to manually set the LSB.";
+
+"Disable automatic alignment for the components to manually set the RSB." = "Disable automatic alignment for the components to manually set the RSB.";
+
+"Disable automatic alignment for the components to manually set the width." = "Disable automatic alignment for the components to manually set the width.";
+
+"Do you want to use the existing glyph as a component or replace it?" = "Do you want to use the existing glyph as a component or replace it?";
+
+"Drag Curve" = "Drag Curve";
+
+"Duplicate master coordinates %@" = "Duplicate master coordinates %@";
+
+"empty Note" = "empty Note";
+
+"empty\nbase\nglyph" = "empty\nbase\nglyph";
+
+"Enable Automatic Alignment" = "Enable Automatic Alignment";
+
+"Error applying %@" = "Error applying %@";
+
+"Exclusion" = "Exclusion";
+
+"Expanded" = "Expanded";
+
+"expecting '%C'" = "expecting '%C'";
+
+"Export" = "Export";
+
+"Extra Condensed" = "Extra Condensed";
+
+"Extra Expanded" = "Extra Expanded";
+
+"ExtraBold" = "ExtraBold";
+
+"ExtraLight" = "ExtraLight";
+
+"Fill" = "Fill";
+
+"Fill Outlines" = "Fill Outlines";
+
+"Filter references unknown class" = "Filter references unknown class";
+
+"Filter Settings invalid." = "Filter Settings invalid.";
+
+"Filter unavailable." = "Filter unavailable.";
+
+"FILTERS" = "FILTERS";
+
+"Flex" = "Flex";
+
+"Focus on Selected Paths" = "Focus on Selected Paths";
+
+"For key “%@”" = "For key “%@”";
+
+"Force Automatic Alignment" = "Force Automatic Alignment";
+
+"Glyph for token: %@ not found" = "Glyph for token: %@ not found";
+
+"Glyph “%@” contains a curve that has too many inflections." = "Glyph “%@” contains a curve that has too many inflections.";
+
+"Glyph “%@” has corrupted outlines." = "Glyph “%@” has corrupted outlines.";
+
+"Glyph “%@” is not compatible." = "Glyph “%@” is not compatible.";
+
+"Gradient" = "Gradient";
+
+"Group" = "Group";
+
+"Hard Light" = "Hard Light";
+
+"Heavy" = "Heavy";
+
+"Ignore" = "Ignore";
+
+"illegal part in token: %@" = "illegal part in token: %@";
+
+"Image Path" = "Image Path";
+
+"Inner Shadow" = "Inner Shadow";
+
+"Insert Anchor" = "Insert Anchor";
+
+"Insert Axis" = "Insert Axis";
+
+"Insert Color" = "Insert Color";
+
+"Insert Guide" = "Insert Guide";
+
+"Insert Label" = "Insert Label";
+
+"Insert Node" = "Insert Node";
+
+"Insert Path" = "Insert Path";
+
+"Insert Property" = "Insert Property";
+
+"Insert Shape" = "Insert Shape";
+
+"Insert Value" = "Insert Value";
+
+"Instance is not set up correctly: %@ (no instanceInterpolations)" = "Instance is not set up correctly: %@ (no instanceInterpolations)";
+
+"Interpolate" = "Interpolate";
+
+"Intersect Paths" = "Intersect Paths";
+
+"Invalid Axis rule in glyph %@" = "Invalid Axis rule in glyph %@";
+
+"invalid feature code generator" = "invalid feature code generator";
+
+"Invalid format in filter parameter" = "Invalid format in filter parameter";
+
+"Invalid predicate expression: “%@”" = "Invalid predicate expression: “%@”";
+
+"Invalid Values" = "Invalid Values";
+
+"is" = "is";
+
+"is not" = "is not";
+
+"Italic Angle" = "Italic Angle";
+
+"Keep Alternates Together" = "Keep Alternates Together";
+
+"Kern" = "Kern";
+
+"LANGUAGES" = "LANGUAGES";
+
+"Leave as is" = "Leave as is";
+
+"Light" = "Light";
+
+"Lighten" = "Lighten";
+
+"Lock Component" = "Lock Component";
+
+"Lock Guide" = "Lock Guide";
+
+"Lock Guides" = "Lock Guides";
+
+/* Context Menu
+   undo */
+"Lock Image" = "Lock Image";
+
+"Lock Path" = "Lock Path";
+
+"Locked" = "Locked";
+
+"Lowercase" = "Lowercase";
+
+"Make Curve" = "Make Curve";
+
+"Make First" = "Make First";
+
+"Make Ghost Hint" = "Make Ghost Hint";
+
+"Make Global Guide" = "Make Global Guide";
+
+"Make Local Guide" = "Make Local Guide";
+
+"Make Node First" = "Make Node First";
+
+"Make Node First in all Masters" = "Make Node First in all Masters";
+
+"Make Stroke" = "Make Stroke";
+
+"Mask" = "Mask";
+
+"Medium" = "Medium";
+
+"Medium (normal)" = "Medium (normal)";
+
+"Mid Height" = "Mid Height";
+
+"Minor" = "Minor";
+
+"Missing components" = "Missing components";
+
+"Missing “key” entry at line %d" = "Missing “key” entry at line %d";
+
+"Missing “value” or “values” entry at line %d" = "Missing “value” or “values” entry at line %d";
+
+"More than one Variable Instance can’t be saved in a format 2 file." = "More than one Variable Instance can’t be saved in a format 2 file.";
+
+"Move Anchor" = "Move Anchor";
+
+"Move Component" = "Move Component";
+
+"Move Element" = "Move Element";
+
+"Move Elements" = "Move Elements";
+
+"Move Guide" = "Move Guide";
+
+"Move Image" = "Move Image";
+
+"Move Nodes" = "Move Nodes";
+
+"Multi" = "Multi";
+
+"multi" = "multi";
+
+"Multiply" = "Multiply";
+
+"Name" = "Name";
+
+"Name of the Component Glyph" = "Name of the Component Glyph";
+
+"New Font" = "New Font";
+
+"New Parameter" = "New Parameter";
+
+"New Value" = "New Value";
+
+"newGlyph" = "newGlyph";
+
+"No" = "No";
+
+"No Case" = "No Case";
+
+"no name" = "no name";
+
+"Normal" = "Normal";
+
+"Not all glyphs are in the font, yet" = "Not all glyphs are in the font, yet";
+
+"Not all Glyphs are present in the font." = "Not all Glyphs are present in the font.";
+
+"Not enough arguments for anchors token: %@" = "Not enough arguments for anchors token: %@";
+
+"not set" = "not set";
+
+"Nothing is selected" = "Nothing is selected";
+
+"Nudge Nodes" = "Nudge Nodes";
+
+"Number values can’t be saved as format 1." = "Number values can’t be saved as format 1.";
+
+"OK" = "OK";
+
+"Open" = "Open";
+
+"Open Corner" = "Open Corner";
+
+"Open Corner in all Masters" = "Open Corner in all Masters";
+
+"Open Path" = "Open Path";
+
+"Overlay" = "Overlay";
+
+"Paste Attributes" = "Paste Attributes";
+
+"Pattern Image" = "Pattern Image";
+
+"Please check the outlines" = "Please check the outlines";
+
+"Please fix this in Font Info" = "Please fix this in Font Info";
+
+"Please select glyphs" = "Please select glyphs";
+
+"Please select the two nodes of a line segment" = "Please select the two nodes of a line segment";
+
+"Problem with file at line %d" = "Problem with file at line %d";
+
+"Problem with SVG" = "Problem with SVG";
+
+"reading: %@" = "reading: %@";
+
+"Reconnect Nodes" = "Reconnect Nodes";
+
+"Reconnect Nodes in all Masters" = "Reconnect Nodes in all Masters";
+
+"Redo" = "Redo";
+
+"Regular" = "Regular";
+
+"Remove" = "Remove";
+
+"Remove Anchor" = "Remove Anchor";
+
+"Remove Annotation" = "Remove Annotation";
+
+"Remove Axis" = "Remove Axis";
+
+"Remove Class" = "Remove Class";
+
+"Remove Color" = "Remove Color";
+
+"Remove Custom Parameter" = "Remove Custom Parameter";
+
+"Remove Feature" = "Remove Feature";
+
+"Remove FontMaster" = "Remove FontMaster";
+
+"Remove Glyph" = "Remove Glyph";
+
+"Remove Glyphs" = "Remove Glyphs";
+
+"Remove Guide" = "Remove Guide";
+
+"Remove Hint" = "Remove Hint";
+
+"Remove Image" = "Remove Image";
+
+"Remove Label" = "Remove Label";
+
+"remove Layer" = "remove Layer";
+
+"Remove Overlap" = "Remove Overlap";
+
+"Remove Path" = "Remove Path";
+
+"Remove Prefix" = "Remove Prefix";
+
+"Remove Property" = "Remove Property";
+
+"Remove Selected Objects" = "Remove Selected Objects";
+
+"Remove Shape" = "Remove Shape";
+
+"Remove Shapes" = "Remove Shapes";
+
+"Remove Tags" = "Remove Tags";
+
+"Remove Value" = "Remove Value";
+
+"Rename Glyph" = "Rename Glyph";
+
+"Replace" = "Replace";
+
+"Replace Axis" = "Replace Axis";
+
+"Replace Class" = "Replace Class";
+
+"Replace Color" = "Replace Color";
+
+"Replace Feature" = "Replace Feature";
+
+"Replace Guide" = "Replace Guide";
+
+"Replace Label" = "Replace Label";
+
+"Replace Node" = "Replace Node";
+
+"Replace Property" = "Replace Property";
+
+"Replace Shape" = "Replace Shape";
+
+"Reveal in Finder" = "Reveal in Finder";
+
+"Reverse All Contours" = "Reverse All Contours";
+
+/* Reverse Contour context menu
+   undo */
+"Reverse Contour" = "Reverse Contour";
+
+"Reverse Selected Contours" = "Reverse Selected Contours";
+
+"Rotate Guide" = "Rotate Guide";
+
+"Screen" = "Screen";
+
+"Script" = "Script";
+
+"Segment" = "Segment";
+
+"Select" = "Select";
+
+"Select Glyph" = "Select Glyph";
+
+"Selection to Background" = "Selection to Background";
+
+"Semi Expanded" = "Semi Expanded";
+
+"SemiBold" = "SemiBold";
+
+"SemiCondensed" = "SemiCondensed";
+
+"Set Alignment" = "Set Alignment";
+
+"Set Alignment Zone" = "Set Alignment Zone";
+
+"Set Anchor" = "Set Anchor";
+
+"Set Anchors" = "Set Anchors";
+
+"Set Angle" = "Set Angle";
+
+"Set Attribute" = "Set Attribute";
+
+"Set Attributes" = "Set Attributes";
+
+"Set Axes" = "Set Axes";
+
+"Set Axis Default Value" = "Set Axis Default Value";
+
+"Set Axis Hidden" = "Set Axis Hidden";
+
+"Set Axis Name" = "Set Axis Name";
+
+"Set Axis Tag" = "Set Axis Tag";
+
+"Set Blur" = "Set Blur";
+
+"Set Bold" = "Set Bold";
+
+"Set BSB" = "Set BSB";
+
+"Set Case" = "Set Case";
+
+"Set Color" = "Set Color";
+
+"Set Colors" = "Set Colors";
+
+"Set Crop to Layer Bounds" = "Set Crop to Layer Bounds";
+
+"Set Custom Parameter" = "Set Custom Parameter";
+
+"Set Deltas" = "Set Deltas";
+
+"Set Direction" = "Set Direction";
+
+"Set End" = "Set End";
+
+"Set Exports" = "Set Exports";
+
+"Set FamilyName" = "Set FamilyName";
+
+"Set Filter" = "Set Filter";
+
+"Set Font Note" = "Set Font Note";
+
+"Set Font Version" = "Set Font Version";
+
+"Set Glyph Color" = "Set Glyph Color";
+
+"Set Guides" = "Set Guides";
+
+"Set Height" = "Set Height";
+
+"Set Horizontal" = "Set Horizontal";
+
+"Set Icon" = "Set Icon";
+
+"Set Instance Name" = "Set Instance Name";
+
+"Set Italic" = "Set Italic";
+
+"Set KeepWeight" = "Set KeepWeight";
+
+"Set Kerning" = "Set Kerning";
+
+"Set Kerning Group" = "Set Kerning Group";
+
+"Set Key" = "Set Key";
+
+"Set Labels" = "Set Labels";
+
+"Set Layer Color" = "Set Layer Color";
+
+"Set Locked" = "Set Locked";
+
+"Set LSB" = "Set LSB";
+
+"Set Metric" = "Set Metric";
+
+"Set Metrics" = "Set Metrics";
+
+"Set Name" = "Set Name";
+
+"Set Number" = "Set Number";
+
+"Set Numbers" = "Set Numbers";
+
+"Set OffsetX" = "Set OffsetX";
+
+"Set OffsetY" = "Set OffsetY";
+
+"Set Properties" = "Set Properties";
+
+"Set RSB" = "Set RSB";
+
+"Set Scale" = "Set Scale";
+
+"Set Shapes" = "Set Shapes";
+
+"Set Slant Horizontal" = "Set Slant Horizontal";
+
+"Set Slant Vertical" = "Set Slant Vertical";
+
+"Set Smart Component Settings" = "Set Smart Component Settings";
+
+"Set Spacing" = "Set Spacing";
+
+"Set Start" = "Set Start";
+
+"Set Stem" = "Set Stem";
+
+"Set Stems" = "Set Stems";
+
+"Set Tags" = "Set Tags";
+
+"Set Time" = "Set Time";
+
+"Set TSB" = "Set TSB";
+
+"Set Type" = "Set Type";
+
+"Set UserData" = "Set UserData";
+
+"Set Value" = "Set Value";
+
+"Set Values" = "Set Values";
+
+"Set Vertical Origin" = "Set Vertical Origin";
+
+"Set Vertical Width" = "Set Vertical Width";
+
+"Set Visible" = "Set Visible";
+
+"Set Weight Class" = "Set Weight Class";
+
+"Set Width" = "Set Width";
+
+"Set Width Class" = "Set Width Class";
+
+"Set Width Value" = "Set Width Value";
+
+"SetDelta" = "SetDelta";
+
+"Shadow" = "Shadow";
+
+"Sharpen Corner" = "Sharpen Corner";
+
+"Shift" = "Shift";
+
+"Should the following glyphs be added to the font?" = "Should the following glyphs be added to the font?";
+
+"Show all glyphs containing this component" = "Show all glyphs containing this component";
+
+"Show all glyphs that use this glyph as a component" = "Show all glyphs that use this glyph as a component";
+
+/* component context menu
+   glyph context menu */
+"Show all Group Glyphs" = "Show all Group Glyphs";
+
+"Show Glyph in Font View" = "Show Glyph in Font View";
+
+"Show Model Glyph" = "Show Model Glyph";
+
+"Show Smart Component Settings" = "Show Smart Component Settings";
+
+"Show Smart Glyph Settings" = "Show Smart Glyph Settings";
+
+"Slant Height" = "Slant Height";
+
+"Smallcaps" = "Smallcaps";
+
+"Smart Component" = "Smart Component";
+
+"Smart Glyph Settings" = "Smart Glyph Settings";
+
+"Smart Settings" = "Smart Settings";
+
+"Snap" = "Snap";
+
+"Soft Light" = "Soft Light";
+
+"Some glyphs are not compatible and will have no outlines" = "Some glyphs are not compatible and will have no outlines";
+
+"Some metrics keys are out of sync." = "Some metrics keys are out of sync.";
+
+"Something went wrong when Removing Overlap in glyph: %@" = "Something went wrong when Removing Overlap in glyph: %@";
+
+"Stem" = "Stem";
+
+"Stems" = "Stems";
+
+"Stroke" = "Stroke";
+
+"Subcategory" = "Subcategory";
+
+"Subtract Paths" = "Subtract Paths";
+
+"Tag" = "Tag";
+
+"Tags" = "Tags";
+
+"The %@ begins or ends with a space. That is not allowed." = "The %@ begins or ends with a space. That is not allowed.";
+
+"The %@ can’t be empty" = "The %@ can’t be empty";
+
+"The %@ contains illegal characters" = "The %@ contains illegal characters";
+
+"The %@ contains illegal characters. (e.g. quotes)" = "The %@ contains illegal characters. (e.g. quotes)";
+
+"The %@ is too long" = "The %@ is too long";
+
+"The %@ is too short" = "The %@ is too short";
+
+"The callback is not implementing all required methods" = "The callback is not implementing all required methods";
+
+"The component in glyph “%@” has attributes that can’t be saved as format 1." = "The component in glyph “%@” has attributes that can’t be saved as format 1.";
+
+"The custom parameter “%@” is not compatible in all masters" = "The custom parameter “%@” is not compatible in all masters";
+
+"The filter “%@” should contain a string only." = "The filter “%@” should contain a string only.";
+
+"The filter “%@” was referenced in the custom parameters, but is not installed." = "The filter “%@” was referenced in the custom parameters, but is not installed.";
+
+"The font already contains a glyph with the name: %@" = "The font already contains a glyph with the name: %@";
+
+"The font is missing a glyph “%@” for the feature pattern. (%@)" = "The font is missing a glyph “%1$@” for the feature pattern. (%2$@)";
+
+"The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid." = "The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid.";
+
+"The glyph is locked. No changes are allowed" = "The glyph is locked. No changes are allowed";
+
+"The glyph is not compatible." = "The glyph is not compatible.";
+
+"The glyph name contains illegal characters.\nOnly a-z, A-Z, 0-9, underscore, hyphen, and period are allowed." = "The glyph name contains illegal characters.\nOnly a-z, A-Z, 0-9, underscore, hyphen, and period are allowed.";
+
+"The glyph name should not be empty." = "The glyph name should not be empty.";
+
+"The glyph name should not contain any space character." = "The glyph name should not contain any space character.";
+
+"The glyph name should not start with a number (0-9)." = "The glyph name should not start with a number (0-9).";
+
+"The glyphs for %@ are missing" = "The glyphs for %@ are missing";
+
+"The kerning group contains illegal characters.\nOnly a-zA-Z0-9, underscore, hyphen and period are allowed." = "The kerning group contains illegal characters.\nOnly a-zA-Z0-9, underscore, hyphen and period are allowed.";
+
+"The layers in this glyph are not compatible." = "The layers in this glyph are not compatible.";
+
+"The layers of this glyph are not compatible so only the active layer will be processed." = "The layers of this glyph are not compatible so only the active layer will be processed.";
+
+"The linked font “%@” has a different number of masters" = "The linked font “%@” has a different number of masters";
+
+"The linked font “%@” has different masters" = "The linked font “%@” has different masters";
+
+"The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1." = "The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1.";
+
+"The path in glyph “%@” has attributes that can’t be saved as format 1." = "The path in glyph “%@” has attributes that can’t be saved as format 1.";
+
+"The property “%@” in the %@: “%@” can’t be saved as format 1." = "The property “%1$@” in the %2$@: “%3$@” can’t be saved as format 1.";
+
+"The selection is not suitable to paste a %@ component." = "The selection is not suitable to paste a %@ component.";
+
+"The SVG file is not valid XML" = "The SVG file is not valid XML";
+
+"The Unicode value must be 4 to 5 characters long." = "The Unicode value must be 4 to 5 characters long.";
+
+"The Unicode value should only contain the characters 0-9 and A-F." = "The Unicode value should only contain the characters 0-9 and A-F.";
+
+"The value can not be empty" = "The value can not be empty";
+
+"The width of this glyph is automatically calculated from the components." = "The width of this glyph is automatically calculated from the components.";
+
+"The width should not be negative." = "The width should not be negative.";
+
+"The “TTFZones” are not set correctly in all masters" = "The “TTFZones” are not set correctly in all masters";
+
+"There are annotations" = "There are annotations";
+
+"There are problems with the “%@” in font masters." = "There are problems with the “%@” in font masters.";
+
+"There is already a glyph with that name." = "There is already a glyph with that name.";
+
+"There is an invalid “%@” custom parameter" = "There is an invalid “%@” custom parameter";
+
+"There was a problem and no glyph could be created." = "There was a problem and no glyph could be created.";
+
+"There was a problem loading the custom GlyphData.xml file." = "There was a problem loading the custom GlyphData.xml file.";
+
+"There was a problem with undo" = "There was a problem with undo";
+
+"Thin" = "Thin";
+
+"This glyph has low level instructions" = "This glyph has low level instructions";
+
+"This glyph has manually set glyph info" = "This glyph has manually set glyph info";
+
+"This glyph is locked and can’t be edited." = "This glyph is locked and can’t be edited.";
+
+"This glyph will not be exported to the final font file." = "This glyph will not be exported to the final font file.";
+
+"This should show the glyph in the app “UnicodeChecker”, but it is not installed. You can download the app at: ---" = "This should show the glyph in the app “UnicodeChecker”, but it is not installed. You can download the app at: ---";
+
+"This Unicode is already assigned to the glyph: %@" = "This Unicode is already assigned to the glyph: %@";
+
+"This will apply to all master-layers." = "This will apply to all master-layers.";
+
+"Too many inflections" = "Too many inflections";
+
+"TopGhost" = "TopGhost";
+
+"Transform" = "Transform";
+
+"Transform Component" = "Transform Component";
+
+"Transform Selection" = "Transform Selection";
+
+"TTStem" = "TTStem";
+
+"Ultra Condensed" = "Ultra Condensed";
+
+"Ultra Expanded" = "Ultra Expanded";
+
+"UltraBold" = "UltraBold";
+
+"UltraLight" = "UltraLight";
+
+"Undefined" = "Undefined";
+
+"Undo" = "Undo";
+
+"Unicode" = "Unicode";
+
+"Unknown" = "Unknown";
+
+"Unknown language tag: %@ in custom parameter: “%@”." = "Unknown language tag: %1$@ in custom parameter: “%2$@”.";
+
+"Unlock Component" = "Unlock Component";
+
+"Unlock Guide" = "Unlock Guide";
+
+/* Context Menu
+   undo */
+"Unlock Image" = "Unlock Image";
+
+"Unlock Path" = "Unlock Path";
+
+"Unusual Bounds" = "Unusual Bounds";
+
+"Update BSB" = "Update BSB";
+
+"Update LSB" = "Update LSB";
+
+"Update RSB" = "Update RSB";
+
+"Update TSB" = "Update TSB";
+
+"Update Vertical Width" = "Update Vertical Width";
+
+"Update Width" = "Update Width";
+
+"Uppercase" = "Uppercase";
+
+"Use at least format %d." = "Use at least format %d.";
+
+"Use Existing" = "Use Existing";
+
+"Value is out of range (16..16384)" = "Value is out of range (16..16384)";
+
+"W" = "W";
+
+"Wrong anchor accessor: %@ (needs to be either “x” or “y”) token: %@" = "Wrong anchor accessor: %1$@ (needs to be either “x” or “y”) token: %2$@";
+
+"x-Height" = "x-Height";
+
+"Yes" = "Yes";
+
+"You are about to insert a path outside of the glyphs bounds?" = "You are about to insert a path outside of the glyphs bounds?";
+
+"You can only sync the width and one of the side-bearings." = "You can only sync the width and one of the side-bearings.";
+

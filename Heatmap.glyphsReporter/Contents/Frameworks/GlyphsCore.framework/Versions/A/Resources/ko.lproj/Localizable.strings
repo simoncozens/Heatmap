@@ -1,0 +1,982 @@
+"A Stem has a filter that can’t be saved as format 1." = "줄기가 format1으로 저장 될 수 없는 필터를 가지고 있습니다.";
+
+"Add" = "추가";
+
+"Add Anchor" = "앵커 추가";
+
+"Add Axis" = "Add Axis";
+
+"Add Brush" = "브러쉬 추가";
+
+"Add Cap Component" = "캡 컴포넌트 추가";
+
+"Add Class" = "Add Class";
+
+"Add Color" = "Add Color";
+
+"Add Component…" = "컴포넌트 추가…";
+
+"Add Corner Component" = "코너 추가";
+
+"Add Corner Component in all Masters" = "모든 마스터의 코너 컴포넌트 추가하기";
+
+"Add Custom Parameter" = "Add Custom Parameter";
+
+"Add Feature" = "피처 추가";
+
+"Add FontMaster" = "폰트 마스터 추가";
+
+"Add Global Guide" = "글로벌 가이드라인 추가";
+
+"Add Glyph" = "글리프 추가";
+
+"Add Glyphs" = "글립스 추가";
+
+"Add Gradient" = "그라데이션 추가";
+
+/* Add Guide context menu
+   undo */
+"Add Guide" = "가이드라인 추가";
+
+"Add Hint" = "힌트 추가";
+
+"Add Horizontal Hint" = "가로 힌트 추가";
+
+"Add Image" = "이미지 추가";
+
+"Add Inner Shadow" = "안쪽 그림자 추가";
+
+"Add Label" = "Add Label";
+
+"Add Pattern Image" = "Add Pattern Image";
+
+"Add Prefix" = "Add Prefix";
+
+"Add Property" = "Add Property";
+
+"Add Segment Component" = "선 브러쉬 추가";
+
+"Add Shadow" = "그림자 추가";
+
+"Add Shape" = "형태 추가";
+
+"Add Tags" = "태그 추가";
+
+"Add Value" = "Add Value";
+
+"Add Vertical Hint" = "세로 힌트 추가";
+
+/* Search option
+   The Title of the All Group in the sidebar of the FontView */
+"All" = "전체";
+
+"All undo for that glyph is removed but should start working again." = "해당 글리프에 대한 모든 실행 취소가 없어졌지만 다시 작업을 시작해야 합니다.";
+
+"An unknown problem occurred while executing an Apple Script command." = "애플 스크립트 명령 실행중 알려지지 않은 문제가 발생했습니다.";
+
+"Anchor Context" = "Anchor Context";
+
+"Ascender" = "Ascender";
+
+"Attributes" = "속성";
+
+"Auto" = "Auto";
+
+"Autohint" = "오토힌트";
+
+"Automatic Alignment is Disabled in Font Info" = "폰트 정보에서 자동 정렬이 비활성화 되었습니다";
+
+"Baseline" = "Baseline";
+
+"Black" = "Black";
+
+"Body Height" = "Body Height";
+
+"Bold" = "~는";
+
+"BottomGhost" = "BottomGhost";
+
+"Brush" = "Brush";
+
+"Cancel" = "취소";
+
+"Can’t be empty" = "빈칸일 수 없습니다.";
+
+"Can’t convert to compatible TrueType curves." = "호환되는 트루타입 커브 형태로 변환할 수 없습니다.";
+
+"Can’t save localised “%@” in format 2." = "format 2에 “%@” 를 저장할 수 없습니다.";
+
+"Can’t save path attributes in format 2." = "format 2에 “%@”에 경로 속성을 저장할 수 없습니다.";
+
+"Can’t save RTL kerning in format 2." = "format 2에 RTL커닝을 저장할 수 없습니다.";
+
+"Cap" = "Cap";
+
+"Cap Height" = "Cap Height";
+
+"Case" = "케이스";
+
+"CATEGORIES" = "카테고리";
+
+"Category" = "카테고리";
+
+"Change Connection" = "연결 변경";
+
+"Change Date" = "날짜 변경";
+
+"Change Disables Nice Names" = "변경시 나이스 네임 사용안함";
+
+"Change Font Grid" = "폰트 그리드 변경";
+
+"Change Font Keyboard Movement" = "폰트 키보드 움직임 변경";
+
+"Change Font Version" = "폰트 버전 변경";
+
+"Change Hint" = "힌트 변경";
+
+"Change Hint Origin" = "기존 힌트 변경";
+
+"Change Hint Width" = "힌트 너비 변경";
+
+"Change Preview Remove Overlap" = "Change Preview Remove Overlap";
+
+"Change the file version in Font Info > Other Setting." = "폰트 정보 > 기타에서 파일 정보를 변경 하시오.";
+
+"Change UPM" = "UPM 변경";
+
+"Choose Component" = "컴포넌트 선택";
+
+"Choose Image" = "이미지 선택";
+
+"Clear Background" = "배경 제거";
+
+"Clear Focus on Paths" = "Clear Focus on Paths";
+
+"Close Open Paths" = "열린 패스 선택";
+
+"Color" = "색";
+
+"Color Burn" = "Color Burn";
+
+"Color Dodge" = "Color Dodge";
+
+"Component" = "컴포넌트";
+
+"Component from Selection" = "선택부분 컴포넌트 만들기";
+
+"Condensed" = "Condensed";
+
+"Connect Nodes" = "노드 연결";
+
+"Copy Attributes" = "속성 복사하기";
+
+"Copy Custom Parameter" = "사용자 정의 매개 변수 복사";
+
+"Corner" = "Corner";
+
+"Correct Bounds" = "정확한 경계선";
+
+"Could not parse token: %@ (in %@):" = "%1$@ (in %2$@): 토근을 구문 분석할 수 없습니다.";
+
+"Couldn’t find glyph: %@" = "%@ 글리프를 찾을 수 없습니다.";
+
+"Create Composite" = "컴포넌트 글리프 만들기";
+
+"Crop Image" = "이미지 자르기";
+
+"Darken" = "Darken";
+
+"Decompose" = "분해";
+
+"Decompose Brush" = "브러쉬 분해";
+
+"Decompose Cap" = "캡 컴포넌트 분해";
+
+"Decompose Component" = "컴포넌트 분해";
+
+"Decompose Corner" = "코너 컴포넌트 분해";
+
+"Decompose Segment Component" = "Decompose Segment Component";
+
+"Delta" = "Delta";
+
+"DemiBold" = "DemiBold";
+
+"Descender" = "Descender";
+
+"Diagonal" = "Diagonal";
+
+"didn’t find anchor: %@ in glyph: %@ in token: %@" = "토큰%3$@의 %2$@글리프에서 %1$@앵커를 찾을수 없습니다.";
+
+"Difference" = "Difference";
+
+/* Automatic Alignment context menu
+   undo */
+"Disable Automatic Alignment" = "자동정렬 비활성화";
+
+"Disable automatic alignment for the components to manually set the LSB." = "컴포넌트의 자동 정렬을 비활성화하여 수동으로 왼쪽 사이드 베어링을 설정합니다.";
+
+"Disable automatic alignment for the components to manually set the RSB." = "컴포넌트의 오른쪽 사이드 베어링 수동 설정을 위한 자동 정렬 비활성화.";
+
+"Disable automatic alignment for the components to manually set the width." = "수동으로 너비를 설정하는 컴포넌트의 자동 정렬을 비활성화 합니다.";
+
+"Do you want to use the existing glyph as a component or replace it?" = "기존의 글리프를 컴포넌트로 사용하거나 대체 하겠습니까?";
+
+"Drag Curve" = "곡선 드래드";
+
+"Duplicate master coordinates %@" = " 마스터 좌표 복제  %@";
+
+"empty Note" = "빈 노트";
+
+"empty\nbase\nglyph" = "빈\n기본\n글리프";
+
+"Enable Automatic Alignment" = "자동 정렬 활성화";
+
+"Error applying %@" = "Error applying %@";
+
+"Exclusion" = "Exclusion";
+
+"Expanded" = "Expanded";
+
+"expecting '%C'" = "expecting '%C'";
+
+"Export" = "내보내기";
+
+"Extra Condensed" = "Extra Condensed";
+
+"Extra Expanded" = "Extra Expanded";
+
+"ExtraBold" = "ExtraBold";
+
+"ExtraLight" = "ExtraLight";
+
+"Fill" = "채우기";
+
+"Fill Outlines" = "아웃라인 채우기";
+
+"Filter references unknown class" = "Filter references unknown class";
+
+"Filter Settings invalid." = "필터 설정이 잘못되었습니다.";
+
+"Filter unavailable." = "사용할수 없는 필터";
+
+"FILTERS" = "필터";
+
+"Flex" = "Flex";
+
+"Focus on Selected Paths" = "Focus on Selected Paths";
+
+"For key “%@”" = "For key “%@”";
+
+"Force Automatic Alignment" = "강제 자동 정렬";
+
+"Glyph for token: %@ not found" = "토큰 %@를 위한 글리프를 찾을 수 없음";
+
+"Glyph “%@” contains a curve that has too many inflections." = "‘%@‘글리프는 너무 많은 변곡점을 갖고있는 곡선을 포함하고 있습니다.";
+
+"Glyph “%@” has corrupted outlines." = " %@ 글리프는 손상된 아웃라인을 포함하고 있습니다.";
+
+"Glyph “%@” is not compatible." = "글리프 ‘%@‘은 호환되지 않습니다.";
+
+"Gradient" = "그라데이션";
+
+"Group" = "그룹";
+
+"Hard Light" = "Hard Light";
+
+"Heavy" = "Heavy";
+
+"Ignore" = "무시";
+
+"illegal part in token: %@" = "토큰 %@에 잘못된 부분이 있습니다.";
+
+"Image Path" = "이미지 패스";
+
+"Inner Shadow" = "안쪽 그림자";
+
+"Insert Anchor" = "앵커 삽입";
+
+"Insert Axis" = "Insert Axis";
+
+"Insert Color" = "Insert Color";
+
+"Insert Guide" = "가이드라인 삽입";
+
+"Insert Label" = "Insert Label";
+
+"Insert Node" = "노드 삽입";
+
+"Insert Path" = "패스 삽입";
+
+"Insert Property" = "Insert Property";
+
+"Insert Shape" = "Insert Shape";
+
+"Insert Value" = "Insert Value";
+
+"Instance is not set up correctly: %@ (no instanceInterpolations)" = "인스턴스가 올바르게 설정되지 않았습니다. %@ (인스턴스 인터폴레이션이 없음)";
+
+"Interpolate" = "Interpolate";
+
+"Intersect Paths" = "Intersect Paths";
+
+"Invalid Axis rule in glyph %@" = "글리프 %@ 의 축 규칙이 잘못됨";
+
+"invalid feature code generator" = "invalid feature code generator";
+
+"Invalid format in filter parameter" = "필터 매개 변수가 잘못된 포맷입니다.";
+
+"Invalid predicate expression: “%@”" = "Invalid predicate expression: “%@”";
+
+"Invalid Values" = "잘못된 값";
+
+"is" = "~는";
+
+"is not" = "~이 아닌";
+
+"Italic Angle" = "Italic Angle";
+
+"Keep Alternates Together" = "동시에 정렬 유지";
+
+"Kern" = "커닝";
+
+"LANGUAGES" = "언어";
+
+"Leave as is" = "있는 그대로 둠";
+
+"Light" = "Light";
+
+"Lighten" = "Lighten";
+
+"Lock Component" = "컴포넌트 잠금";
+
+"Lock Guide" = "가이드 잠금";
+
+"Lock Guides" = "가이드 잠금";
+
+/* Context Menu
+   undo */
+"Lock Image" = "이미지 잠금";
+
+"Lock Path" = "Lock Path";
+
+"Locked" = "잠금";
+
+"Lowercase" = "소문자";
+
+"Make Curve" = "곡선 만들기";
+
+"Make First" = "먼저 만들기";
+
+"Make Ghost Hint" = "힌트 만들기";
+
+"Make Global Guide" = "글로벌 가이드라인 만들기";
+
+"Make Local Guide" = "로컬 가이드라인 만들기";
+
+"Make Node First" = "시작 노드로 설정";
+
+"Make Node First in all Masters" = "모든 마스터의 시작노드로 설정";
+
+"Make Stroke" = "Make Stroke";
+
+"Mask" = "마스크";
+
+"Medium" = "Medium";
+
+"Medium (normal)" = "Medium (normal)";
+
+"Mid Height" = "Mid Height";
+
+"Minor" = "Minor";
+
+"Missing components" = "컴포넌트 누락";
+
+"Missing “key” entry at line %d" = "Missing “key” entry at line %d";
+
+"Missing “value” or “values” entry at line %d" = "Missing “value” or “values” entry at line %d";
+
+"More than one Variable Instance can’t be saved in a format 2 file." = "More than one Variable Instance can’t be saved in a format 2 file.";
+
+"Move Anchor" = "앵커 이동";
+
+"Move Component" = "컴포넌트 이동";
+
+"Move Element" = "컴포넌트 이동";
+
+"Move Elements" = "컴포넌트 이동";
+
+"Move Guide" = "가이드라인 이동";
+
+"Move Image" = "이미지 이동";
+
+"Move Nodes" = "노드 이동";
+
+"Multi" = "다중";
+
+"multi" = "multi";
+
+"Multiply" = "Multiply";
+
+"Name" = "이름";
+
+"Name of the Component Glyph" = "컴포넌트 글리프의 이름";
+
+"New Font" = "New Font";
+
+"New Parameter" = "새 사용자 정의 매개 변수";
+
+"New Value" = "새로운 값";
+
+"newGlyph" = "새 글리프";
+
+"No" = "No";
+
+"No Case" = "No Case";
+
+"no name" = "이름 없음";
+
+"Normal" = "Normal";
+
+"Not all glyphs are in the font, yet" = "폰트에 모든 글리프가 있지 않습니다.";
+
+"Not all Glyphs are present in the font." = "폰트에 일부 글리프가 없습니다.";
+
+"Not enough arguments for anchors token: %@" = "Not enough arguments for anchors token: %@";
+
+"not set" = "설정되지 않은";
+
+"Nothing is selected" = "아무 것도 선택되지 않았습니다.";
+
+"Nudge Nodes" = "노드 이동";
+
+"Number values can’t be saved as format 1." = "숫자 값을 format 1으로 저장할 수 없습니다.";
+
+"OK" = "확인";
+
+"Open" = "열기";
+
+"Open Corner" = "코너 열기";
+
+"Open Corner in all Masters" = "모든 마스터의 코너 열기";
+
+"Open Path" = "패스 열기";
+
+"Overlay" = "Overlay";
+
+"Paste Attributes" = "속성 붙여넣기";
+
+"Pattern Image" = "Pattern Image";
+
+"Please check the outlines" = "아웃라인을 체크하세요.";
+
+"Please fix this in Font Info" = "이 문제는 폰트정보에서 해결하세요.";
+
+"Please select glyphs" = "글리프를 선택해 주세요.";
+
+"Please select the two nodes of a line segment" = "선의 두 노드를 선택하세요.";
+
+"Problem with file at line %d" = "Problem with file at line %d";
+
+"Problem with SVG" = "SVG와 함께 문제";
+
+"reading: %@" = "reading: %@";
+
+"Reconnect Nodes" = "노드 다시 연결";
+
+"Reconnect Nodes in all Masters" = "모든 마스터의 노드 다시 연결하기";
+
+"Redo" = "실행 취소";
+
+"Regular" = "Regular";
+
+"Remove" = "삭제";
+
+"Remove Anchor" = "앵커 제거";
+
+"Remove Annotation" = "주석 제거";
+
+"Remove Axis" = "Remove Axis";
+
+"Remove Class" = "Remove Class";
+
+"Remove Color" = "Remove Color";
+
+"Remove Custom Parameter" = "Remove Custom Parameter";
+
+"Remove Feature" = "피처 제거";
+
+"Remove FontMaster" = "폰트 마스터 제거";
+
+"Remove Glyph" = "글리프 제거";
+
+"Remove Glyphs" = "글리프 제거";
+
+"Remove Guide" = "가이드라인 제거";
+
+"Remove Hint" = "힌트 제거";
+
+"Remove Image" = "이미지 제거";
+
+"Remove Label" = "Remove Label";
+
+"remove Layer" = "레이어 제거";
+
+"Remove Overlap" = "오버랩 제거";
+
+"Remove Path" = "패스 제거";
+
+"Remove Prefix" = "Remove Prefix";
+
+"Remove Property" = "Remove Property";
+
+"Remove Selected Objects" = "선택한 오브젝트 제거";
+
+"Remove Shape" = "형태 삭제";
+
+"Remove Shapes" = "형태 삭제";
+
+"Remove Tags" = "태그 삭제";
+
+"Remove Value" = "Remove Value";
+
+"Rename Glyph" = "글리프 이름 재설정";
+
+"Replace" = "대체하기";
+
+"Replace Axis" = "Replace Axis";
+
+"Replace Class" = "Replace Class";
+
+"Replace Color" = "Replace Color";
+
+"Replace Feature" = "피처 대체";
+
+"Replace Guide" = "Replace Guide";
+
+"Replace Label" = "Replace Label";
+
+"Replace Node" = "노드 대체";
+
+"Replace Property" = "Replace Property";
+
+"Replace Shape" = "형태 대체";
+
+"Reveal in Finder" = "파인더에서 보여주다";
+
+"Reverse All Contours" = "모든 윤곽선 방향 반전";
+
+/* Reverse Contour context menu
+   undo */
+"Reverse Contour" = "윤곽선 방향 반전";
+
+"Reverse Selected Contours" = "선택된 윤곽선 방향 반전";
+
+"Rotate Guide" = "가이드라인 회전";
+
+"Screen" = "Screen";
+
+"Script" = "스크립트";
+
+"Segment" = "Segment";
+
+"Select" = "선택";
+
+"Select Glyph" = "글리프 선택";
+
+"Selection to Background" = "선택영역을 배경으로";
+
+"Semi Expanded" = "Semi Expanded";
+
+"SemiBold" = "SemiBold";
+
+"SemiCondensed" = "SemiCondensed";
+
+"Set Alignment" = "정렬 설정";
+
+"Set Alignment Zone" = "정렬 영역 설정";
+
+"Set Anchor" = "앵커 설정";
+
+"Set Anchors" = "앵커 설정";
+
+"Set Angle" = "각도 설정";
+
+"Set Attribute" = "Set Attribute";
+
+"Set Attributes" = "속성 설정";
+
+"Set Axes" = "축 설정";
+
+"Set Axis Default Value" = "축 기본 값 설정";
+
+"Set Axis Hidden" = "숨겨진 축 설정";
+
+"Set Axis Name" = "축 이름 설정";
+
+"Set Axis Tag" = "축 태그 설정";
+
+"Set Blur" = "Set Blur";
+
+"Set Bold" = "볼드 설정";
+
+"Set BSB" = "하단 사이드 배어링 설정";
+
+"Set Case" = "케이스 설정";
+
+"Set Color" = "색 설정";
+
+"Set Colors" = "Set Colors";
+
+"Set Crop to Layer Bounds" = "레이어 경계선 자르기 설정";
+
+"Set Custom Parameter" = "사용자 정의 매개 변수 설정";
+
+"Set Deltas" = "Set Deltas";
+
+"Set Direction" = "방향 설정";
+
+"Set End" = "Set End";
+
+"Set Exports" = "내보내기 설정";
+
+"Set FamilyName" = "Set FamilyName";
+
+"Set Filter" = "Set Filter";
+
+"Set Font Note" = "Set Font Note";
+
+"Set Font Version" = "폰트 버전 설정";
+
+"Set Glyph Color" = "글리프 색 설정";
+
+"Set Guides" = "가이드 설정";
+
+"Set Height" = "높이 설정";
+
+"Set Horizontal" = "가로 설정";
+
+"Set Icon" = "아이콘 설정";
+
+"Set Instance Name" = "인스턴스 이름 설정";
+
+"Set Italic" = "이탤릭 설정";
+
+"Set KeepWeight" = "Set KeepWeight";
+
+"Set Kerning" = "커닝 설정";
+
+"Set Kerning Group" = "커닝 그룹 설정";
+
+"Set Key" = "Set Key";
+
+"Set Labels" = "Set Labels";
+
+"Set Layer Color" = "레이어 색 설정";
+
+"Set Locked" = "이미지 잠금";
+
+"Set LSB" = "왼쪽 사이드 베어링 설정";
+
+"Set Metric" = "메트릭스 설정";
+
+"Set Metrics" = "메트릭스 설정";
+
+"Set Name" = "이름 설정";
+
+"Set Number" = "Set Number";
+
+"Set Numbers" = "Set Numbers";
+
+"Set OffsetX" = "Set OffsetX";
+
+"Set OffsetY" = "Set OffsetY";
+
+"Set Properties" = "Set Properties";
+
+"Set RSB" = "오른쪽 사이드 베어링 설정";
+
+"Set Scale" = "Set Scale";
+
+"Set Shapes" = "Set Shapes";
+
+"Set Slant Horizontal" = "Set Slant Horizontal";
+
+"Set Slant Vertical" = "Set Slant Vertical";
+
+"Set Smart Component Settings" = "스마트 컴포넌트 설정을 설정";
+
+"Set Spacing" = "Set Spacing";
+
+"Set Start" = "Set Start";
+
+"Set Stem" = "줄기 설정";
+
+"Set Stems" = "줄기 설정";
+
+"Set Tags" = "태그 설정";
+
+"Set Time" = "시간 설정";
+
+"Set TSB" = "상단 사이드 배어링 설정";
+
+"Set Type" = "Set Type";
+
+"Set UserData" = "Set UserData";
+
+"Set Value" = "속성 설정";
+
+"Set Values" = "Set Values";
+
+"Set Vertical Origin" = "Set Vertical Origin";
+
+"Set Vertical Width" = "세로 너비 설정";
+
+"Set Visible" = "Set Visible";
+
+"Set Weight Class" = "무게 클래스 설정";
+
+"Set Width" = "너비 설정";
+
+"Set Width Class" = "너비 클래스 설정";
+
+"Set Width Value" = "너비 값 설정";
+
+"SetDelta" = "SetDelta";
+
+"Shadow" = "그림자";
+
+"Sharpen Corner" = "코너 만들기";
+
+"Shift" = "Shift";
+
+"Should the following glyphs be added to the font?" = "다음 글리프를 폰트에 추가해야 합니까?";
+
+"Show all glyphs containing this component" = "이 컴포넌트를 포함한 모든 글리프 보기";
+
+"Show all glyphs that use this glyph as a component" = "이 글리프가 컴포넌트로 사용된 모든 글리프 보기";
+
+/* component context menu
+   glyph context menu */
+"Show all Group Glyphs" = "모든 그룹 글리프 표시";
+
+"Show Glyph in Font View" = "Show Glyph in Font View";
+
+"Show Model Glyph" = "한글 모델 글리프 보기";
+
+"Show Smart Component Settings" = "스마트 컴포넌트 설정 보기";
+
+"Show Smart Glyph Settings" = "스마트 컴포넌트 설정 보기";
+
+"Slant Height" = "Slant Height";
+
+"Smallcaps" = "Smallcaps";
+
+"Smart Component" = "스마트 컴포넌트";
+
+"Smart Glyph Settings" = "스마트 글리프 설정";
+
+"Smart Settings" = "스마트 설정";
+
+"Snap" = "Snap";
+
+"Soft Light" = "Soft Light";
+
+"Some glyphs are not compatible and will have no outlines" = "일부 글리프는 호환되지 않으며, 윤곽선이 없습니다.";
+
+"Some metrics keys are out of sync." = "일부 메트릭스 키가 동기화되지 않습니다.";
+
+"Something went wrong when Removing Overlap in glyph: %@" = "글리프 %@ 에서 오버랩 제거 오류가 발생했습니다.";
+
+"Stem" = "Stem";
+
+"Stems" = "Stems";
+
+"Stroke" = "윤곽";
+
+"Subcategory" = "하위 카테고리";
+
+"Subtract Paths" = "Subtract Paths";
+
+"Tag" = "Tag";
+
+"Tags" = "태그";
+
+"The %@ begins or ends with a space. That is not allowed." = "%@는 공백으로 시작하거나 끝날 수 없습니다.";
+
+"The %@ can’t be empty" = "%@는 빈칸일 수 없습니다.";
+
+"The %@ contains illegal characters" = "%@에 잘못된 문자가 있습니다.";
+
+"The %@ contains illegal characters. (e.g. quotes)" = "%@에 잘못된 문자가 있습니다.\n(예: 따옴표)";
+
+"The %@ is too long" = "%@ 이 너무 깁니다.";
+
+"The %@ is too short" = "%@가 너무 짧습니다.";
+
+"The callback is not implementing all required methods" = "The callback is not implementing all required methods";
+
+"The component in glyph “%@” has attributes that can’t be saved as format 1." = "“%@”의 컴포넌트는 format 1으로 저장될 수 없는 속성을 갖고 있습니다.";
+
+"The custom parameter “%@” is not compatible in all masters" = "사용자 정의 매개 변수 “%@” 는 모든 마스터에서 호환되지 않습니다";
+
+"The filter “%@” should contain a string only." = "“%@”필터는 문자열만 사용해야 합니다.";
+
+"The filter “%@” was referenced in the custom parameters, but is not installed." = "사용자 정의 매개변수에 참조된 “%@”필터가 설치되어 있지 않습니다.";
+
+"The font already contains a glyph with the name: %@" = "폰트 이름에 %@ 가 있는 글리프가 포함되어 있습니다.";
+
+"The font is missing a glyph “%@” for the feature pattern. (%@)" = "The font is missing a glyph “%1$@” for the feature pattern. (%2$@)";
+
+"The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid." = "The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid.";
+
+"The glyph is locked. No changes are allowed" = "이 글리프는 잠겨있습니다. 수정할 수 없습니다.";
+
+"The glyph is not compatible." = "글리프가 호환되지 않습니다.";
+
+"The glyph name contains illegal characters.\nOnly a-z, A-Z, 0-9, underscore, hyphen, and period are allowed." = "글리프 이름에 잘못된 문자가 있습니다.\n오직 a-z, A-Z, 0-9, 밑줄, 하이픈 및 마침표만 사용할 수 있습니다.";
+
+"The glyph name should not be empty." = "글리프 이름은 비워 둘 수 없습니다.";
+
+"The glyph name should not contain any space character." = "글리프 이름에는 공백 문자가 없어야 합니다.";
+
+"The glyph name should not start with a number (0-9)." = "글리프 이름은 숫자로(0-9) 시작하면 안됩니다.";
+
+"The glyphs for %@ are missing" = " %@ 를 위한 글리프가 없습니다.";
+
+"The kerning group contains illegal characters.\nOnly a-zA-Z0-9, underscore, hyphen and period are allowed." = "커닝 그룹에 잘못된 문자가 있습니다.\n오직 a-z, A-Z, 0-9, 밑줄, 하이픈 및 마침표만 사용할 수 있습니다.";
+
+"The layers in this glyph are not compatible." = "이 글리프의 레이어는 호환되지 않습니다.";
+
+"The layers of this glyph are not compatible so only the active layer will be processed." = "이 글리프의 레이어는 호환되지 않으므로 활성 레이어만 처리됩니다.";
+
+"The linked font “%@” has a different number of masters" = "The linked font “%@” has a different number of masters";
+
+"The linked font “%@” has different masters" = "The linked font “%@” has different masters";
+
+"The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1." = "“%@” 의 대체 레이어의 최소/ 최대값은 format 1으로 저장될 수 없습니다.";
+
+"The path in glyph “%@” has attributes that can’t be saved as format 1." = "“%@”글리프에 있는 패스는 fotmat1으로 저장될 수 없는 속성을 갖고 있습니다.";
+
+"The property “%@” in the %@: “%@” can’t be saved as format 1." = "The property “%1$@” in the %2$@: “%3$@” can’t be saved as format 1.";
+
+"The selection is not suitable to paste a %@ component." = "The selection is not suitable to paste a %@ component.";
+
+"The SVG file is not valid XML" = "SVG 파일이 유효한 XML 형식이 아닙니다.";
+
+"The Unicode value must be 4 to 5 characters long." = "유니코드 값은 반드시 4~5자 여야 합니다.";
+
+"The Unicode value should only contain the characters 0-9 and A-F." = "유니코드 값은 0-9 및 A-F 문자만 포함해야 합니다.";
+
+"The value can not be empty" = "값은 비워둘 수 없습니다.";
+
+"The width of this glyph is automatically calculated from the components." = "이 글리프의 너비는 컴포넌트로부터 자동적으로 계산됩니다.";
+
+"The width should not be negative." = "너비는 음수가 아니어야 합니다.";
+
+"The “TTFZones” are not set correctly in all masters" = "모든 마스터의 ’TTF존’이 올바르게 설정되지 않았습니다.";
+
+"There are annotations" = "주석이 있습니다.";
+
+"There are problems with the “%@” in font masters." = "폰트 마스터에 “%@”와 관련한 문제가 있습니다.";
+
+"There is already a glyph with that name." = "이미 그 이름의 글리프가 있습니다.";
+
+"There is an invalid “%@” custom parameter" = "There is an invalid “%@” custom parameter";
+
+"There was a problem and no glyph could be created." = "문제가 발생해서 글리프를 만들 수 없습니다.";
+
+"There was a problem loading the custom GlyphData.xml file." = "사용자 정의 GlyphData.xml 파일을 로드하는 중에 문제가 발생했습니다.";
+
+"There was a problem with undo" = "실행 취소에 문제가 있습니다.";
+
+"Thin" = "Thin";
+
+"This glyph has low level instructions" = "이 글리프는 저수준의 힌팅 명령어를 갖고 있습니다";
+
+"This glyph has manually set glyph info" = "이 글리프는 글리프 데이터를 수동으로 설정";
+
+"This glyph is locked and can’t be edited." = "이 글리프는 잠겨있어서 수정할 수 없습니다.";
+
+"This glyph will not be exported to the final font file." = "이 글리프 문자는 최종 폰트 파일에 포함되지 않습니다.";
+
+"This should show the glyph in the app “UnicodeChecker”, but it is not installed. You can download the app at: ---" = "이 ‘유니코드 체커’ 응용 프로그램에서 문자 모양을 표시해야 하지만 설치되어 있지 않습니다. 다음에서 앱을 다운로드 할 수 있습니다. ---";
+
+"This Unicode is already assigned to the glyph: %@" = "이 유니코드는 글리프에 이미 할당되어 있습니다. %@";
+
+"This will apply to all master-layers." = "이것은 모든 마스터 레이어에 적용됩니다.";
+
+"Too many inflections" = "변곡점이 너무 많습니다.";
+
+"TopGhost" = "TopGhost";
+
+"Transform" = "스케일";
+
+"Transform Component" = "컴포넌트 변형";
+
+"Transform Selection" = "선택 변형";
+
+"TTStem" = "TTStem";
+
+"Ultra Condensed" = "Ultra Condensed";
+
+"Ultra Expanded" = "Ultra Expanded";
+
+"UltraBold" = "UltraBold";
+
+"UltraLight" = "UltraLight";
+
+"Undefined" = "Undefined";
+
+"Undo" = "실행 취소";
+
+"Unicode" = "유니코드";
+
+"Unknown" = "Unknown";
+
+"Unknown language tag: %@ in custom parameter: “%@”." = "“%2$@” 사용자 정의 매겨변수에 알 수 없는 언어태그 %1$@가 있습니다.";
+
+"Unlock Component" = "컴포넌트 잠금 풀기";
+
+"Unlock Guide" = "가이드 잠금 풀기";
+
+/* Context Menu
+   undo */
+"Unlock Image" = "이미지 잠금 해제";
+
+"Unlock Path" = "Unlock Path";
+
+"Unusual Bounds" = "일반적이지 않은 경계선";
+
+"Update BSB" = "하단 사이드 배어링 업데이트";
+
+"Update LSB" = "왼쪽 사이드 베어링 업데이트";
+
+"Update RSB" = "오른쪽 사이드 베어링 업데이트";
+
+"Update TSB" = "상단 사이드 배어링 업데이트";
+
+"Update Vertical Width" = "세로 너비 업데이트";
+
+"Update Width" = "업데이트 너비";
+
+"Uppercase" = "대문자";
+
+"Use at least format %d." = "최소 %d를 사용하세요.";
+
+"Use Existing" = "기존의 값 사용";
+
+"Value is out of range (16..16384)" = "값이 범위를 벗어났습니다. (16..16384)";
+
+"W" = "W";
+
+"Wrong anchor accessor: %@ (needs to be either “x” or “y”) token: %@" = "잘못된 앵커 접근자: %1$@ (”x” 또는 “y” 이어야 합니다.) 토큰: %2$@";
+
+"x-Height" = "x-Height";
+
+"Yes" = "~는";
+
+"You are about to insert a path outside of the glyphs bounds?" = "글리프 경계선 바깥에 패스를 추가 하시겠습니까?";
+
+"You can only sync the width and one of the side-bearings." = "폭과 사이드 베어링 중 한 가지만 동기화 할 수 있습니다.";
+

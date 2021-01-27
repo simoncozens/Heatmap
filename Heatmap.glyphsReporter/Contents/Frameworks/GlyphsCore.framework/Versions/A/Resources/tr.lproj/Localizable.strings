@@ -1,0 +1,982 @@
+"A Stem has a filter that can’t be saved as format 1." = "Bir Gövdede format 1 olarak kaydetmeyi engelleyen bir filtre mevcut.";
+
+"Add" = "Ekle";
+
+"Add Anchor" = "Çıpa Ekle";
+
+"Add Axis" = "Eksen Ekle";
+
+"Add Brush" = "Fırça Ekle";
+
+"Add Cap Component" = "Cap Bileşeni Ekle";
+
+"Add Class" = "Sınıf Ekle";
+
+"Add Color" = "Renk Ekle";
+
+"Add Component…" = "Bileşen Ekle…";
+
+"Add Corner Component" = "Köşe Bileşeni Ekle";
+
+"Add Corner Component in all Masters" = "Tüm Masterlerde Köşe Bileşeni Ekle";
+
+"Add Custom Parameter" = "Özel Parametre Ekle";
+
+"Add Feature" = "Özellik Ekle";
+
+"Add FontMaster" = "FontMaster ekle";
+
+"Add Global Guide" = "Toplu Kılavuz Ekle";
+
+"Add Glyph" = "Glif Ekle";
+
+"Add Glyphs" = "Glifler Ekle";
+
+"Add Gradient" = "Gradyan Ekle";
+
+/* Add Guide context menu
+   undo */
+"Add Guide" = "Kılavuz Ekle";
+
+"Add Hint" = "İz Ekle";
+
+"Add Horizontal Hint" = "Yatay İz Ekle";
+
+"Add Image" = "Resim Ekle";
+
+"Add Inner Shadow" = "İç Gölge Ekle";
+
+"Add Label" = "Etiket Ekle";
+
+"Add Pattern Image" = "Desen Resmi Ekle";
+
+"Add Prefix" = "Önek Ekle";
+
+"Add Property" = "Özellik Ekle";
+
+"Add Segment Component" = "Parça Bileşeni Ekle";
+
+"Add Shadow" = "Gölge Ekle";
+
+"Add Shape" = "Şekil Ekle";
+
+"Add Tags" = "Etiket Ekle";
+
+"Add Value" = "Değer Ekle";
+
+"Add Vertical Hint" = "Dikey İz Ekle";
+
+/* Search option
+   The Title of the All Group in the sidebar of the FontView */
+"All" = "Tümü";
+
+"All undo for that glyph is removed but should start working again." = "Bu sembol için tüm geri almalar kaldırıldı ancak yeniden çalışmaya başlayabilir.";
+
+"An unknown problem occurred while executing an Apple Script command." = "Apple Script komutu çalıştırılırken bilinmeyen bir sorun oluştu.";
+
+"Anchor Context" = "Çıpa Bağlamı";
+
+"Ascender" = "Çıkış Hattı";
+
+"Attributes" = "Nitelikler";
+
+"Auto" = "Otomatik";
+
+"Autohint" = "Otomatik İz";
+
+"Automatic Alignment is Disabled in Font Info" = "Font bilgisinde otomatik hizalama devre dışı bırakıldı";
+
+"Baseline" = "Taban Hattı";
+
+"Black" = "Siyah";
+
+"Body Height" = "Gövde Yüksekliği";
+
+"Bold" = "Kalın";
+
+"BottomGhost" = "AltGölge";
+
+"Brush" = "Fırça";
+
+"Cancel" = "İptal";
+
+"Can’t be empty" = "Boş bırakılamaz";
+
+"Can’t convert to compatible TrueType curves." = "TrueType’la uyumlu eğrilere dönüştüremiyor.";
+
+"Can’t save localised “%@” in format 2." = "Yerel “%@” format 2 olarak kaydedilemiyor.";
+
+"Can’t save path attributes in format 2." = "Yol özellikleri format 2 olarak kaydedilemiyor.";
+
+"Can’t save RTL kerning in format 2." = "RTL uyumlaması format 2 olarak kaydedilemiyor.";
+
+"Cap" = "Çatı";
+
+"Cap Height" = "Büyük Harf Yüksekliği";
+
+"Case" = "Harf Tipi";
+
+"CATEGORIES" = "KATEGORİLER";
+
+"Category" = "Kategori";
+
+"Change Connection" = "Bağlantıyı Değiştir";
+
+"Change Date" = "Tarihi değiştir";
+
+"Change Disables Nice Names" = "Değiştirmek Güzel İsimleri Devre Dışı Bırakır";
+
+"Change Font Grid" = "Font Izgarasını Değiştir";
+
+"Change Font Keyboard Movement" = "Font Klavye Hareketini Değiştir";
+
+"Change Font Version" = "Font Sürümünü Değiştir";
+
+"Change Hint" = "İzi Değiştir";
+
+"Change Hint Origin" = "İz Kökenini Değiştir";
+
+"Change Hint Width" = "İz Genişliğini Değiştir";
+
+"Change Preview Remove Overlap" = "Örtüşmeyi Kaldır Önizleme Değiştirme";
+
+"Change the file version in Font Info > Other Setting." = "Dosya sürümünü Font Bilgisi > Diğer Ayarlar bölümünden değiştir.";
+
+"Change UPM" = "UPM`yi değiştir";
+
+"Choose Component" = "Bileşen Seç";
+
+"Choose Image" = "Görüntü Seç";
+
+"Clear Background" = "Arkaplanı Temizle";
+
+"Clear Focus on Paths" = "Yol Odaklamayı Kaldır";
+
+"Close Open Paths" = "Açık Yolları Kapat";
+
+"Color" = "Renk";
+
+"Color Burn" = "Renk Yanması";
+
+"Color Dodge" = "Renk Soldurma";
+
+"Component" = "Bileşen";
+
+"Component from Selection" = "Seçilenden Bileşen";
+
+"Condensed" = "Daraltılmış";
+
+"Connect Nodes" = "Noktaları Birleştir";
+
+"Copy Attributes" = "Özellikleri Kopyala";
+
+"Copy Custom Parameter" = "Özel Parametreyi Kopyala";
+
+"Corner" = "Köşe";
+
+"Correct Bounds" = "doğru sınırlar";
+
+"Could not parse token: %@ (in %@):" = "%1$@ belirteci ayrıştırılamıyor (%2$@ içinde):";
+
+"Couldn’t find glyph: %@" = "%@ glifi bulunamıyor";
+
+"Create Composite" = "bileşen sembolü ekle";
+
+"Crop Image" = "şekli kes";
+
+"Darken" = "Koyu";
+
+"Decompose" = "Çöz";
+
+"Decompose Brush" = "Fırçayı Çöz";
+
+"Decompose Cap" = "Cap Bileşenini Çöz";
+
+"Decompose Component" = "Bileşeni Çöz";
+
+"Decompose Corner" = "Köşeyi Yeniden Ayır";
+
+"Decompose Segment Component" = "Parça Bileşeni Çöz";
+
+"Delta" = "Delta";
+
+"DemiBold" = "DömiKalın";
+
+"Descender" = "İniş Hattı";
+
+"Diagonal" = "Diyagonal";
+
+"didn’t find anchor: %@ in glyph: %@ in token: %@" = "çıpa bulmadı: %1$@ şu glifte: %2$@ şu belirteçte: %3$@";
+
+"Difference" = "Fark";
+
+/* Automatic Alignment context menu
+   undo */
+"Disable Automatic Alignment" = "Otomatik hizalamayı devre dışı bırak";
+
+"Disable automatic alignment for the components to manually set the LSB." = "SOB’u elle ayarlamak için otomatik hizalandırmayı devre dışı bırak.";
+
+"Disable automatic alignment for the components to manually set the RSB." = "SAB’ı elle ayarlamak için bileşenlerin otomatik hizalanmasını devre dışı bırak.";
+
+"Disable automatic alignment for the components to manually set the width." = "Genişliği elle ayarlamak için bileşenleri otomatik hizalamayı devre dışı bırak.";
+
+"Do you want to use the existing glyph as a component or replace it?" = "bileşen olarak zaten var olan sembolü kullanmak istiyor musunuz, yoksa yer mi değiştirmek istersiniz?";
+
+"Drag Curve" = "Eğriyi Sürükle";
+
+"Duplicate master coordinates %@" = "%@ master koordinatlarını çoğalt";
+
+"empty Note" = "boş Not";
+
+"empty\nbase\nglyph" = "boş\nana\nglif";
+
+"Enable Automatic Alignment" = "Otomatik Hizalamayı Devreye Al";
+
+"Error applying %@" = "Error applying %@";
+
+"Exclusion" = "Hariç tutma";
+
+"Expanded" = "Genişletilmiş";
+
+"expecting '%C'" = "expecting '%C'";
+
+"Export" = "Dışa Aktar";
+
+"Extra Condensed" = "Ekstra Dar";
+
+"Extra Expanded" = "Ekstra Geniş";
+
+"ExtraBold" = "EkstraKalın";
+
+"ExtraLight" = "Ekstraİnce";
+
+"Fill" = "Doldur";
+
+"Fill Outlines" = "Anahattı Doldur";
+
+"Filter references unknown class" = "Filtre bilinmeyen sınıfa atıflı";
+
+"Filter Settings invalid." = "Filtre Ayarları geçersiz.";
+
+"Filter unavailable." = "Filtre mevcut değil.";
+
+"FILTERS" = "FİLTRELER";
+
+"Flex" = "Esnek";
+
+"Focus on Selected Paths" = "Seçili Yollara Odakla";
+
+"For key “%@”" = "For key “%@”";
+
+"Force Automatic Alignment" = "Otomatik Hizalamaya Zorla";
+
+"Glyph for token: %@ not found" = "%@ belirteci için glif bulunamadı";
+
+"Glyph “%@” contains a curve that has too many inflections." = "“%@” glifi gereğinden fazla kıvrım noktası bulunan bir eğri içeriyor.";
+
+"Glyph “%@” has corrupted outlines." = "“%@” glifinde bozuk anahatlar var.";
+
+"Glyph “%@” is not compatible." = "“%@” glifi uyumlu değil.";
+
+"Gradient" = "Degrade";
+
+"Group" = "Grup";
+
+"Hard Light" = "Sert Işık";
+
+"Heavy" = "Koyu";
+
+"Ignore" = "Yoksay";
+
+"illegal part in token: %@" = "Şu belirteçte geçersiz parça: %@";
+
+"Image Path" = "Resim Yolu";
+
+"Inner Shadow" = "İç Gölge";
+
+"Insert Anchor" = "Çıpa Yerleştir";
+
+"Insert Axis" = "Eksen Ekle";
+
+"Insert Color" = "Renk Ekle";
+
+"Insert Guide" = "Kılavuz Ekle";
+
+"Insert Label" = "Etiket Ekle";
+
+"Insert Node" = "Nokta Ekle";
+
+"Insert Path" = "Yol Ekle";
+
+"Insert Property" = "Özellik Ekle";
+
+"Insert Shape" = "Şekil Ekle";
+
+"Insert Value" = "Değer Ekle";
+
+"Instance is not set up correctly: %@ (no instanceInterpolations)" = "Şu örnek doğru ayarlanmamış: %@ (instanceInterpolations yok)";
+
+"Interpolate" = "İnterpole";
+
+"Intersect Paths" = "Kesişen Yollar";
+
+"Invalid Axis rule in glyph %@" = "%@ glifinde geçersiz Eksen kuralı";
+
+"invalid feature code generator" = "geçersiz özellik kodu üreticisi";
+
+"Invalid format in filter parameter" = "Filtre parametresinde geçersiz format";
+
+"Invalid predicate expression: “%@”" = "Geçersiz yüklem ifadesi:  “%@”";
+
+"Invalid Values" = "Geçersiz Değerler";
+
+"is" = "bu";
+
+"is not" = "değil";
+
+"Italic Angle" = "İtalik Açısı";
+
+"Keep Alternates Together" = "Alternatifleri Birarada Tut";
+
+"Kern" = "Kern";
+
+"LANGUAGES" = "DİLLER";
+
+"Leave as is" = "Öyle bırak";
+
+"Light" = "Açık";
+
+"Lighten" = "Açık";
+
+"Lock Component" = "Bileşeni Kilitle";
+
+"Lock Guide" = "Kılavuzu Kilitle";
+
+"Lock Guides" = "Kılavuzları Kilitle";
+
+/* Context Menu
+   undo */
+"Lock Image" = "Resmi Kilitle";
+
+"Lock Path" = "Yolu Kilitle";
+
+"Locked" = "Kilitli";
+
+"Lowercase" = "Küçük Harf";
+
+"Make Curve" = "Eğri Oluştur";
+
+"Make First" = "Birinci Yap";
+
+"Make Ghost Hint" = "Gölge İz Yap";
+
+"Make Global Guide" = "Toplu Kılavuz Yap";
+
+"Make Local Guide" = "Yerel Kılavuz Yap";
+
+"Make Node First" = "Birinci Nokta Yap";
+
+"Make Node First in all Masters" = "Tüm Masterlerde Birinci Nokta Yap";
+
+"Make Stroke" = "Make Stroke";
+
+"Mask" = "Maske";
+
+"Medium" = "Orta";
+
+"Medium (normal)" = "Orta (normal)";
+
+"Mid Height" = "Orta Yükseklik";
+
+"Minor" = "Minör";
+
+"Missing components" = "Eksik bileşenler";
+
+"Missing “key” entry at line %d" = "Missing “key” entry at line %d";
+
+"Missing “value” or “values” entry at line %d" = "Missing “value” or “values” entry at line %d";
+
+"More than one Variable Instance can’t be saved in a format 2 file." = "Birden fazla Değişken Örnek format 2 dosyası biçiminde kaydedilemez.";
+
+"Move Anchor" = "Çıpayı Taşı";
+
+"Move Component" = "Bileşeni Taşı";
+
+"Move Element" = "Öğeyi Taşı";
+
+"Move Elements" = "Öğeleri Taşı";
+
+"Move Guide" = "Kılavuzu Taşı";
+
+"Move Image" = "Resmi Taşı";
+
+"Move Nodes" = "Noktaları Taşı";
+
+"Multi" = "Çoklu";
+
+"multi" = "çoklu";
+
+"Multiply" = "Çoğalt";
+
+"Name" = "İsim";
+
+"Name of the Component Glyph" = "Bileşen sembolünün adı";
+
+"New Font" = "Yeni font";
+
+"New Parameter" = "Yeni parametre";
+
+"New Value" = "Yeni değer";
+
+"newGlyph" = "yeniGlif";
+
+"No" = "Hayır";
+
+"No Case" = "Harf Tipi Yok";
+
+"no name" = "isimsiz";
+
+"Normal" = "NORMAL";
+
+"Not all glyphs are in the font, yet" = "Bu fontta tüm glifler bulunmayabilir";
+
+"Not all Glyphs are present in the font." = "Bu fontta tüm semboller bulunmayabilir";
+
+"Not enough arguments for anchors token: %@" = "Bağlantı belirteci için yeterli parametre yok: %@";
+
+"not set" = "ayarlanmadı";
+
+"Nothing is selected" = "Hiçbir şey seçili değil";
+
+"Nudge Nodes" = "Noktaları İtele";
+
+"Number values can’t be saved as format 1." = "Rakam değerleri format 1 olarak kaydedilemez.";
+
+"OK" = "Tamam";
+
+"Open" = "Aç";
+
+"Open Corner" = "Köşeyi Aç";
+
+"Open Corner in all Masters" = "Tüm Masterlerde Köşeyi Aç";
+
+"Open Path" = "Yolu Aç";
+
+"Overlay" = "Örtme";
+
+"Paste Attributes" = "Özellikleri Yapıştır";
+
+"Pattern Image" = "Desen Resmi";
+
+"Please check the outlines" = "Anahatları kontrol ediniz";
+
+"Please fix this in Font Info" = "font bilgilerini lütfen düzelt";
+
+"Please select glyphs" = "Glif seçiniz";
+
+"Please select the two nodes of a line segment" = "Bir çizgi parçasından iki nokta seçiniz";
+
+"Problem with file at line %d" = "Problem with file at line %d";
+
+"Problem with SVG" = "SVG ile proble oluştu";
+
+"reading: %@" = "reading: %@";
+
+"Reconnect Nodes" = "Noktaları Birleştir";
+
+"Reconnect Nodes in all Masters" = "Tüm Masterlerde Noktaları Birleştir";
+
+"Redo" = "geri al";
+
+"Regular" = "Regular";
+
+"Remove" = "Kaldır";
+
+"Remove Anchor" = "Çıpayı Kaldır";
+
+"Remove Annotation" = "Açıklamayı Kaldır";
+
+"Remove Axis" = "Ekseni Kaldır";
+
+"Remove Class" = "Sınıfı Kaldır";
+
+"Remove Color" = "Rengi Kaldır";
+
+"Remove Custom Parameter" = "Özel Parametreleri Kaldır";
+
+"Remove Feature" = "Özelliği kaldır";
+
+"Remove FontMaster" = "FontMaster’i Kaldır";
+
+"Remove Glyph" = "Glifi Kaldır";
+
+"Remove Glyphs" = "Glifleri Kaldır";
+
+"Remove Guide" = "Kılavuzu Kaldır";
+
+"Remove Hint" = "İzi Kaldır";
+
+"Remove Image" = "Resmi Kaldır";
+
+"Remove Label" = "Etiketi Kaldır";
+
+"remove Layer" = "Katmanı Kaldır";
+
+"Remove Overlap" = "Örtüşmeyi Kaldır";
+
+"Remove Path" = "Yolu Kaldır";
+
+"Remove Prefix" = "Öneki Kaldır";
+
+"Remove Property" = "Özelliği Kaldır";
+
+"Remove Selected Objects" = "Seçili Nesneleri Kaldır";
+
+"Remove Shape" = "Şekli Kaldır";
+
+"Remove Shapes" = "Şekilleri Kaldır";
+
+"Remove Tags" = "Etiketleri Kaldır";
+
+"Remove Value" = "Değeri Kaldır";
+
+"Rename Glyph" = "sembolü yeniden adlandır";
+
+"Replace" = "Değiştir";
+
+"Replace Axis" = "Ekseni Değiştir";
+
+"Replace Class" = "Sınıfı Değiştir";
+
+"Replace Color" = "Renk Değiştir";
+
+"Replace Feature" = "özelliğin yerini değiştir";
+
+"Replace Guide" = "Kılavuzu Değiştir";
+
+"Replace Label" = "Etiketi Değiştir";
+
+"Replace Node" = "Bağlantı Noktasını Değiştir";
+
+"Replace Property" = "Özelliği Değiştir";
+
+"Replace Shape" = "Şekli Değiştir";
+
+"Reveal in Finder" = "Arama`dan bul";
+
+"Reverse All Contours" = "Tüm Konturları Ters Çevir";
+
+/* Reverse Contour context menu
+   undo */
+"Reverse Contour" = "Konturu Ters Çevir";
+
+"Reverse Selected Contours" = "Seçili Konturları Ters Çevir";
+
+"Rotate Guide" = "Kılavuz Çizgiyi Döndür";
+
+"Screen" = "Ekran";
+
+"Script" = "DİLLER";
+
+"Segment" = "Parça";
+
+"Select" = "Seç";
+
+"Select Glyph" = "Glif seç";
+
+"Selection to Background" = "Arkaplan seçimi";
+
+"Semi Expanded" = "Yarı Genişletilmiş";
+
+"SemiBold" = "YarıKalın";
+
+"SemiCondensed" = "YarıDar";
+
+"Set Alignment" = "devredışı hizayı ayarla";
+
+"Set Alignment Zone" = "hiza alanını ayarla";
+
+"Set Anchor" = "Çıpa Ayarla";
+
+"Set Anchors" = "Çıpaları Aparla";
+
+"Set Angle" = "açıyı ayarla";
+
+"Set Attribute" = "Özelliği Ayarla";
+
+"Set Attributes" = "Özellikleri Ayarla";
+
+"Set Axes" = "Eksenleri Ayarla";
+
+"Set Axis Default Value" = "Eksen Öntanımlı Değer";
+
+"Set Axis Hidden" = "Ekseni Gizli Ayarla";
+
+"Set Axis Name" = "Eksen İsmini Ayarla";
+
+"Set Axis Tag" = "Eksen Etiketini Ayarla";
+
+"Set Blur" = "Bulanıklığı Ayarla";
+
+"Set Bold" = "Kalın yap";
+
+"Set BSB" = "ALB’yi Ayarla";
+
+"Set Case" = "Harf Tipini Ayarla";
+
+"Set Color" = "Renk Ayarla";
+
+"Set Colors" = "Renkleri Ayarla";
+
+"Set Crop to Layer Bounds" = "tabaka sınırlarını kesip ayarla";
+
+"Set Custom Parameter" = "Özel Parametre Ekle";
+
+"Set Deltas" = "Deltaları Ayarla";
+
+"Set Direction" = "Yönü Ayarla";
+
+"Set End" = "Sonu Ayarla";
+
+"Set Exports" = "Dışa Aktarmaları Ayarla";
+
+"Set FamilyName" = "Aileİsmi Ayarla";
+
+"Set Filter" = "Filtre Ayarla";
+
+"Set Font Note" = "Font Notu Ayarla";
+
+"Set Font Version" = "Font Sürümünü Ayarla";
+
+"Set Glyph Color" = "Glif Rengini Ayarla";
+
+"Set Guides" = "Kılavuzları Ayarla";
+
+"Set Height" = "Yüksekliği Ayarla";
+
+"Set Horizontal" = "Yatay Ayarlama";
+
+"Set Icon" = "Simgeyi Ayarla";
+
+"Set Instance Name" = "Örnek İsmini Ayarla";
+
+"Set Italic" = "İtalik yap";
+
+"Set KeepWeight" = "KeepWeight’i Ayarla";
+
+"Set Kerning" = "Uyumlamayı Ayarla";
+
+"Set Kerning Group" = "Uyumlama Grubu Ayarla";
+
+"Set Key" = "Kodu Ayarla";
+
+"Set Labels" = "Etiketleri Ayarla";
+
+"Set Layer Color" = "Katman Rengini Ayarla";
+
+"Set Locked" = "Kilitliyi Ayarla";
+
+"Set LSB" = "SOB’u Ayarla";
+
+"Set Metric" = "Metrik Ayarla";
+
+"Set Metrics" = "Metrikleri Ayarla";
+
+"Set Name" = "İsim Ayarla";
+
+"Set Number" = "Rakam Ayarla";
+
+"Set Numbers" = "Rakamları Ayarla";
+
+"Set OffsetX" = "OffsetX’i Ayarla";
+
+"Set OffsetY" = "OffsetY’yi Ayarla";
+
+"Set Properties" = "Özellikleri Ayarla";
+
+"Set RSB" = "SAB’ı ayarla";
+
+"Set Scale" = "Ölçeklemeyi Ayarla";
+
+"Set Shapes" = "Şekilleri Ayarla";
+
+"Set Slant Horizontal" = "Yatıklığı Dikey Ayarla";
+
+"Set Slant Vertical" = "Yatıklığı Yatay Ayarla";
+
+"Set Smart Component Settings" = "Akıllı Bileşen Ayarları";
+
+"Set Spacing" = "Boşluk Ayarla";
+
+"Set Start" = "Başlangıcı Ayarla";
+
+"Set Stem" = "Gövde Belirle";
+
+"Set Stems" = "Gövdeleri Belirle";
+
+"Set Tags" = "Etiketleri Ayarla";
+
+"Set Time" = "Zamanı Ayarla";
+
+"Set TSB" = "ÜSB’yi güncelle";
+
+"Set Type" = "Yazı Dizgi";
+
+"Set UserData" = "KullanıcıVerisi Ayarla";
+
+"Set Value" = "Değer Gir";
+
+"Set Values" = "Değerler Gir";
+
+"Set Vertical Origin" = "Dikey Orijini Ayarla";
+
+"Set Vertical Width" = "Dikey Genişliği Ayarla";
+
+"Set Visible" = "Görünür Yap";
+
+"Set Weight Class" = "Ağırlık Sınıfını Ayarla";
+
+"Set Width" = "Genişlik Ayarla";
+
+"Set Width Class" = "Genişlik Sınıfı Ayarla";
+
+"Set Width Value" = "Genişlik değeri ayarla";
+
+"SetDelta" = "SetDelta";
+
+"Shadow" = "Gölge";
+
+"Sharpen Corner" = "Köşeyi Keskinleştir";
+
+"Shift" = "Aktar";
+
+"Should the following glyphs be added to the font?" = "Aşağıdaki glifler fonta eklenmeli mi?";
+
+"Show all glyphs containing this component" = "Bu bileşeni içeren tüm glifleri göster";
+
+"Show all glyphs that use this glyph as a component" = "Bu glifi bileşen olarak kullanan tüm glifleri göster";
+
+/* component context menu
+   glyph context menu */
+"Show all Group Glyphs" = "Tüm Grup Gliflerini Göster";
+
+"Show Glyph in Font View" = "Glifi Font Görünümü’nde Göster";
+
+"Show Model Glyph" = "Model Glifi Göster";
+
+"Show Smart Component Settings" = "Akıllı Bileşen Ayarlarını Göster";
+
+"Show Smart Glyph Settings" = "Akıllı Glif Ayarlarını Göster";
+
+"Slant Height" = "Yatık Yüksekliği";
+
+"Smallcaps" = "Kısa Büyük Harfler";
+
+"Smart Component" = "Akıllı Bileşen";
+
+"Smart Glyph Settings" = "Akıllı Glif Ayarları";
+
+"Smart Settings" = "Akıllı Ayarlar";
+
+"Snap" = "Yasla";
+
+"Soft Light" = "Yumuşak Işık";
+
+"Some glyphs are not compatible and will have no outlines" = "Bazı glifler uyumlu değil ve ana hatları olmayacak";
+
+"Some metrics keys are out of sync." = "Bazı metrik kodları eşzamanlı değil.";
+
+"Something went wrong when Removing Overlap in glyph: %@" = "Şu glifteki Örtüşmeyi Kaldır işleminde bir hata oluştu: %@";
+
+"Stem" = "Gövde";
+
+"Stems" = "Gövdeler";
+
+"Stroke" = "Çizgi";
+
+"Subcategory" = "Alt kategori";
+
+"Subtract Paths" = "Yolları Kes";
+
+"Tag" = "Etiket";
+
+"Tags" = "Etiketler";
+
+"The %@ begins or ends with a space. That is not allowed." = "%@ bir boşluk karakteriyle başlıyor veya bitiyor. Buna izin verilmez.";
+
+"The %@ can’t be empty" = "%@ boş bırakılamaz";
+
+"The %@ contains illegal characters" = "%@ geçersiz karakterler içeriyor";
+
+"The %@ contains illegal characters. (e.g. quotes)" = "%@ geçersiz karakterler içeriyor (örn. tırnak işaretleri)";
+
+"The %@ is too long" = "%@ fazla uzun";
+
+"The %@ is too short" = "%@ çok kısa";
+
+"The callback is not implementing all required methods" = "Yedek metodu gerekli metotların tümüne uygulanamıyor";
+
+"The component in glyph “%@” has attributes that can’t be saved as format 1." = "“%@” gilifindeki bileşende format 1 olarak kaydedilemez nitelikler mevcut.";
+
+"The custom parameter “%@” is not compatible in all masters" = "“%@” özel parametresi tüm masterlerle uyumlu değil";
+
+"The filter “%@” should contain a string only." = "“%@” filtresi sadece bir dizi içermelidir.";
+
+"The filter “%@” was referenced in the custom parameters, but is not installed." = "Özel parametrelerde “%@” filtresi geçiyor, ancak kurulu değil.";
+
+"The font already contains a glyph with the name: %@" = "Fontta şu isimli bir glif zaten bulunuyor: %@";
+
+"The font is missing a glyph “%@” for the feature pattern. (%@)" = "Fontta özellik deseni için gerekli bir glif “%1$@” eksik. (%2$@)";
+
+"The font was imported from a TrueType font that already had instructions. Converting outlines, the instructions will become invalid." = "Font önceden yönergeleri olan bir TrueType fonttan içe aktarılmış. Anahatlara dönüştürmekle yönergeler geçersiz kalacak.";
+
+"The glyph is locked. No changes are allowed" = "Glif kilitli. Değişikliğe izin verilmiyor.";
+
+"The glyph is not compatible." = "Glif uyumlu değil.";
+
+"The glyph name contains illegal characters.\nOnly a-z, A-Z, 0-9, underscore, hyphen, and period are allowed." = "Glif ismi geçersiz karakterler içermektedir. Sadece a-z, A-Z, 0-9, altçizgi, tire, ve nokta kullanılabilir.";
+
+"The glyph name should not be empty." = "Glif ismi boş bırakılamaz.";
+
+"The glyph name should not contain any space character." = "Glif ismi hiçbir boşluk karakteri içermemelidir.";
+
+"The glyph name should not start with a number (0-9)." = "Sembol adı numara ile başlayamaz (0-9)";
+
+"The glyphs for %@ are missing" = "%@ için glifler eksik";
+
+"The kerning group contains illegal characters.\nOnly a-zA-Z0-9, underscore, hyphen and period are allowed." = "Uyumlama grubu geçersiz karakterler içermektedir. Sadece a-z, A-Z, 0-9, altçizgi, tire, ve nokta kullanılabilir.";
+
+"The layers in this glyph are not compatible." = "Bu glifteki katmanlar uyumlu değil.";
+
+"The layers of this glyph are not compatible so only the active layer will be processed." = "bu sembol katmanları uygun değil, bu yüzden sadece aktif katman işlenecek.";
+
+"The linked font “%@” has a different number of masters" = "Bağlı “%@” fontunda farklı sayıda master mevcut";
+
+"The linked font “%@” has different masters" = "Bağlı “%@” fontunda farklı masterler mevcut";
+
+"The min/max values in alternate layer in Glyphs “%@” can’t be saved as format 1." = "“%@” glifleri alternatif katmanlarındaki min/maks değerleri format 1 olarak kaydedilemez.";
+
+"The path in glyph “%@” has attributes that can’t be saved as format 1." = "“%@” glifindeki yolda format 1 olarak kaydedilemeyecek özellikler var.";
+
+"The property “%@” in the %@: “%@” can’t be saved as format 1." = "%2$@ içindeki “%1$@” özelliği: “%3$@” format 1 olarak kaydedilemez.";
+
+"The selection is not suitable to paste a %@ component." = "Seçim bir %@ bileşeni olarak yapıştırmaya uygun değil.";
+
+"The SVG file is not valid XML" = "SVG dosyası geçerli bir XML değil";
+
+"The Unicode value must be 4 to 5 characters long." = "Unicode değeri 4’ten az, 5’ten fazla karakter olamaz.";
+
+"The Unicode value should only contain the characters 0-9 and A-F." = "Unicode değeri sadece 0-9 ve A-F karakterlerini içermelidir.";
+
+"The value can not be empty" = "Değer boş bırakılamaz";
+
+"The width of this glyph is automatically calculated from the components." = "Glif genişliği bileşenler üzerinden otomatik hesaplandı.";
+
+"The width should not be negative." = "Genişlik negatif değer olmalı";
+
+"The “TTFZones” are not set correctly in all masters" = "`TTFBölgesi` tüm masterlerde doğru olarak ayarlanmadı";
+
+"There are annotations" = "Açıklamalar var";
+
+"There are problems with the “%@” in font masters." = "Font masterlerinde “%@” ile ilgili sorunlar var.";
+
+"There is already a glyph with that name." = "bu isimde bir sembol zaten bulunmakta";
+
+"There is an invalid “%@” custom parameter" = "Geçersiz bir “%@” parametresi var";
+
+"There was a problem and no glyph could be created." = "bir problem oluştu ve sembol oluşturulamadı";
+
+"There was a problem loading the custom GlyphData.xml file." = "belirli GlyphData.xml dosyasını başlatırken hata oluştu";
+
+"There was a problem with undo" = "geri almada problem yaşandı";
+
+"Thin" = "İnce";
+
+"This glyph has low level instructions" = "Bu glifte düşük seviyeli yönergeler var";
+
+"This glyph has manually set glyph info" = "Bu glifte elle girilmiş glif bilgisi var";
+
+"This glyph is locked and can’t be edited." = "Bu glif kilitli olduğundan düzenlenemez.";
+
+"This glyph will not be exported to the final font file." = "Bu glif sonuç font dosyasına dışa aktarılmayacak.";
+
+"This should show the glyph in the app “UnicodeChecker”, but it is not installed. You can download the app at: ---" = "Bu, sembolü ÙnicodeChecker`programında göstermeli, ancak yüklenmedi. Programı yüklemek için; ---";
+
+"This Unicode is already assigned to the glyph: %@" = "%@ sembolüne unicode zaten atandı";
+
+"This will apply to all master-layers." = "Bu tüm master katmanlarına uygulanacak.";
+
+"Too many inflections" = "Çok fazla kıvrım noktası";
+
+"TopGhost" = "ÜstGölge";
+
+"Transform" = "ölçek";
+
+"Transform Component" = "ölçek";
+
+"Transform Selection" = "Seçileni Dönüştür";
+
+"TTStem" = "TTStem";
+
+"Ultra Condensed" = "Ultra Dar";
+
+"Ultra Expanded" = "Ultra Geniş";
+
+"UltraBold" = "UltraKalın";
+
+"UltraLight" = "Ultraİnce";
+
+"Undefined" = "Tanımlanmamış";
+
+"Undo" = "geri al";
+
+"Unicode" = "Unicode";
+
+"Unknown" = "Bilinmeyen";
+
+"Unknown language tag: %@ in custom parameter: “%@”." = "“%2$@” özel parametresinde bilinmeyen dil etiketi: %1$@";
+
+"Unlock Component" = "Bileşen Kilidini Aç";
+
+"Unlock Guide" = "Kılavuz Kilidini Aç";
+
+/* Context Menu
+   undo */
+"Unlock Image" = "Resim Kilidini Aç";
+
+"Unlock Path" = "Yol Kilidini Aç";
+
+"Unusual Bounds" = "alışık olunmayan sınırlar";
+
+"Update BSB" = "ALB’yi Güncelle";
+
+"Update LSB" = "SOB’u güncelle";
+
+"Update RSB" = "SAB’ı güncelle";
+
+"Update TSB" = "ÜSB’yi güncelle";
+
+"Update Vertical Width" = "Dikey Genişliği Güncelle";
+
+"Update Width" = "genişliği güncelle";
+
+"Uppercase" = "Büyük Harf";
+
+"Use at least format %d." = "En azından %d formatını kullan.";
+
+"Use Existing" = "Olanı kullan";
+
+"Value is out of range (16..16384)" = "değer aralık dışında (16.. 16384)";
+
+"W" = "W";
+
+"Wrong anchor accessor: %@ (needs to be either “x” or “y”) token: %@" = "Hatalı çıpa erişimci: %1$@ (“x” ya da “y”den biri olmalı) belirteç: %2$@";
+
+"x-Height" = "x-Yüksekliği";
+
+"Yes" = "bu";
+
+"You are about to insert a path outside of the glyphs bounds?" = "Glif sınırları dışına bir yol eklemek üzeresiniz";
+
+"You can only sync the width and one of the side-bearings." = "sadece genişlik veya yan rulman ile senkronize edebilirsiniz";
+

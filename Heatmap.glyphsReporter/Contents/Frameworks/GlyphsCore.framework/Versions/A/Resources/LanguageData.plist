@@ -1,0 +1,862 @@
+(
+	{
+		Tag = ASM;
+		MacEncoding = 13;
+		MacNameLanguageID = 68;
+		Name = Assamese;
+		WinNameLanguageID = 1101;
+	},
+	{
+		Name = Adlam;
+		ScriptTag = adlm;
+	},
+	{
+		Tag = ARA;
+		MacEncoding = 4;
+		MacNameLanguageID = 12;
+		Name = Arabic;
+		ScriptTag = arab;
+		WinNameLanguageID = 3073; // this is actually "Arabic, Egypt" but that can be considered the default
+	},
+	{
+		Tag = ARA-DZ;
+		Name = "Arabic, Algeria";
+		ScriptTag = arab;
+		WinNameLanguageID = 5121;
+	},
+	{
+		Tag = ARA-BH;
+		Name = "Arabic, Bahrain";
+		ScriptTag = arab;
+		WinNameLanguageID = 15361;
+	},
+	{
+		Tag = ARA-EG;
+		Name = "Arabic, Egypt";
+		ScriptTag = arab;
+		WinNameLanguageID = 3073;
+	},
+	{
+		Tag = ARA-IQ;
+		Name = "Arabic, Iraq";
+		ScriptTag = arab;
+		WinNameLanguageID = 2049;
+	},
+	{
+		Tag = ARA-JO;
+		Name = "Arabic, Jordan";
+		ScriptTag = arab;
+		WinNameLanguageID = 11265;
+	},
+	{
+		Tag = ARA-KW;
+		Name = "Arabic, Kuwait";
+		ScriptTag = arab;
+		WinNameLanguageID = 13313;
+	},
+	{
+		Tag = ARA-LB;
+		Name = "Arabic, Lebanon";
+		ScriptTag = arab;
+		WinNameLanguageID = 12289;
+	},
+	{
+		Tag = ARA-LY;
+		Name = "Arabic, Libya";
+		ScriptTag = arab;
+		WinNameLanguageID = 4097;
+	},
+	{
+		Tag = ARA-MA;
+		Name = "Arabic, Morocco";
+		ScriptTag = arab;
+		WinNameLanguageID = 6145;
+	},
+	{
+		Tag = ARA-OM;
+		Name = "Arabic, Oman";
+		ScriptTag = arab;
+		WinNameLanguageID = 8193;
+	},
+	{
+		Tag = ARA-QA;
+		Name = "Arabic, Qatar";
+		ScriptTag = arab;
+		WinNameLanguageID = 16385;
+	},
+	{
+		Tag = ARA-SA;
+		Name = "Arabic, Saudi Arabia";
+		ScriptTag = arab;
+		WinNameLanguageID = 1025;
+	},
+	{
+		Tag = ARA-SY;
+		Name = "Arabic, Syria";
+		ScriptTag = arab;
+		WinNameLanguageID = 10241;
+	},
+	{
+		Tag = ARA-TN;
+		Name = "Arabic, Tunisia";
+		ScriptTag = arab;
+		WinNameLanguageID = 7169;
+	},
+	{
+		Tag = ARA-AE;
+		Name = "Arabic, UAE";
+		ScriptTag = arab;
+		WinNameLanguageID = 14337;
+	},
+	{
+		Tag = ARA-YE;
+		Name = "Arabic, Yemen";
+		ScriptTag = arab;
+		WinNameLanguageID = 9217;
+	},
+	{
+		Tag = MLY;
+		MacEncoding = 4;
+		MacNameLanguageID = 84;
+		Name = Malay;
+		ScriptTag = arab;
+		WinNameLanguageID = 1086;
+	},
+	{
+		Tag = MOR;
+		MacEncoding = 4;
+		Name = Moroccan;
+		ScriptTag = arab;
+		WinNameLanguageID = 6145;
+	},
+	{
+		Tag = PAS;
+		MacEncoding = 4;
+		MacNameLanguageID = 59;
+		Name = Pashto;
+		ScriptTag = arab;
+		WinNameLanguageID = 1123;
+	},
+	{
+		Tag = FAR;
+		MacEncoding = 4;
+		MacNameLanguageID = 31;
+		Name = Persian;
+		ScriptTag = arab;
+	},
+	{
+		Tag = PAN;
+		MacEncoding = 10;
+		MacNameLanguageID = 70;
+		Name = Punjabi;
+		ScriptTag = arab;
+		WinNameLanguageID = 1094;
+	},
+	{
+		Tag = SND;
+		MacEncoding = 31;
+		MacNameLanguageID = 62;
+		Name = Sindhi;
+		ScriptTag = arab;
+	},
+	{
+		Tag = URD;
+		MacEncoding = 4;
+		MacNameLanguageID = 20;
+		Name = Urdu;
+		ScriptTag = arab;
+		WinNameLanguageID = 1056;
+	},
+	{
+		Tag = UYG;
+		MacEncoding = 4;
+		MacNameLanguageID = 136;
+		Name = Uyghur;
+		ScriptTag = arab;
+		WinNameLanguageID = 1152;
+	},
+	{
+		Tag = HVE;
+		MacEncoding = 24;
+		MacNameLanguageID = 51;
+		Name = Armenian;
+		ScriptTag = armn;
+		WinNameLanguageID = 1067;
+	},
+	{
+		Tag = BEN;
+		MacEncoding = 13;
+		MacNameLanguageID = 67;
+		Name = Bengali;
+		ScriptTag = beng;
+		WinNameLanguageID = 2117;
+	},
+	{
+		Tag = BGR;
+		MacEncoding = 7;
+		MacNameLanguageID = 44;
+		Name = Bulgarian;
+		ScriptTag = cyrl;
+		WinNameLanguageID = 1026;
+	},
+	{
+		Tag = MKD;
+		MacEncoding = 7;
+		MacNameLanguageID = 43;
+		Name = Macedonian;
+		ScriptTag = cyrl;
+		WinNameLanguageID = 1071;
+	},
+	{
+		Tag = RUS;
+		MacEncoding = 7;
+		MacNameLanguageID = 32;
+		Name = Russian;
+		ScriptTag = cyrl;
+		WinNameLanguageID = 1049;
+	},
+	{
+		Tag = SRB;
+		MacEncoding = 7;
+		MacNameLanguageID = 42;
+		Name = "Serbian (Cyrillic)";
+		ScriptTag = cyrl;
+		WinNameLanguageID = 3098;
+	},
+	{
+		Tag = UKR;
+		MacEncoding = 7;
+		MacNameLanguageID = 45;
+		Name = Ukrainian;
+		ScriptTag = cyrl;
+		WinNameLanguageID = 1058;
+	},
+	{
+		Tag = BHO;
+		MacEncoding = 9;
+		Name = Bhojpuri;
+		ScriptTag = dev2;
+	},
+	{
+		Tag = HIN;
+		MacEncoding = 9;
+		MacNameLanguageID = 21;
+		Name = Hindi;
+		ScriptTag = dev2;
+		WinNameLanguageID = 1081;
+	},
+	{
+		Tag = KOK;
+		Name = Konkani;
+		ScriptTag = dev2;
+		WinNameLanguageID = 1111;
+	},
+	{
+		Tag = MAR;
+		MacEncoding = 9;
+		MacNameLanguageID = 66;
+		Name = Marathi;
+		ScriptTag = dev2;
+		WinNameLanguageID = 1102;
+	},
+	{
+		Tag = NEP;
+		MacEncoding = 9;
+		MacNameLanguageID = 64;
+		Name = Nepali;
+		ScriptTag = dev2;
+		WinNameLanguageID = 1121;
+	},
+	{
+		Tag = SAN;
+		MacEncoding = 9;
+		MacNameLanguageID = 65;
+		Name = Sanskrit;
+		ScriptTag = dev2;
+		WinNameLanguageID = 1103;
+	},
+	{
+		Tag = KAT;
+		MacEncoding = 23;
+		MacNameLanguageID = 52;
+		Name = Georgian;
+		ScriptTag = geor;
+		WinNameLanguageID = 1079;
+	},
+	{
+		Tag = GUJ;
+		MacEncoding = 11;
+		MacNameLanguageID = 69;
+		Name = Gujarati;
+		ScriptTag = gjr2;
+		WinNameLanguageID = 1095;
+	},
+	{
+		Tag = COP;
+		Name = Coptic;
+		ScriptTag = grek;
+	},
+	{
+		Tag = ELL;
+		MacEncoding = 6;
+		MacNameLanguageID = 14;
+		Name = Greek;
+		ScriptTag = grek;
+		WinNameLanguageID = 1032;
+	},
+	{
+		Tag = Gur;
+		MacEncoding = 10;
+		Name = Gurmukhi;
+		ScriptTag = gur2;
+	},
+	{
+		Tag = KOR;
+		MacEncoding = 3;
+		MacNameLanguageID = 23;
+		Name = Korean;
+		ScriptTag = hang;
+		WinNameLanguageID = 1042;
+	},
+	{
+		Tag = ZHH;
+		MacEncoding = 2;
+		MacNameLanguageID = 19;
+		Name = "Chinese (Hong Kong)";
+		ScriptTag = hani;
+		WinNameLanguageID = 3076;
+	},
+	{
+		Tag = ZHS;
+		MacEncoding = 25;
+		MacNameLanguageID = 33;
+		Name = "Chinese (Simplified)";
+		ScriptTag = hani;
+		WinNameLanguageID = 2052;
+	},
+	{
+		Tag = ZHT;
+		MacEncoding = 2;
+		MacNameLanguageID = 19;
+		Name = "Chinese (Traditional)"; // Chinese Taiwan
+		ScriptTag = hani;
+		WinNameLanguageID = 1028;
+	},
+	{
+		Name = "Chinese (Macao)";
+		WinNameLanguageID = 5124;
+	},
+	{
+		Name = "Chinese (Singapore)";
+		WinNameLanguageID = 4100;
+	},
+	{
+		Tag = IWR;
+		MacEncoding = 5;
+		MacNameLanguageID = 21;
+		Name = Hebrew;
+		ScriptTag = hebr;
+		WinNameLanguageID = 1037;
+	},
+	{
+		Tag = JPN;
+		MacEncoding = 1;
+		MacNameLanguageID = 11;
+		Name = Japanese;
+		ScriptTag = kana;
+		WinNameLanguageID = 1041;
+	},
+	{
+		Tag = KHM;
+		MacEncoding = 20;
+		MacNameLanguageID = 78;
+		Name = Khmer;
+		ScriptTag = khmr;
+		WinNameLanguageID = 1107;
+	},
+	{
+		Tag = KAN;
+		MacEncoding = 16;
+		MacNameLanguageID = 73;
+		Name = Kannada;
+		ScriptTag = knd2;
+		WinNameLanguageID = 1099;
+	},
+	{
+		Tag = LAO;
+		MacEncoding = 22;
+		MacNameLanguageID = 79;
+		Name = Laotian;
+		ScriptTag = "lao ";
+		WinNameLanguageID = 1108;
+	},
+	{
+		Tag = AFK;
+		MacEncoding = 0;
+		MacNameLanguageID = 141;
+		Name = Afrikaans;
+		ScriptTag = latn;
+		WinNameLanguageID = 1078;
+	},
+	{
+		Tag = EWE;
+		Name = "Afro-Congo";
+		ScriptTag = latn;
+	},
+	{
+		Tag = SQI;
+		MacEncoding = 0;
+		MacNameLanguageID = 36;
+		Name = Albanian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1052;
+	},
+	{
+		Tag = ATH;
+		Name = Athapascan;
+		ScriptTag = latn;
+	},
+	{
+		Tag = AZE;
+		Name = Azeri;
+		ScriptTag = latn;
+		WinNameLanguageID = 1068;
+	},
+	{
+		Tag = EUQ;
+		MacEncoding = 0;
+		MacNameLanguageID = 129;
+		Name = Basque;
+		ScriptTag = latn;
+		WinNameLanguageID = 1069;
+	},
+	{
+		Tag = BRE;
+		MacEncoding = 0;
+		MacNameLanguageID = 142;
+		Name = Breton;
+		ScriptTag = latn;
+		WinNameLanguageID = 1150;
+	},
+	{
+		Tag = CAT;
+		MacEncoding = 0;
+		MacNameLanguageID = 130;
+		Name = Catalan;
+		ScriptTag = latn;
+		WinNameLanguageID = 1027;
+	},
+	{
+		Tag = CRT;
+		Name = "Crimean Tatar";
+		ScriptTag = latn;
+	},
+	{
+		Tag = HRV;
+		MacEncoding = 0;
+		MacNameLanguageID = 18;
+		Name = Croatian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1050;
+	},
+	{
+		Tag = CSY;
+		MacEncoding = 29;
+		MacNameLanguageID = 38;
+		Name = Czech;
+		ScriptTag = latn;
+		WinNameLanguageID = 1029;
+	},
+	{
+		Tag = DAN;
+		MacEncoding = 0;
+		MacNameLanguageID = 7;
+		Name = Danish;
+		ScriptTag = latn;
+		WinNameLanguageID = 1030;
+	},
+	{
+		Tag = NLD;
+		MacEncoding = 0;
+		MacNameLanguageID = 4;
+		Name = Dutch;
+		ScriptTag = latn;
+		WinNameLanguageID = 1043;
+	},
+	{
+		Tag = ENG;
+		MacEncoding = 0;
+		MacNameLanguageID = 0;
+		Name = English;
+		ScriptTag = latn;
+		WinNameLanguageID = 1033;
+	},
+	{
+		Tag = NTO;
+		MacEncoding = 0;
+		MacNameLanguageID = 94;
+		Name = Esperanto;
+		ScriptTag = latn;
+	},
+	{
+		Tag = ETI;
+		MacEncoding = 0;
+		MacNameLanguageID = 27;
+		Name = Estonian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1061;
+	},
+	{
+		Tag = FOS;
+		MacEncoding = 0;
+		MacNameLanguageID = 30;
+		Name = Faroese;
+		ScriptTag = latn;
+		WinNameLanguageID = 1080;
+	},
+	{
+		Tag = FIN;
+		MacEncoding = 0;
+		MacNameLanguageID = 13;
+		Name = Finnish;
+		ScriptTag = latn;
+		WinNameLanguageID = 1035;
+	},
+	{
+		Tag = FLE;
+		MacEncoding = 0;
+		MacNameLanguageID = 34;
+		Name = Flemish;
+		ScriptTag = latn;
+		WinNameLanguageID = 2067;
+	},
+	{
+		Tag = FRA;
+		MacEncoding = 0;
+		MacNameLanguageID = 1;
+		Name = French;
+		ScriptTag = latn;
+		WinNameLanguageID = 1036;
+	},
+	{
+		Tag = FRI;
+		Name = Frisian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1122;
+	},
+	{
+		Tag = DEU;
+		MacEncoding = 0;
+		MacNameLanguageID = 2;
+		Name = German;
+		ScriptTag = latn;
+		WinNameLanguageID = 1031;
+	},
+	{
+		Tag = GRN;
+		MacEncoding = 0;
+		MacNameLanguageID = 149;
+		Name = Greenlandic;
+		ScriptTag = latn;
+		WinNameLanguageID = 1135;
+	},
+	{
+		Tag = GUA;
+		MacNameLanguageID = 133;
+		MacEncoding = 0;
+		Name = Guarani;
+		ScriptTag = latn;
+	},
+	{
+		Tag = HAU;
+		Name = Hausa;
+		ScriptTag = latn;
+		WinNameLanguageID = 1128;
+	},
+	{
+		Tag = HUN;
+		MacEncoding = 0;
+		MacNameLanguageID = 26;
+		Name = Hungarian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1038;
+	},
+	{
+		Tag = ISL;
+		MacEncoding = 0;
+		MacNameLanguageID = 15;
+		Name = Icelandic;
+		ScriptTag = latn;
+		WinNameLanguageID = 1039;
+	},
+	{
+		Tag = IRI;
+		MacEncoding = 0;
+		MacNameLanguageID = 35;
+		Name = Irish;
+		ScriptTag = latn;
+		WinNameLanguageID = 2108;
+	},
+	{
+		Tag = ITA;
+		MacEncoding = 0;
+		MacNameLanguageID = 3;
+		Name = Italian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1040;
+	},
+	{
+		Tag = KAZ;
+		MacEncoding = 0;
+		MacNameLanguageID = 48;
+		Name = Kazakh;
+		ScriptTag = latn;
+		WinNameLanguageID = 1087;
+	},
+	{
+		Tag = LAT;
+		MacEncoding = 0;
+		MacNameLanguageID = 131;
+		Name = Latin;
+		ScriptTag = latn;
+	},
+	{
+		Tag = LVI;
+		MacEncoding = 0;
+		MacNameLanguageID = 28;
+		Name = Latvian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1062;
+	},
+	{
+		Tag = LTH;
+		MacEncoding = 0;
+		MacNameLanguageID = 24;
+		Name = Lithuanian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1063;
+	},
+	{
+		Tag = LSB;
+		Name = "Lower Sorbian";
+		ScriptTag = latn;
+		WinNameLanguageID = 2094;
+	},
+	{
+		Tag = MTS;
+		MacEncoding = 0;
+		MacNameLanguageID = 16;
+		Name = Maltese;
+		ScriptTag = latn;
+		WinNameLanguageID = 1082;
+	},
+	{
+		Tag = MOL;
+		MacEncoding = 0;
+		MacNameLanguageID = 53;
+		Name = Moldavian;
+		ScriptTag = latn;
+	},
+	{
+		Tag = NOR;
+		MacEncoding = 0;
+		MacNameLanguageID = 9;
+		Name = Norwegian;
+		ScriptTag = latn;
+	},
+	{
+		Tag = NOB;
+		Name = "Norwegian (Bokmal)";
+		ScriptTag = latn;
+		WinNameLanguageID = 1044;
+	},
+	{
+		Tag = PLK;
+		MacEncoding = 0;
+		MacNameLanguageID = 25;
+		Name = Polish;
+		ScriptTag = latn;
+		WinNameLanguageID = 1045;
+	},
+	{
+		Tag = PTG;
+		MacEncoding = 0;
+		MacNameLanguageID = 8;
+		Name = Portuguese;
+		ScriptTag = latn;
+		WinNameLanguageID = 2070;
+	},
+	{
+		Tag = PRO;
+		Name = Provencal;
+		ScriptTag = latn;
+	},
+	{
+		Tag = RMS;
+		Name = "Rhaeto-Romanic";
+		ScriptTag = latn;
+		WinNameLanguageID = 1047;
+	},
+	{
+		Tag = ROM;
+		MacEncoding = 0;
+		MacNameLanguageID = 37;
+		Name = Romanian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1048;
+	},
+	{
+		Tag = ROY;
+		Name = Romany;
+		ScriptTag = latn;
+	},
+	{
+		Tag = SRB;
+		MacEncoding = 0;
+		MacNameLanguageID = 42;
+		Name = "Serbian (Latin)";
+		ScriptTag = latn;
+		WinNameLanguageID = 2074;
+	},
+	{
+		Tag = SKY;
+		MacEncoding = 0;
+		MacNameLanguageID = 39;
+		Name = Slovak;
+		ScriptTag = latn;
+		WinNameLanguageID = 1051;
+	},
+	{
+		Tag = SLV;
+		MacEncoding = 0;
+		MacNameLanguageID = 40;
+		Name = Slovenian;
+		ScriptTag = latn;
+		WinNameLanguageID = 1060;
+	},
+	{
+		Tag = ESP;
+		MacEncoding = 0;
+		MacNameLanguageID = 6;
+		Name = Spanish;
+		ScriptTag = latn;
+		WinNameLanguageID = 3082;
+	},
+	{
+		Tag = SVE;
+		MacEncoding = 0;
+		MacNameLanguageID = 5;
+		Name = Swedish;
+		ScriptTag = latn;
+		WinNameLanguageID = 1053;
+	},
+	{
+		Tag = TAT;
+		MacEncoding = 7;
+		MacNameLanguageID = 135;
+		Name = Tatar;
+		ScriptTag = cyrl;
+		WinNameLanguageID = 1092;
+	},
+	{
+		Tag = TRK;
+		MacEncoding = 0;
+		MacNameLanguageID = 17;
+		Name = Turkish;
+		ScriptTag = latn;
+		WinNameLanguageID = 1055;
+	},
+	{
+		Tag = USB;
+		Name = "Upper Sorbian";
+		ScriptTag = latn;
+		WinNameLanguageID = 1070;
+	},
+	{
+		Tag = UZB;
+		MacEncoding = 0;
+		MacNameLanguageID = 47;
+		Name = Uzbek;
+		ScriptTag = latn;
+		WinNameLanguageID = 1091;
+	},
+	{
+		Tag = VIT;
+		MacEncoding = 30;
+		MacNameLanguageID = 80;
+		Name = Vietnamese;
+		ScriptTag = latn;
+		WinNameLanguageID = 1066;
+	},
+	{
+		Tag = WEL;
+		MacEncoding = 0;
+		MacNameLanguageID = 128;
+		Name = Welsh;
+		ScriptTag = latn;
+		WinNameLanguageID = 1106;
+	},
+	{
+		Tag = MLR;
+		MacEncoding = 17;
+		MacNameLanguageID = 72;
+		Name = Malayalam;
+		ScriptTag = mlm2;
+		WinNameLanguageID = 1100;
+	},
+	{
+		Tag = MNG;
+		MacEncoding = 21;
+		MacNameLanguageID = 57;
+		Name = Mongolian;
+		ScriptTag = mong;
+		WinNameLanguageID = 0850;
+	},
+	{
+		Tag = BRM;
+		MacEncoding = 19;
+		MacNameLanguageID = 77;
+		Name = Burmese;
+		ScriptTag = mymr;
+	},
+	{
+		Tag = ORI;
+		MacEncoding = 12;
+		MacNameLanguageID = 71;
+		Name = Oriya;
+		ScriptTag = ory2;
+		WinNameLanguageID = 1096;
+	},
+	{
+		Tag = TEL;
+		MacEncoding = 15;
+		MacNameLanguageID = 75;
+		Name = Telugu;
+		ScriptTag = tel2;
+		WinNameLanguageID = 1098;
+	},
+	{
+		Tag = THA;
+		MacEncoding = 21;
+		MacNameLanguageID = 22;
+		Name = Thai;
+		ScriptTag = thai;
+		WinNameLanguageID = 1054;
+	},
+	{
+		Tag = TIB;
+		MacEncoding = 26;
+		MacNameLanguageID = 63;
+		Name = Tibetan;
+		ScriptTag = tibt;
+		WinNameLanguageID = 1105;
+	},
+	{
+		Tag = TAM;
+		MacEncoding = 14;
+		MacNameLanguageID = 74;
+		Name = Tamil;
+		ScriptTag = tml2;
+		WinNameLanguageID = 1097;
+	}
+)

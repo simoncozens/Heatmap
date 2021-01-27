@@ -1,0 +1,413 @@
+"All" = "Todos";
+
+"Letter" = "Letras";
+
+"Uppercase" = "Mayúsculas";
+
+"Lowercase" = "Minúsculas";
+
+"Ligature" = "Ligaduras";
+
+"Smallcaps" = "Versalitas";
+
+"Superscript" = "Superíndice";
+
+"Number" = "Número";
+
+"Decimal Digit" = "Números decimales";
+
+"Oldstyle Figures" = "Numerales antiguos";
+
+"Lining Figures" = "Numerales modernos";
+
+"Tabular Figures" = "Números tabulares";
+
+"Tab Oldstyle Figures" = "Numerales antiguos tabulares";
+
+"Fraction" = "Fracciones";
+
+"Small Figures" = "Subíndices";
+
+"Other" = "Otros";
+
+"Punctuation" = "Puntuación";
+
+"Parenthesis" = "Paréntesis";
+
+"Dash" = "Guiones";
+
+"Quote" = "Comillas";
+
+"Separator" = "Separadores";
+
+"Space" = "Espacio";
+
+"Symbol" = "Símbolos";
+
+"Currency" = "Monedas";
+
+"Math" = "Matemáticas";
+
+"Arrow" = "Flecha";
+
+"Geometry" = "Geometría";
+
+"Mark" = "Acentos";
+
+"Spacing" = "Espacio";
+
+"Combining" = "Combinaciones";
+
+"Legacy" = "Legado";
+
+"Nonspacing" = "Espacio nulo";
+
+"Modifier" = "Modificador";
+
+"Latin" = "Latín";
+
+"Basic" = "Básico";
+
+"Western European" = "Europeo occidental";
+
+"Central European" = "Europeo Central";
+
+"South Eastern European" = "Sureste europeo";
+
+"Vietnamese" = "Vietnamita";
+
+"Pinyin" = "Pinyin";
+
+"IPA" = "IPA";
+
+"Pan African Latin" = "Latín Pan-Africano";
+
+"Cyrillic" = "Cirílico";
+
+"Adobe Extended" = "Adobe Extended";
+
+"Extended" = "Extendido";
+
+"Bulgarian" = "Búlgaro";
+
+"Bulgarian Italic" = "Cursiva búlgara";
+
+"Historic Bulgarian" = "Búlgaro histórico";
+
+"Serbian and Macedonian" = "Serbio y Macedonio";
+
+"Serbian Italic" = "Cursiva serbia";
+
+"Ukrainian" = "Ucraniano";
+
+"Greek" = "Griego";
+
+"Archaic Letters" = "Letras arcaicas";
+
+"Polytonic" = "Politónico";
+
+"Coptic" = "Copto";
+
+"Hebrew" = "Hebreo";
+
+"Marks and Composites" = "Marcas y compuestos";
+
+"Arabic" = "Árabe";
+
+"Basic Shapes" = "Figuras básicas";
+
+"Persian" = "Persa";
+
+"Urdu" = "Urdu";
+
+"Ligatures" = "Ligaduras";
+
+"Southeast Asia" = "Sudeste asiático";
+
+"Cham" = "Cham";
+
+"Khmer" = "Jemer";
+
+"Lao" = "Lao";
+
+"Myanmar" = "Myanmar/Birmano";
+
+"Thai" = "Thai";
+
+"Tham" = "Tham";
+
+"Other Scripts" = "Otras escrituras";
+
+"Armenian" = "Armenio";
+
+"Syriac" = "Siríaco";
+
+"Ethiopic" = "Etíope";
+
+"Georgian" = "Georgiano";
+
+"Old Orthography" = "Ortografía antigua";
+
+"Old Georgian" = "Georgiano antiguo";
+
+"Tifinagh" = "Tifinagh";
+
+"Basic-IRCAM" = "IRCAM básico";
+
+"Neo-Tifinagh" = "Neo-Tifinagh";
+
+"Tuareg" = "Tuareg";
+
+"Chinese" = "Chino";
+
+"Fundamental" = "Básico";
+
+"Educational Basic" = "Educacional básico";
+
+"Ideograph" = "Ideografía";
+
+"Japanese" = "Japonés";
+
+"Kana" = "Kana";
+
+"Japanese Kanji" = "Ideografía";
+
+"Joyo" = "Joyo";
+
+"JIS Standard 1" = "JIS estándar 1";
+
+"JIS Standard 2" = "JIS estándar 2";
+
+"IBM Extended" = "IBM Extended";
+
+"Educational 1" = "Educacional 1";
+
+"Educational 2" = "Educacional 2";
+
+"Educational 3" = "Educacional 3";
+
+"Educational 4" = "Educacional 4";
+
+"Educational 5" = "Educacional 5";
+
+"Educational 6" = "Educacional 6";
+
+"Indic" = "Indio";
+
+"Bengali" = "Bengalí";
+
+"Devanagari" = "Devanagari";
+
+"Gujarati" = "Gujarati";
+
+"Gurmukhi" = "Gurmukhi";
+
+"Kannada" = "Kannada";
+
+"Malayalam" = "Malayo";
+
+"Oriya" = "Oriya";
+
+"Tamil" = "Tamil";
+
+"Sanskrit" = "Sánscrito";
+
+"Base" = "Básico";
+
+"Conjuncts" = "Conjuntos";
+
+"Consonants" = "Consonantes";
+
+"Extra Conjuncts" = "Conjuntos extra";
+
+"Halfform" = "Forma intemedia";
+
+"Letters and Marks" = "Letras y marcas";
+
+"Letters" = "Letras";
+
+"Marks" = "Símbolos";
+
+"Matras" = "Matras";
+
+"Medials" = "Mediales";
+
+"Minority" = "Minoría";
+
+"Numbers" = "Números";
+
+"Numerals" = "Número";
+
+"Punctuation" = "Puntuación";
+
+"Separator" = "Separadores";
+
+"Stuff" = "Otros";
+
+"Subjoined" = "Subunión";
+
+"Symbol" = "Símbolos";
+
+"Symbols" = "Símbolos";
+
+"Symbols and Punctuation" = "Símbolos y puntuación";
+
+"Traditional" = "Tradicional";
+
+"Vowels" = "Vocales";
+
+"Korean" = "Hangul";
+
+"Jamo" = "Jamo";
+
+"Miscellaneous" = "Otros";
+
+"Music" = "Música";
+
+"Braille" = "Braille";
+
+"Corner" = "Esquinas";
+
+"Smart Glyph" = "Glifo inteligente";
+
+"Private Use" = "Uso privado";
+
+"Separators" = "Separadores";
+
+"Choseong" = "Choseong";
+
+"Jungseong" = "Jungseong";
+
+"Jongseong" = "Jongseong";
+
+"Basic Syllables" = "Silabario básico";
+
+"All Syllables" = "Todas las sílabas";
+
+"Codepages" = "Páginas de código";
+
+"Adobe-KR-0" = "Adobe-KR-0";
+
+"Adobe-KR-1" = "Adobe-KR-1";
+
+"Adobe-KR-2" = "Adobe-KR-2";
+
+"Adobe-KR-3" = "Adobe-KR-3";
+
+"Adobe-KR-4" = "Adobe-KR-4";
+
+"Adobe-KR-5" = "Adobe-KR-5";
+
+"Adobe-KR-6" = "Adobe-KR-6";
+
+"Adobe-KR-7" = "Adobe-KR-7";
+
+"Adobe-KR-8" = "Adobe-KR-8";
+
+"Adobe-KR-9" = "Adobe-KR-9";
+
+"KS X 1001 (Hangul)" = "KS X 1001 (Hangul)";
+
+"KS X 1001 (Non-Hangul)" = "KS X 1001 (Non-Hangul)";
+
+"KS X 1001 (Hanja)" = "KS X 1001 (Hanja)";
+
+"Akhand & Nonlinear" = "Akhand y no-lineal";
+
+"Half conjuncts" = "Medios conjuntos";
+
+"Linear Conjuncts" = "Conjuntos lineales";
+
+"Independent" = "Independiente";
+
+"Dependent" = "Dependencia";
+
+"Coeng forms" = "Formas Coeng";
+
+"Pre-base" = "Pre-base";
+
+"Below-base" = "Por debajo de línea de base";
+
+"Post-base" = "Post-base";
+
+"Lunar" = "Lunar";
+
+"Divination" = "Adivinación";
+
+"Buginese" = "Buginés";
+
+"Elymaic" = "Elamita";
+
+"Old Hungarian" = "Húngaro Antiguo";
+
+"Europe" = "Europa";
+
+"Sámi" = "Samis";
+
+"Esperanto" = "Esperanto";
+
+"Pan African" = "Pan Africano";
+
+"Romanization" = "Romanizadas";
+
+"Arabic ALA-LC" = "Árabe ALA-LC";
+
+"Arabic DMG" = "Arabic DMG";
+
+"Arabic ISO 233" = "Arabic ISO 233";
+
+"CJK" = "CJK";
+
+"Fundamental (Simplified)" = "Fundamental (simplificado)";
+
+"Fundamental (Traditional)" = "Fundamental (Tradicional)";
+
+"Undecomposable" = "No descomponible";
+"Commonly Used on Internet" = "Usado común en Internet";
+"Regional" = "Regional";
+"China Mainland" = "China continental";
+"General Standard Chinese Characters 1" = "Carácteres Chino estándar general 1";
+"General Standard Chinese Characters 2" = "Carácteres Chino estándar general 2";
+"General Standard Chinese Characters 3" = "Carácteres Chino estándar general 3";
+"Taiwan" = "Taiwan";
+"Frequently Used Chinese Characters" = "Carácteres Chinos de uso frecuente";
+"Less Commonly Used Chinese Characters" = "Carácteres Chinos habitualmente menos usados";
+"Hong Kong" = "Hong Kong";
+"Commonly Used Chinese Characters" = "Carácteres Chinos habitualmente usados";
+"Character Sets" = "Juego de carácteres";
+"GB 2312" = "GB 2312";
+"Big 5" = "Grande 5";
+"Unicode CJK Unified Ideographs" = "Ideogramas unificados CJK Unicode";
+"Unicode CJK Unified Ideographs Extension A" = "Ideogramas unificados CJK Unicode expansión A";
+"Radicals, Strokes and Symbols" = "Radicales, trazados y símbolos";
+"Kangxi Radicals" = "Radicales Kangxi";
+"Radicals Supplement" = "Radicales suplementarios";
+"Strokes" = "Trazos";
+"Bopomofo" = "Bopomorfo";
+"Bopomofo Extended" = "Bopomorfo extendido";
+"Suzhou Numerals" = "Numerales Suzhou";
+"Other Han Symbols" = "Otros símbolos Han";
+"South Asia" = "Sur Asia";
+"Caucasus" = "Caucásico";
+"Africa" = "África";
+"Punctuation and Symbols" = "Puntuación y símbolos";
+"Fullwidth" = "Anchura completa";
+
+"South American" = "South American";
+"Oceanian" = "Oceanian";
+"Runes" = "Runes";
+"Cantillation and Extras" = "Cantillation and Extras";
+"Emojis" = "Emojis";
+"Smileys & People" = "Smileys & People";
+"Animals & Nature" = "Animals & Nature";
+"Food & Drink" = "Food & Drink";
+"Activity" = "Activity";
+"Travel & Places" = "Travel & Places";
+"Objects" = "Objects";
+"Flags" = "Flags";
+
+"Six" = "Seis";
+"Eight" = "Ocho";
+
+"Balinese" = "Balinese";
+"Gantungan" = "Gantungan";

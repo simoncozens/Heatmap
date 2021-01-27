@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<string></string>
+	<key>smallCapHeight</key>
+	<integer>550</integer>
+	<key>shoulderHeight</key>
+	<string>600</string>
+	<key>capHeight</key>
+	<string></string>
+	<key>copyright</key>
+	<string>Text</string>
+	<key>descender</key>
+	<string></string>
+	<key>date</key> <!-- legacy -->
+	<date>2010-06-03T23:28:46Z</date>
+	<key>familyName</key>
+	<string> </string>
+	<key>italicAngle</key>
+	<string></string>
+	<key>macintoshFONDFamilyID</key> <!-- ufo compatibility -->
+	<integer>0</integer>
+	<key>macintoshFONDName</key> <!-- ufo compatibility -->
+	<string> </string>
+	<key>note</key>
+	<string>Text</string>
+	<key>Family Alignment Zones</key>
+	<array/>
+	<key>openTypeHeadLowestRecPPEM</key>
+	<integer>0</integer>
+	<key>hheaAscender</key>
+	<integer>0</integer>
+	<key>openTypeHheaAscender</key>
+	<integer>0</integer>
+	<key>hheaDescender</key>
+	<integer>0</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>0</integer>
+	<key>hheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>designer</key>
+	<string> </string>
+	<key>designerURL</key>
+	<string> </string>
+	<key>manufacturer</key>
+	<string> </string>
+	<key>manufacturerURL</key>
+	<string> </string>
+	<key>preferredFamilyName</key>
+	<string> </string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string> </string>
+	<key>preferredSubfamilyName</key>
+	<string> </string>
+	<!-- <key>openTypeNamePreferredSubfamilyName</key>
+	<string> </string> -->
+	<key>compatibleFullName</key>
+	<string></string>
+	<key>openTypeNameCompatibleFullName</key>
+	<string></string>
+	<key>openTypeNameDesigner</key>
+	<string></string>
+	<key>uniqueID</key>
+	<string></string>
+	<!-- 
+	<key>openTypeNameUniqueID</key>
+	<string></string>
+	<key>openTypeNameVersion</key>
+	<string></string>
+	-->
+	<key>codePageRanges</key>
+	<array/>
+	<key>openTypeOS2CodePageRanges</key>
+	<array/>
+	<key>openTypeOS2FamilyClass</key>
+	<array/>
+	<key>panose</key>
+	<array/>
+	<key>openTypeOS2Panose</key>
+	<array/>
+	<key>openTypeOS2StrikeoutPosition</key>
+	<integer>0</integer>
+	<key>openTypeOS2StrikeoutSize</key>
+	<integer>0</integer>
+	<key>strikeoutPosition</key>
+	<integer>0</integer>
+	<key>strikeoutSize</key>
+	<integer>0</integer>
+	<key>openTypeOS2SubscriptXOffset</key>
+	<integer>0</integer>
+	<key>openTypeOS2SubscriptXSize</key>
+	<integer>0</integer>
+	<key>openTypeOS2SubscriptYOffset</key>
+	<integer>0</integer>
+	<key>openTypeOS2SubscriptYSize</key>
+	<integer>0</integer>
+	<key>openTypeOS2SuperscriptXOffset</key>
+	<integer>0</integer>
+	<key>openTypeOS2SuperscriptXSize</key>
+	<integer>0</integer>
+	<key>openTypeOS2SuperscriptYOffset</key>
+	<integer>0</integer>
+	<key>openTypeOS2SuperscriptYSize</key>
+	<integer>0</integer>
+	<key>subscriptXOffset</key>
+	<integer>0</integer>
+	<key>subscriptXSize</key>
+	<integer>0</integer>
+	<key>subscriptYOffset</key>
+	<integer>0</integer>
+	<key>subscriptYSize</key>
+	<integer>0</integer>
+	<key>superscriptXOffset</key>
+	<integer>0</integer>
+	<key>superscriptXSize</key>
+	<integer>0</integer>
+	<key>superscriptYOffset</key>
+	<integer>0</integer>
+	<key>superscriptYSize</key>
+	<integer>0</integer>
+	<key>fsType</key>
+	<array>
+		<integer>3</integer>
+	</array>
+	<key>openTypeOS2Type</key>
+	<array/>
+	<key>typoAscender</key>
+	<integer>0</integer>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>0</integer>
+	<key>typoDescender</key>
+	<integer>0</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>0</integer>
+	<key>typoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>unicodeRanges</key>
+	<array/>
+	<key>openTypeOS2UnicodeRanges</key>
+	<array/>
+	<key>vendorID</key>
+	<string> </string>
+	<key>openTypeOS2VendorID</key>
+	<string> </string>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WeightClass</key>
+	<integer>0</integer>
+	<key>weightClass</key>
+	<integer>0</integer>
+	<key>winAscent</key>
+	<integer>0</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>0</integer>
+	<key>winDescent</key>
+	<integer>0</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>0</integer>
+	<key>postscriptBlueFuzz</key>
+	<integer>0</integer>
+	<key>blueFuzz</key>
+	<integer>0</integer>
+	<key>blueScale</key>
+	<real>0.04</real>
+	<key>postscriptBlueScale</key>
+	<real>0.04</real>
+	<key>blueShift</key>
+	<integer>0</integer>
+	<key>postscriptBlueShift</key>
+	<integer>0</integer>
+	<key>postscriptBlueValues</key>
+	<array/>
+	<key>postscriptDefaultWidthX</key>
+	<integer>0</integer>
+	<key>postscriptFamilyBlues</key>
+	<array/>
+	<key>postscriptFamilyOtherBlues</key>
+	<array/>
+	<key>postscriptFontName</key>
+	<string> </string>
+	<key>postscriptForceBold</key>
+	<false/>
+	<key>postscriptFullName</key>
+	<string> </string>
+	<key>isFixedPitch</key>
+	<false/>
+	<key>postscriptIsFixedPitch</key>
+	<false/>
+	<key>postscriptOtherBlues</key>
+	<array/>
+	<key>postscriptSlantAngle</key>
+	<real>0</real>
+	<key>postscriptStemSnapH</key>
+	<array/>
+	<key>postscriptStemSnapV</key>
+	<array/>
+	<key>underlinePosition</key>
+	<integer>0</integer>
+	<key>postscriptUnderlinePosition</key>
+	<integer>0</integer>
+	<key>underlineThickness</key>
+	<integer>0</integer>
+	<key>postscriptUnderlineThickness</key>
+	<integer>0</integer>
+	<key>postscriptUniqueID</key>
+	<integer>0</integer>
+	<key>postscriptWeightName</key>
+	<string> </string>
+	<key>postscriptWindowsCharacterSet</key>
+	<integer>0</integer>
+	<key>styleMapStyleName</key> <!-- ufo compatibility -->
+	<string> </string>
+	<key>styleName</key>
+	<string> </string>
+	<key>variableStyleName</key> <!-- legacy -->
+	<string> </string>
+	<key>Variable Font Style Name</key>
+	<string> </string>
+	<key>variableFileName</key> <!-- legacy -->
+	<string></string>
+	<key>Variable SubfamilyName</key>
+	<string></string>
+	<key>trademark</key>
+	<string>Text</string>
+	<key>unitsPerEm</key>
+	<integer>0</integer>
+	<key>year</key>
+	<integer>0</integer>
+	<key>description</key>
+	<string>Text</string>
+	<!-- <key>openTypeNameDescription</key>
+	<string>Text</string> -->
+	<key>vheaVertAscender</key>
+	<integer>0</integer>
+	<key>openTypeVheaVertTypoAscender</key>
+	<integer>0</integer>
+	<key>vheaVertDescender</key>
+	<integer>0</integer>
+	<key>openTypeVheaVertTypoDescender</key>
+	<integer>0</integer>
+	<key>vheaVertLineGap</key>
+	<integer>0</integer>
+	<key>openTypeVheaVertTypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeVheaCaretOffset</key>
+	<integer>0</integer>
+	<key>postscriptDefaultCharacter</key>
+	<string> </string>
+	<key>postscriptNominalWidthX</key>
+	<real>0</real>
+	<key>sampleText</key>
+	<string>Text</string>
+	<!-- <key>openTypeNameSampleText</key>
+	<string>Text</string> -->
+	<key>license</key>
+	<string>Text</string>
+	<key>openTypeNameLicense</key>
+	<string>Text</string>
+	<key>licenseURL</key>
+	<string> </string>
+	<key>openTypeNameLicenseURL</key>
+	<string> </string>
+	<key>openTypeHeadFlags</key>
+	<array/>
+	<key>openTypeHeadCreated</key>
+	<string> </string>
+	<key>openTypeHheaCaretSlopeRun</key>
+	<integer>0</integer>
+	<key>openTypeVheaCaretSlopeRun</key>
+	<integer>0</integer>
+	<key>openTypeVheaCaretSlopeRise</key>
+	<integer>0</integer>
+	<key>openTypeHheaCaretSlopeRise</key>
+	<integer>0</integer>
+	<key>openTypeHheaCaretOffset</key>
+	<integer>0</integer>
+	<key>WWSFamilyName</key>
+	<string> </string>
+	<key>openTypeNameWWSFamilyName</key>
+	<string> </string>
+	<key>WWSSubfamilyName</key>
+	<string> </string>
+	<key>openTypeNameWWSSubfamilyName</key>
+	<string> </string>
+	<key>variationsPostScriptNamePrefix</key>
+	<string> </string>
+	<key>openTypeOS2Selection</key>
+	<array/>
+	<key>glyphOrder</key>
+	<array/>
+	<key>fileName</key>
+	<string></string>
+	<key>CompatibleNameTable</key> <!-- legacy -->
+	<true/>
+	<key>Compatible Name Table</key> <!-- legacy -->
+	<true/>
+	<key>Compatible name Table</key>
+	<true/>
+	<key>Keep Overlapping Components</key>
+	<true/>
+	<key>Keep Transformed Components</key>
+	<true/>
+	<key>Save as TrueType</key>
+	<true/>
+	<key>Make morx table</key> <!-- legacy -->
+	<true/>
+	<key>Export morx Table</key>
+	<true/>
+	<key>Export AAT</key>
+	<true/>
+	<key>Add missing symbol glyphs</key> <!-- legacy -->
+	<true/>
+	<key>EditView Line Height</key>
+	<real>1000</real>
+	<key>Name Table Entry</key>
+	<string></string>
+	<key>localizedFamilyName</key>
+	<string></string>
+	<key>localizedStyleName</key>
+	<string></string>
+	<key>localizedStyleMapFamilyName</key>
+	<string></string>
+	<key>localizedDesigner</key>
+	<string></string>
+	<key>Remove Glyphs</key>
+	<array/>
+	<key>Rename Glyphs</key>
+	<array/>
+	<key>Reencode Glyphs</key>
+	<array/>
+	<key>Keep Glyphs</key>
+	<array/>
+	<key>Export Glyphs</key>
+	<array/>
+	<key>Remove Features</key>
+	<array/>
+	<key>Replace Feature</key>
+	<string>Text</string>
+	<key>Remove Prefixes</key>
+	<array/>
+	<key>Replace Prefix</key>
+	<string>Text</string>
+	<key>Remove Classes</key>
+	<array/>
+	<key>Replace Class</key>
+	<string>Text</string>
+	<key>Update Features</key>
+	<true/>
+	<key>Grid Spacing</key>
+	<integer>1</integer>
+	<key>Design Grid</key>
+	<string></string>
+	<key>CJK Guide</key>
+	<string></string>
+	<key>CJK Grid</key>
+	<string>8</string>
+	<key>CJK Grid Vertical</key>
+	<string>8</string>
+	<key>CJK Grid Horizontal</key>
+	<string>8</string>
+	<key>xHeight</key>
+	<string></string>
+	<key>DisableAllAutomaticBehaviour</key>
+	<true/>
+	<key>Disable Subroutines</key>
+	<true/>
+	<key>Don't use Production Names</key>
+	<true/>
+	<key>Use Typo Metrics</key>
+	<true/>
+	<key>Has WWS Names</key>
+	<true/>
+	<key>Autohint</key>
+	<true/>
+	<key>Disable autohinting for glyphs</key>
+	<array/>
+	<key>Optical Size</key>
+	<string></string>
+	<key>Remove post names for webfonts</key>
+	<true/>
+	<key>TTFAutohint options</key>
+	<string></string>
+	<key>TTFAutohint control instructions</key>
+	<string>Text</string>
+	<key>TTFAutohint binary path</key>
+	<string>/usr/local/bin/ttfautohint</string>
+	<key>TTFStems</key>
+	<array/>
+	<key>TTFZones</key>
+	<array/>
+	<key>TTFOvershootSuppressionBelowPPM</key>
+	<integer>40</integer>
+	<key>TTFDontPreserveDiagonals</key>
+	<true/>
+	<key>TTZoneRoundingThreshold</key> <!-- legacy -->
+	<real>0.125</real>
+	<key>TTFZoneRoundingThreshold</key>
+	<real>0.125</real>
+	<key>TTMinimumDistance</key> <!-- legacy -->
+	<real>0.25</real>
+	<key>TTFMinimumDistance</key>
+	<real>0.25</real>
+	<key>TrueType Curve Error</key>
+	<real>0.5</real>
+	<key>TTFBlueFuzz</key>
+	<integer>1</integer>
+	<key>TrueType Keep GlyphOrder</key>
+	<true/>
+	<key>GASP Table</key> <!-- legacy -->
+	<dict/>
+	<key>gasp Table</key>
+	<dict/>
+	<key>Compact File Storage</key>
+	<true/>
+	<key>Use Line Breaks</key>
+	<true/>
+	<key>Use Extension Kerning</key>
+	<true/>
+	<key>Filter</key>
+	<string></string>
+	<key>PreFilter</key>
+	<string></string>
+	<key>Disable Masters</key>
+	<array/>
+	<key>Webfont Formats</key>
+	<array/>
+	<key>Webfont Only</key>
+	<true/>
+	<key>Preview Ascender</key>
+	<real>1000</real>
+	<key>Preview Descender</key>
+	<real>1000</real>
+	<key>Post Table Type</key>
+	<integer>3</integer>
+	<key>Instance Preview</key>
+	<array/>
+	<key>Link Metrics With First Master</key>
+	<true/>
+	<key>Link Metrics With Master</key>
+	<string></string>
+	<key>versionString</key>
+	<string></string>
+	<key>makeOTF Argument</key>
+	<string></string>
+	<key>Write Kern Table</key> <!-- legacy -->
+	<true/>
+	<key>Export kern Table</key>
+	<true/>
+	<key>Disable Last Change</key> <!-- legacy -->
+	<true/>
+	<key>Write lastChange</key>
+	<true/>
+	<key>Write DisplayStrings</key>
+	<true/>
+	<key>Local Interpolation</key>
+	<string></string>
+	<key>Decompose Glyphs</key>
+	<array/>
+	<key>Color Layers to SVG</key>
+	<true/>
+	<key>Color Palette for SVG</key>
+	<integer>1</integer>
+	<key>Color Palette for CPAL</key>
+	<integer>1</integer>
+	<key>SBIX to SVG</key>
+	<integer>1</integer>
+	<key>Export COLR Table</key>
+	<true/>
+	<key>Export SVG Table</key>
+	<true/>
+	<key>Export sbix Table</key>
+	<true/>
+	<key>Variation Font Origin</key>
+	<string></string>
+	<key>Variable Font Origin</key>
+	<string></string>
+	<key>Variable Font File Name</key>
+	<string></string>
+	<key>Variable Font Family Name</key>
+	<string></string>
+	<key>Variable Font Optimize Deltas</key> <!-- secret -->
+	<false/>
+	<key>Optimize Variable Deltas</key> <!-- secret -->
+	<false/>
+	<key>Get Hints From Master</key>
+	<string></string>
+	<key>prep Table Assembly</key>
+	<string>Text</string>
+	<key>Prep Table Assembly</key> <!-- legacy -->
+	<string>Text</string>
+	<key>fpgm Table Assembly</key>
+	<string>Text</string>
+	<key>Fpgm Table Assembly</key> <!-- legacy -->
+	<string>Text</string>
+	<key>cvt Table</key>
+	<string>Text</string>
+	<key>CVT Table</key> <!-- legacy -->
+	<string>Text</string>
+	<key>Hangul Composition Groups</key>
+	<array/>
+	<key>Export STAT Table</key>
+	<true/>
+	<key>Axes</key>
+	<array/>
+	<key>Axis Location</key>
+	<array/>
+	<key>Virtual Master</key>
+	<dict/>
+	<key>Import Master</key>
+	<dict/>
+	<key>Import Font</key>
+	<dict/>
+	<key>Smart Components Compatibility Mode</key>
+	<true/>
+	<key>Smart Components MM Mode</key>
+	<true/>
+	<key>Master Color</key>
+	<string>Color</string>
+	<key>Master Color Dark</key>
+	<string>Color</string>
+	<key>Master Stroke Color</key>
+	<string>Color</string>
+	<key>Master Stroke Color Dark</key>
+	<string>Color</string>
+	<key>Master Background Color</key>
+	<string>Color</string>
+	<key>Master Background Color Dark</key>
+	<string>Color</string>
+	<key>Instance Color</key> <!-- secret -->
+	<string>Color</string>
+	<key>Instance Color Dark</key> <!-- secret -->
+	<string>Color</string>
+	<key>Master Icon Glyph Name</key>
+	<string></string>
+	<key>Style Name as STAT entry</key>
+	<string></string>
+	<key>Elidable STAT Axis Value Name</key>
+	<string></string>
+	<key>Enforce Compatibility Check</key>
+	<true/>
+	<key>InterpolationWeightY</key>
+	<real>1</real>
+	<key>Ignore Vertical Hints</key>
+	<true/>
+	<key>Point To Unit Ratio</key>
+	<integer>1</integer>
+	<key>Default Layer Width</key>
+	<string>600</string>
+	<key>Feature for Feature Variations</key>
+	<string></string>
+	<key>Decompose Components in Variable Font</key>
+	<true/>
+	<key>Decompose Components</key>
+	<true/>
+	<key>Export OpenType</key>
+	<true/>
+	<key>Axis Mappings</key>
+	<dict/>
+	<key>Keep UI-Font Bounding Box</key>
+	<true/>
+	<key>MakeOTF Compatibility Mode</key>
+	<true/>
+	<key>Color Palettes</key>
+	<array/>
+	<key>Scale to UPM</key>
+	<integer>1000</integer>
+	<key>ROS</key>
+	<string/>
+</dict>
+</plist>
