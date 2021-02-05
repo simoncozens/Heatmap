@@ -136,7 +136,7 @@ GSLayer* activeLayer;
     NSPoint tr = NSMakePoint(bl.x + r.size.width, bl.y + r.size.height);
     NSPoint tl = NSMakePoint(bl.x, bl.y + r.size.height);
     NSPoint midpoint = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + 0.5 * r.size.height);
-    
+    CGFloat dMid = 1;
     if (r.size.width <= 1 || r.size.height <= 1) goto justDraw;
 
     if (![p containsPoint:bl] && ![p containsPoint:br] && ![p containsPoint:tl] && ![p containsPoint:tr]
@@ -157,7 +157,7 @@ GSLayer* activeLayer;
     CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer cutOff:layerMaxDist];
     CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer cutOff:layerMaxDist];
     CGFloat d3 = [self fastGetDistanceForPoint:tl fromLayer:Layer cutOff:layerMaxDist];
-    CGFloat dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer cutOff:layerMaxDist];
+    dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer cutOff:layerMaxDist];
 
     CGFloat tolerance = 4;
 
