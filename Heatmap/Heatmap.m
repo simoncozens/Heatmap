@@ -13,9 +13,11 @@
 #import <GlyphsCore/GSLayer.h>
 #import <GlyphsCore/GSFont.h>
 #import <GlyphsCore/GSFontMaster.h>
+#import <GlyphsCore/GSProxyShapes.h>
 // #import "GSEditViewController.h"
 // #import "GSWindowController.h"
 #import <GlyphsCore/GSComponent.h>
+#import <GlyphsCore/NSString+BadgeDrawing.h>
 #import "GSPath+SCPathUtils.h"
 
 CGFloat MAX_DIST = 512;
@@ -88,7 +90,7 @@ GSLayer* activeLayer;
 }
 
 
-- (void) drawForegroundForLayer:(GSLayer*)Layer {
+- (void) drawForegroundForLayer:(GSLayer*)Layer options:(NSDictionary *)options {
 }
 
 
@@ -270,7 +272,6 @@ justDraw:
                 black -= (xb-xa)*(10*ya + 6*yb + 3*yc +   yd) + (xc-xb)*( 4*ya + 6*yb + 6*yc +  4*yd) +(xd-xc)*(  ya + 3*yb + 6*yc + 10*yd);
                 curpoint = pointArray[0];
                 break;
-
             case NSClosePathBezierPathElement:
                 /* Do nothing */;
         }
@@ -278,7 +279,7 @@ justDraw:
     return black/white;
 }
 
-- (void) drawBackgroundForLayer:(GSLayer*)Layer {
+- (void) drawBackgroundForLayer:(GSLayer*)Layer options:(NSDictionary *)options {
     NSBezierPath* p = [Layer bezierPath];
     int percent = 100*[self coverage:Layer];
     NSMutableDictionary *attributesDictionary = [NSMutableDictionary dictionary];
@@ -288,7 +289,7 @@ justDraw:
     NSAttributedString *s = [[NSAttributedString alloc]
                             initWithString:[NSString stringWithFormat:@"Coverage: %i%%", percent]
                                                            attributes:attributesDictionary];
-    [[editViewController graphicView] drawText:s atPoint:NSMakePoint(Layer.width/2,Layer.glyphMetrics.ascender) alignment:GSCenterCenter];
+    [s drawAtPoint:NSMakePoint(Layer.width/2,Layer.glyphMetrics.ascender) alignment:GSCenterCenter];
     if ([boxlist count] < 1) {
         [self calculateBoxListForLayer:Layer];
     }
