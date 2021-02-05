@@ -3,50 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>files</key>
-	<dict>
-		<key>Resources/Heatmap-Info.plist</key>
-		<data>
-		ZpShXd85WruyHQqAvnU3etxRWXQ=
-		</data>
-		<key>Resources/Heatmap-Prefix.pch</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
-	</dict>
+	<dict/>
 	<key>files2</key>
-	<dict>
-		<key>Frameworks/GlyphsCore.framework</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			E499x4SFMfqoYAT05NRal+4hI90=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"c730db917ce0618fab3212c66ba6bb0d30cadb42" or cdhash H"138f7dc7848531faa86004f4e4d45a97ee2123dd" or cdhash H"e908dc752607bff0e641dd4a70d1d7c4c311b4d3" or cdhash H"eb31e68dd9027c704fa71cc48276878d651f8bc3"</string>
-		</dict>
-		<key>Resources/Heatmap-Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZpShXd85WruyHQqAvnU3etxRWXQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			MoLBVGQVGJR4w4uY7/ZDrP/jWdYRB9AarshM+9oyPVg=
-			</data>
-		</dict>
-		<key>Resources/Heatmap-Prefix.pch</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^Resources/</key>
