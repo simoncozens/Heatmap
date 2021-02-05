@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <GlyphsCore/GlyphsCore.h>
 #import <GlyphsCore/GSNode.h>
 #import <GlyphsCore/GSPath.h>
 #import <GlyphsCore/GSGeometrieHelper.h>
