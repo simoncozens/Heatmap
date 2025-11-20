@@ -33,6 +33,18 @@ typedef struct Box {
 
 NSMutableArray* boxlist;
 GSLayer* activeLayer;
+NSDate* lastChange;
+NSRect calcArea;
+NSRect lastView;
+float lastZoomLevel = -1;
+
+bool isClose(CGFloat d1, CGFloat d2, CGFloat tolerance) {
+    return fabs(d1-d2) < tolerance;
+}
+
+float calcTolerance(float lastZoomLevel) {
+    return MAX(1.0, 3.0/lastZoomLevel);
+}
 
 @implementation Heatmap
 
@@ -41,22 +53,16 @@ GSLayer* activeLayer;
 	if (self) {
 		// do stuff
         cache = [[NSMutableDictionary alloc] init];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clearCache) name:@"GSUpdateInterface" object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(interfaceUpdated) name:@"GSUpdateInterface" object:nil];
         layerMaxDist = 0;
         boxlist = [[NSMutableArray alloc] init];
+        calcArea = NSZeroRect;
     }
     return self;
 }
 
 - (void) loadPlugin {
     // Is called when the plugin is loaded.
-}
-
-- (void) clearCache {
-    NSLog(@"Heatmap: Clearing cache");
-    [cache removeAllObjects];
-    layerMaxDist = 0;
-    [boxlist removeAllObjects];
 }
 
 - (NSUInteger) interfaceVersion {
@@ -120,84 +126,15 @@ GSLayer* activeLayer;
     NSBezierPath* p = [Layer bezierPath];
     NSRect bounds = [p bounds];
     CGFloat x, y;
- 
-    // XXX If there's a stem defined, use that / 4. Else use 5.
-    for (x = bounds.origin.x; x <= bounds.origin.x + bounds.size.width; x += 5) {
-        for (y = bounds.origin.y; y <= bounds.origin.y + bounds.size.height; y += 10) {
+    
+    CGFloat step = 5.0;
+    for (x = bounds.origin.x; x <= bounds.origin.x + bounds.size.width; x += step) {
+        for (y = bounds.origin.y; y <= bounds.origin.y + bounds.size.height; y += step * 2.0) {
             NSPoint point = NSMakePoint(x,y);
             if (![p containsPoint:point]) continue;
             CGFloat d = [self fastGetDistanceForPoint:point fromLayer:Layer cutOff:MIN(NSWidth(bounds), NSHeight(bounds)) * 0.5];
             if (d > layerMaxDist) layerMaxDist = d;
         }
-    }
-}
-
-- (void) fillInBox:(NSRect)r forLayer:(GSLayer*)Layer andPath:(NSBezierPath*)p {
-    NSPoint bl = r.origin;
-    NSPoint br = NSMakePoint(bl.x + r.size.width, bl.y);
-    NSPoint tr = NSMakePoint(bl.x + r.size.width, bl.y + r.size.height);
-    NSPoint tl = NSMakePoint(bl.x, bl.y + r.size.height);
-    NSPoint midpoint = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + 0.5 * r.size.height);
-    CGFloat dMid = 1;
-    if (r.size.width <= 1 || r.size.height <= 1) goto justDraw;
-
-    if (![p containsPoint:bl] && ![p containsPoint:br] && ![p containsPoint:tl] && ![p containsPoint:tr]
-        && ![p containsPoint:midpoint]) {
-        return;
-    }
-    
-//    if ([p containsPoint:bl] == [p containsPoint:tl] && [p containsPoint:br] == [p containsPoint:tr] &&
-//        [p containsPoint:bl] != [p containsPoint:br]) {
-//        goto splitLeftRight;
-//    }
-//    if ([p containsPoint:bl] == [p containsPoint:br] && [p containsPoint:tl] == [p containsPoint:tr] &&
-//        [p containsPoint:bl] != [p containsPoint:tl]) {
-//        goto splitTopBottom;
-//    }
-//    
-
-    CGFloat d1 = [self fastGetDistanceForPoint:bl fromLayer:Layer cutOff:layerMaxDist];
-    CGFloat d2 = [self fastGetDistanceForPoint:br fromLayer:Layer cutOff:layerMaxDist];
-    CGFloat d3 = [self fastGetDistanceForPoint:tl fromLayer:Layer cutOff:layerMaxDist];
-    dMid = [self fastGetDistanceForPoint:midpoint fromLayer:Layer cutOff:layerMaxDist];
-
-    CGFloat tolerance = 4;
-
-    if (fabs(d1-d3) < tolerance && fabs(d1-d2) > tolerance) {
-    splitLeftRight:
-        [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
-        [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
-        return;
-    }
-
-    CGFloat d4 = [self fastGetDistanceForPoint:tr fromLayer:Layer cutOff:layerMaxDist];
-
-    if (fabs(d2-d4) > tolerance && fabs(d1-d2) < tolerance) {
-    splitTopBottom:
-        [self fillInBox:NSMakeRect(bl.x, bl.y,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
-        [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
-        return;
-    }
-
-
-    if (fabs(d1-dMid) > tolerance || fabs(d2-dMid)> tolerance || fabs(d3-dMid) > tolerance || fabs(d4-dMid) > tolerance) {
-        [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
-        [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
-        [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
-        [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y  + 0.5 * r.size.height,  0.5 * r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
-
-        return;
-        
-    }
-//
-justDraw:
-    {
-        Box b;
-        b.rect = r;
-        b.h = 1-(dMid/layerMaxDist);
-        b.s = dMid/layerMaxDist;
-        b.b =(dMid/layerMaxDist)*2;
-        [boxlist addObject:[NSValue valueWithBytes:&b objCType:@encode(Box)]];
     }
 }
 
@@ -216,12 +153,9 @@ justDraw:
 }
 
 - (void) calculateBoxListForLayer:(GSLayer*)Layer {
+//    NSLog(@"Heatmap: Calculating a new box list");
     GSLayer *clone = [Layer copyDecomposedLayer];
-    Class of = NSClassFromString(@"GlyphsFilterRemoveOverlap");
-    if (of) {
-        GlyphsFilterRemoveOverlap* instance = [[of alloc] init];
-        [instance removeOverlapFromLayer:clone checkSelection:FALSE error:nil];
-    }
+    [clone flattenOutlines];
     NSBezierPath* p = [clone bezierPath];
     NSRect bounds = [p bounds];
     CGFloat x, y;
@@ -241,60 +175,96 @@ justDraw:
     }
 }
 
--(CGFloat) coverage:(GSLayer*)Layer {
-    NSBezierPath* p = [Layer bezierPath];
-    int segments = (int)p.elementCount;
-    CGFloat black = 0;
-    CGFloat white = Layer.width * (Layer.glyphMetrics.ascender - Layer.glyphMetrics.descender);
-    NSPoint curpoint;
-    for (int i=0; i<segments; i++) {
-        NSPoint pointArray[3];
-        float xa,ya,xb,yb,xc,yc,xd,yd;
-        NSBezierPathElement e = [p elementAtIndex:i
-                                              associatedPoints:pointArray];
-        switch(e) {
-            case NSMoveToBezierPathElement:
-                curpoint = pointArray[0];
-                break;
-            case NSCurveToBezierPathElement:
-                xa = curpoint.x; ya = curpoint.y / 20;
-                xb = pointArray[0].x; yb = pointArray[0].y / 20;
-                xc = pointArray[1].x; yc = pointArray[1].y / 20;
-                xd = pointArray[2].x; yd = pointArray[2].y / 20;
-                black -= (xb-xa)*(10*ya + 6*yb + 3*yc +   yd) + (xc-xb)*( 4*ya + 6*yb + 6*yc +  4*yd) +(xd-xc)*(  ya + 3*yb + 6*yc + 10*yd);
-                curpoint = pointArray[2];
-                break;
-            case NSLineToBezierPathElement:
-                xa = curpoint.x; ya = curpoint.y / 20;
-                xb = xa; yb = ya;
-                xc = pointArray[0].x; yc = pointArray[0].y / 20;
-                xd = xc; yd = yc;
-                black -= (xb-xa)*(10*ya + 6*yb + 3*yc +   yd) + (xc-xb)*( 4*ya + 6*yb + 6*yc +  4*yd) +(xd-xc)*(  ya + 3*yb + 6*yc + 10*yd);
-                curpoint = pointArray[0];
-                break;
-            case NSClosePathBezierPathElement:
-                /* Do nothing */;
-        }
+- (void) fillInBox:(NSRect)r forLayer:(GSLayer*)Layer andPath:(NSBezierPath*)p {
+//    NSRect visible = [self layerVisibleRect];
+//    if (!NSIntersectsRect(visible, r)) return;
+//    if (!NSIsEmptyRect(calcArea) && !NSIntersectsRect(calcArea, r)) return;
+    NSPoint bl = r.origin;
+    NSPoint br = NSMakePoint(bl.x + r.size.width, bl.y);
+    NSPoint tr = NSMakePoint(bl.x + r.size.width, bl.y + r.size.height);
+    NSPoint tl = NSMakePoint(bl.x, bl.y + r.size.height);
+    NSPoint midleft = NSMakePoint(bl.x,  bl.y + 0.5 * r.size.height);
+    NSPoint midright = NSMakePoint(bl.x + r.size.width,  bl.y + 0.5 * r.size.height);
+    NSPoint midtop = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + r.size.height);
+    NSPoint midbottom = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y);
+    NSPoint midpoint = NSMakePoint(bl.x + 0.5 * r.size.width, bl.y + 0.5 * r.size.height);
+    CGFloat midDistance = 1;
+    
+    if (r.size.width <= 1 && r.size.height <= 1) goto justDraw;
+    
+    if (![p containsPoint:bl] && ![p containsPoint:br] && ![p containsPoint:tl] && ![p containsPoint:tr]
+        && ![p containsPoint:midpoint]) {
+        return;
     }
-    return black/white;
+
+                                 
+    CGFloat midleftDistance = [self fastGetDistanceForPoint:midleft fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat midrightDistance = [self fastGetDistanceForPoint:midright fromLayer:Layer cutOff:layerMaxDist];
+    midDistance = [self fastGetDistanceForPoint:midpoint fromLayer:Layer cutOff:layerMaxDist];
+
+    CGFloat tolerance = calcTolerance(lastZoomLevel);
+
+    if (!isClose(midleftDistance, midDistance,tolerance) || !isClose(midDistance, midrightDistance, tolerance)) {
+    splitLeftRight:
+        [self fillInBox:NSMakeRect(bl.x, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
+        [self fillInBox:NSMakeRect(bl.x + 0.5 * r.size.width, bl.y,  0.5 * r.size.width, r.size.height) forLayer:Layer andPath:p];
+        return;
+    }
+
+    CGFloat midtopDistance = [self fastGetDistanceForPoint:midtop fromLayer:Layer cutOff:layerMaxDist];
+    CGFloat midbottomDistance = [self fastGetDistanceForPoint:midbottom fromLayer:Layer cutOff:layerMaxDist];
+
+    if (!isClose(midtopDistance, midDistance,tolerance) || !isClose(midDistance, midbottomDistance, tolerance)) {
+    splitTopBottom:
+        [self fillInBox:NSMakeRect(bl.x, bl.y,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+        [self fillInBox:NSMakeRect(bl.x, bl.y  + 0.5 * r.size.height,  r.size.width, 0.5 * r.size.height) forLayer:Layer andPath:p];
+        return;
+    }
+
+justDraw:
+    {
+        Box b;
+        b.rect = r;
+        b.h = 1-(midDistance/layerMaxDist);
+        b.s = midDistance/layerMaxDist;
+        b.b =(midDistance/layerMaxDist)*2;
+        [boxlist addObject:[NSValue valueWithBytes:&b objCType:@encode(Box)]];
+    }
+}
+
+
+- (void) interfaceUpdated {
+    //NSLog(@"Layer last change: %@", [[activeLayer parent] lastChange]);
+    if ([[activeLayer parent] lastChange] != lastChange) {
+        lastChange = [[activeLayer parent] lastChange];
+        [self recalculate];
+    }
+}
+
+- (void) recalculate {
+    //NSLog(@"Heatmap: Clearing cache");
+    [cache removeAllObjects];
+    layerMaxDist = 0;
+    lastView = NSZeroRect;
+    [boxlist removeAllObjects];
+    [self calculateBoxListForLayer:activeLayer];
 }
 
 - (void) drawBackgroundForLayer:(GSLayer*)Layer options:(NSDictionary *)options {
+    float currentScale = [self getScale];
     NSBezierPath* p = [Layer bezierPath];
-    int percent = 100*[self coverage:Layer];
-    NSMutableDictionary *attributesDictionary = [NSMutableDictionary dictionary];
-    [attributesDictionary setObject:[NSFont systemFontOfSize:21] forKey:NSFontAttributeName];
-    [attributesDictionary setObject:[NSColor colorWithRed:0.5 green:0.1 blue:0.1 alpha:0.7] forKey:NSForegroundColorAttributeName];
-
-    NSAttributedString *s = [[NSAttributedString alloc]
-                            initWithString:[NSString stringWithFormat:@"Coverage: %i%%", percent]
-                                                           attributes:attributesDictionary];
-    [s drawAtPoint:NSMakePoint(Layer.width/2,Layer.glyphMetrics.ascender) alignment:GSCenterCenter];
-    if ([boxlist count] < 1) {
-        [self calculateBoxListForLayer:Layer];
+    if ([boxlist count] < 1 || currentScale > lastZoomLevel
+        || Layer != activeLayer
+    ) {
+        activeLayer = Layer;
+        [self recalculate];
     }
+    lastZoomLevel = currentScale;
+    [NSGraphicsContext saveGraphicsState];
     [p addClip];
     [self runBoxList];
+//    NSLog(@"Heatmap: Drawing complete");
+    [NSGraphicsContext restoreGraphicsState];
 }
 
 - (float) getScale {
